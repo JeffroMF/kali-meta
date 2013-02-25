@@ -1,3 +1,10 @@
+kali-meta (1.1) kali; urgency=low
+
+  * Add hashcat, hashcat-utils, maskprocessor and statsprocessor to
+    kali-linux.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 25 Feb 2013 20:36:00 +0100
+
 kali-meta (1.0) kali; urgency=low
 
   * Add metasploit and python-rfidiot to kali-linux.
