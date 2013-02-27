@@ -1,3 +1,9 @@
+kali-meta (1.2) kali; urgency=low
+
+  * Add framework2 to kali-linux.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 27 Feb 2013 17:19:45 +0100
+
 kali-meta (1.1) kali; urgency=low
 
   * Add hashcat, hashcat-utils, maskprocessor and statsprocessor to
