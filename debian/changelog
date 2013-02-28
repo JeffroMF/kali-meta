@@ -1,3 +1,9 @@
+kali-meta (1.21) kali; urgency=low
+
+  * Added cadaver, ikat and oclhashcat to meta
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 28 Feb 2013 12:05:26 -0500
+
 kali-meta (1.2) kali; urgency=low
 
   * Add framework2 to kali-linux.
