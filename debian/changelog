@@ -1,3 +1,9 @@
+kali-meta (1.26) kali; urgency=low
+
+  * Added wce (and ethtool) to kali-meta. BugID 111.
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 18 Mar 2013 19:56:26 -0400
+
 kali-meta (1.25) kali; urgency=low
 
   * Added armitage to the default tools for i386 and amd64 architectures
