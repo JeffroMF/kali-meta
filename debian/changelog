@@ -1,3 +1,9 @@
+kali-meta (1.27) kali; urgency=low
+
+  * Added nasm to the list of depends for kali-linux
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 12 Apr 2013 12:04:33 -0600
+
 kali-meta (1.26) kali; urgency=low
 
   * Added wce (and ethtool) to kali-meta. BugID 111.
