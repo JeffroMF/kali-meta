@@ -1,3 +1,11 @@
+kali-meta (1.28) kali; urgency=low
+
+  * Drop oclhashcat-lite & oclhashcat-plus from kali-linux-full as they are
+    dependencies of kali-linux already (and the dep was broken on armel/armhf
+    on kali-linux-full).
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 18 Apr 2013 11:06:08 +0200
+
 kali-meta (1.27) kali; urgency=low
 
   * Added nasm to the list of depends for kali-linux
