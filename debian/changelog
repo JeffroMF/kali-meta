@@ -1,3 +1,9 @@
+kali-meta (1.29) kali; urgency=low
+
+  * Added polenum and enum4linux to kali-linux
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 29 Apr 2013 10:59:55 -0600
+
 kali-meta (1.28) kali; urgency=low
 
   * Drop oclhashcat-lite & oclhashcat-plus from kali-linux-full as they are
