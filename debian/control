@@ -404,7 +404,7 @@ Description: Penetration testing and security auditing distribution, default sys
 
 Package: kali-linux-full
 Architecture: any
-Depends: ${misc:Depends}, kali-linux,
+Depends: ${misc:Depends}, kali-linux
  beef-xss,
  cgpt,
  dradis [amd64 i386],
@@ -425,7 +425,7 @@ Description: Penetration testing and security auditing distribution, full system
 
 Package: kali-linux-all
 Architecture: any
-Depends: ${misc:Depends}, kali-linux, kali-linux-full
+Depends: ${misc:Depends},kali-linux-full
  android-sdk,
  arachni,
  distorm3,
