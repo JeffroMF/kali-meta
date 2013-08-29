@@ -1,3 +1,9 @@
+kali-meta (1.30) kali; urgency=low
+
+  * Arranging kali metapackages, add missing tools.
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 29 Aug 2013 17:14:21 -0400
+
 kali-meta (1.29) kali; urgency=low
 
   * Added polenum and enum4linux to kali-linux
