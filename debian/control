@@ -20,7 +20,6 @@ Depends: ${misc:Depends},
  apache2,
  apache-users,
  apktool [amd64 i386],
- arachni,
  arduino,
  arping,
  asleap,
@@ -129,7 +128,7 @@ Depends: ${misc:Depends},
  gpp-decrypt,
  grabber,
  guymager,
- hackrf,
+ hackrf-tools,
  hamster-sidejack,
  hash-identifier,
  hashcat [amd64 i386],
@@ -218,7 +217,6 @@ Depends: ${misc:Depends},
  ohrwurm,
  oclhashcat-plus [amd64 i386],
  oclhashcat-lite [amd64 i386],
- oclgausscrack,
  ollydbg [amd64 i386],
  onesixtyone,
  openssh-server,
@@ -407,26 +405,39 @@ Description: Penetration testing and security auditing distribution, default sys
 Package: kali-linux-full
 Architecture: any
 Depends: ${misc:Depends}, kali-linux,
- android-sdk,
  beef-xss,
  cgpt,
- distorm3,
  dradis [amd64 i386],
- firmware-mod-kit,
  ftester,
+ keimpx,
+ pipal,
+ python-impacket,
+ responder,
+ vboot-kernel-utils,
+ vboot-utils,
+Description: Penetration testing and security auditing distribution, full system
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the applications that Kali Linux
+ provides on top of Debian GNU/Linux.
+
+
+Package: kali-linux-all
+Architecture: any
+Depends: ${misc:Depends}, kali-linux, kali-linux-full
+ android-sdk,
+ arachni,
+ distorm3,
+ firmware-mod-kit,
  freeradius,
  gnuradio,
  http-tunnel,
  jd-gui, 
- keimpx,
+ oclgausscrack,
  owasp-mantra-ff,
- pipal,
- python-impacket,
- responder,
  rfcat,
  ubertooth,
- vboot-kernel-utils,
- vboot-utils,
  veil,
 Description: Penetration testing and security auditing distribution, full system
  This is Kali Linux, the most advanced penetration testing and security
