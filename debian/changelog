@@ -1,3 +1,9 @@
+kali-meta (1.32) kali; urgency=low
+
+  * Add amd64/i386 rules to guymager and regripper
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 30 Aug 2013 09:02:15 -0400
+
 kali-meta (1.31) kali; urgency=low
 
   * Drop xplico into all
