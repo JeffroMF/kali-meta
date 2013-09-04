@@ -404,6 +404,7 @@ Package: kali-linux-full
 Architecture: any
 Depends: ${misc:Depends},
  kali-linux,
+ kali-linux-sdr,
  beef-xss,
  cgpt,
  dradis [amd64 i386],
