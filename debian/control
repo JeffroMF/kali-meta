@@ -428,6 +428,7 @@ Architecture: any
 Depends: ${misc:Depends},
  kali-linux-full,
  android-sdk,
+ cuckoo,
  arachni,
  distorm3,
  firmware-mod-kit,
@@ -442,9 +443,34 @@ Depends: ${misc:Depends},
  ubertooth,
  veil,
  xplico,
-Description: Penetration testing and security auditing distribution, full system
+Description: Penetration testing and security auditing distribution, all packages
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
  This metapackage depends on all the applications that Kali Linux
  provides on top of Debian GNU/Linux.
+
+Package: kali-linux-sdr
+Architecture: any
+Depends: ${misc:Depends},
+ gnuradio,
+ kalibrate-rtl,
+ gr-air-modes,
+ rtlsdr-scanner,
+ gr-scan [amd64 i386],
+ gqrx,
+ uhd-host,
+ uhd-images,
+ hackrf-tools,
+ libgnuradio-grextras,
+ libgnuradio-baz,
+ libgnuradio-osmosdr,
+ libgnuradio-osmosdr-apps,
+ libgnuradio-iqbalance,
+Description: Penetration testing and security auditing distribution, SDR tools
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the applications that Kali Linux
+ provides on top of Debian GNU/Linux.
+

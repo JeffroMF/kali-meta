@@ -1,3 +1,9 @@
+kali-meta (1.33) kali; urgency=low
+
+  * Added kali-linux-sdr, and updated kali-linux-all with cuckoo
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 04 Sep 2013 09:24:15 -0400
+
 kali-meta (1.32) kali; urgency=low
 
   * Add amd64/i386 rules to guymager and regripper
