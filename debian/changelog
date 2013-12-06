@@ -1,3 +1,9 @@
+kali-meta (1.36) kali; urgency=low
+
+  * Additional tools added to the default installation
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 06 Dec 2013 09:13:03 -0700
+
 kali-meta (1.35) kali; urgency=low
 
   * Version bump
