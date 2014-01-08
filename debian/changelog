@@ -1,3 +1,9 @@
+kali-meta (1.37) kali; urgency=low
+
+  * Removed 64 bit ferret-sidejack from meta
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 08 Jan 2014 00:04:52 -0500
+
 kali-meta (1.36) kali; urgency=low
 
   * Additional tools added to the default installation
