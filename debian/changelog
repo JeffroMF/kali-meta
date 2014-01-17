@@ -1,3 +1,9 @@
+kali-meta (1.39) kali; urgency=low
+
+  * Replaced oclhashcat-plus and -lite with oclhashcat
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 17 Jan 2014 07:38:27 -0700
+
 kali-meta (1.38) kali; urgency=low
 
   * Swap nc6 with netcat traditional
