@@ -1,3 +1,9 @@
+kali-meta (1.40) kali; urgency=low
+
+  * Removed oclhashcat from kali-linux
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 22 Jan 2014 08:19:28 -0700
+
 kali-meta (1.39) kali; urgency=low
 
   * Replaced oclhashcat-plus and -lite with oclhashcat
