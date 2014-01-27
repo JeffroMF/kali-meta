@@ -1,3 +1,9 @@
+kali-meta (1.41) kali; urgency=low
+
+  * Created additional meta packages
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 27 Jan 2014 11:54:41 -0700
+
 kali-meta (1.40) kali; urgency=low
 
   * Removed oclhashcat from kali-linux
