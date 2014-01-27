@@ -803,7 +803,7 @@ Description: Kali Linux VoIP tools
  provides on top of Debian GNU/Linux.
 
 
- Package: kali-linux-pwtools
+Package: kali-linux-pwtools
 Architecture: any
 Depends: ${misc:Depends},
  kali-linux,
