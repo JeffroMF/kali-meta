@@ -1,3 +1,9 @@
+kali-meta (1.43) kali; urgency=low
+
+  * Fixed error in sdr meta package
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 28 Jan 2014 13:16:50 -0700
+
 kali-meta (1.42) kali; urgency=low
 
   * Added top10 and rfid meta packages
