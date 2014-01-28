@@ -42,6 +42,7 @@ Depends: ${misc:Depends},
  screen,
  snmpd,
  snmp,
+ subversion,
  sudo,
  sysv-rc-conf,
  tcpdump,
@@ -455,14 +456,28 @@ Description: Kali Linux complete system
 Package: kali-linux-all
 Architecture: any
 Depends: ${misc:Depends},
+ kali-linux-forensic,
  kali-linux-full,
  kali-linux-gpu,
- kali-linux-wireless,
- kali-linux-web,
- kali-linux-forensic,
+ kali-linux-pwtools,
+ kali-linux-rfid,
+ kali-linux-sdr,
+ kali-linux-top10,
  kali-linux-voip,
+ kali-linux-web,
+ kali-linux-wireless,
  android-sdk,
+ backdoor-factory,
+ bing-ip2hosts,
+ doona,
  freeradius,
+ hackersh,
+ htshells,
+ ismtp,
+ linux-exploit-suggester,
+ masscan [amd64],
+ shellnoob,
+ teamsploit,
  veil,
 Description: Kali Linux - all packages
  This is Kali Linux, the most advanced penetration testing and security
@@ -478,12 +493,18 @@ Depends: ${misc:Depends},
  kali-linux,
  gnuradio,
  chirp,
+ gr-baz,
+ gr-extras,
+ gr-fcdproplus,
+ gr-iqbal,
+ gr-osmosdr,
  hackrf-tools,
  kalibrate-rtl,
- gr-air-modes,
+ rtl-sdr,
  rtlsdr-scanner,
  gr-scan [amd64 i386],
  gqrx,
+ multimon-ng [amd64],
  uhd-host,
  uhd-images,
  hackrf-tools,
@@ -583,7 +604,7 @@ Depends: ${misc:Depends},
  blindelephant,
  burpsuite,
  cadaver,
- cuckoo,
+ cookie-cadger,
  cutycapt,
  davtest,
  dbpwaudit,
@@ -688,8 +709,10 @@ Depends: ${misc:Depends},
  autopsy,
  bulk-extractor [amd64 i386],
  cabextract,
+ capstone,
  chkrootkit,
  creddump,
+ cuckoo,
  dc3dd,
  dcfldd,
  ddrescue,
@@ -710,6 +733,7 @@ Depends: ${misc:Depends},
  gparted,
  guymager [amd64 i386],
  inetsim,
+ iphone-backup-analyzer,
  jad,
  javasnoop,
  libewf1,
@@ -839,6 +863,7 @@ Depends: ${misc:Depends},
  rcracki-mt,
  rsmangler,
  samdump2,
+ seclists,
  sipcrack,
  sipvicious,
  sqldict,
@@ -850,6 +875,48 @@ Depends: ${misc:Depends},
  wce,
  wordlists,
 Description: Kali Linux password cracking tools
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the applications that Kali Linux
+ provides on top of Debian GNU/Linux.
+
+
+Package: kali-linux-top10
+Architecture: any
+Depends: ${misc:Depends},
+ kali-linux,
+ aircrack-ng,
+ burpsuite,
+ hydra,
+ john,
+ maltego,
+ maltego-teeth,
+ metasploit [amd64 i386],
+ metasploit-framework,
+ nmap,
+ zaproxy,
+ sqlmap,
+ wireshark,
+Description: Kali Linux Top 10 tools
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the applications that Kali Linux
+ provides on top of Debian GNU/Linux.
+
+
+Package: kali-linux-rfid
+Architecture: any
+Depends: ${misc:Depends},
+ kali-linux,
+ libfreefare-bin,
+ libnfc-bin,
+ mfcuk,
+ mfoc,
+ mfterm,
+ python-rfidiot,
+Description: Kali Linux RFID tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
