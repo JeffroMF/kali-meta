@@ -480,6 +480,7 @@ Depends: ${misc:Depends},
  shellnoob,
  teamsploit,
  veil-evasion,
+ veil-catapult,
 Description: Kali Linux - all packages
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
