@@ -1,3 +1,9 @@
+kali-meta (1.45) kali; urgency=low
+
+  * Metapackages updated with recently added tools
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 19 Mar 2014 19:56:24 -0600
+
 kali-meta (1.44) kali; urgency=low
 
   * Added arp-scan to kali-linux-full
