@@ -1,3 +1,9 @@
+kali-meta (1.46) kali; urgency=low
+
+  * Metapackages updated with new tools
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 04 Jun 2014 11:39:45 -0600
+
 kali-meta (1.45) kali; urgency=low
 
   * Metapackages updated with recently added tools
