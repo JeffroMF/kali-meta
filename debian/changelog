@@ -1,6 +1,7 @@
 kali-meta (1.48) kali-dev; urgency=medium
 
   * Replace the depends hackrf-tools with hackrf (it doesn't exist anymore)
+  * Drop depends to libewf1 and libcrafter
 
  -- Sophie Brun <sophie@freexian.com>  Wed, 06 Aug 2014 10:50:25 +0200
 
