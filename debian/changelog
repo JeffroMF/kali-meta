@@ -6,6 +6,7 @@ kali-meta (1.48) kali-dev; urgency=medium
     user. The source package exists in debian but doesn't provide pjproject
     binaries.
   * Drop depends python-impacket-doc: it's now included in python-impacket
+  * Drop depends spidermonkey-bin: it doesn't exist anymore
 
  -- Sophie Brun <sophie@freexian.com>  Wed, 06 Aug 2014 10:50:25 +0200
 
