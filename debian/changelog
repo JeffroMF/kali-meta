@@ -2,6 +2,9 @@ kali-meta (1.48) kali-dev; urgency=medium
 
   * Replace the depends hackrf-tools with hackrf (it doesn't exist anymore)
   * Drop depends to libewf1 and libcrafter
+  * Drop depends to pjproject. As it's a library it has no utility for the
+    user. The source package exists in debian but doesn't provide pjproject
+    binaries.
 
  -- Sophie Brun <sophie@freexian.com>  Wed, 06 Aug 2014 10:50:25 +0200
 
