@@ -1,3 +1,9 @@
+kali-meta (1.48) kali-dev; urgency=medium
+
+  * Replace the depends hackrf-tools with hackrf (it doesn't exist anymore)
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 06 Aug 2014 10:50:25 +0200
+
 kali-meta (1.47) kali; urgency=low
 
   * Fix mislabeled packages in metas
