@@ -5,6 +5,7 @@ kali-meta (1.48) kali-dev; urgency=medium
   * Drop depends to pjproject. As it's a library it has no utility for the
     user. The source package exists in debian but doesn't provide pjproject
     binaries.
+  * Drop depends python-impacket-doc: it's now included in python-impacket
 
  -- Sophie Brun <sophie@freexian.com>  Wed, 06 Aug 2014 10:50:25 +0200
 
