@@ -5,6 +5,7 @@ kali-meta (1.49) kali-dev; urgency=medium
     - gr-iqbal instead of libgnuradio-iqbalance
     - python-capstone instead of capstone
   * debian/control: add missing specified arch on dependencies
+  * Update standard version
 
  -- Sophie Brun <sophie@freexian.com>  Thu, 07 Aug 2014 14:32:01 +0200
 
