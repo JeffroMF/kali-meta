@@ -1,3 +1,10 @@
+kali-meta (1.50) kali-dev; urgency=medium
+
+  * Drop depends libgnuradio-grextras and gr-scan in package kali-linux-sdr
+    as there is no version comptabile with guradio 3.7
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 08 Aug 2014 14:34:27 +0200
+
 kali-meta (1.49) kali-dev; urgency=medium
 
   * Update depends with binaries names in debian:
