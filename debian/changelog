@@ -1,3 +1,9 @@
+kali-meta (1.51 kali-dev; urgency=medium
+
+  * Restrict sqldict to amd64/i386 in kali-linux-pwtools too.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Sat, 09 Aug 2014 09:07:36 +0200
+
 kali-meta (1.50) kali-dev; urgency=medium
 
   * Drop depends libgnuradio-grextras and gr-scan in package kali-linux-sdr
