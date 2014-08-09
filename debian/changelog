@@ -1,4 +1,4 @@
-kali-meta (1.51 kali-dev; urgency=medium
+kali-meta (1.51) kali-dev; urgency=medium
 
   * Restrict sqldict to amd64/i386 in kali-linux-pwtools too.
 
