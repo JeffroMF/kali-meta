@@ -1,3 +1,9 @@
+kali-meta (1.53) kali; urgency=medium
+
+  * Fixed hackrf issue in control file
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 20 Aug 2014 13:55:39 -0600
+
 kali-meta (1.52) kali; urgency=medium
 
   * Added gdisk to kali-linux
