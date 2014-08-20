@@ -1,3 +1,9 @@
+kali-meta (1.54) kali; urgency=medium
+
+  * Removed kali-linux-sdr from kali-linux-full
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 20 Aug 2014 15:10:54 -0600
+
 kali-meta (1.53) kali; urgency=medium
 
   * Fixed hackrf issue in control file
