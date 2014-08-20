@@ -1,3 +1,12 @@
+kali-meta (1.55.1) UNRELEASED; urgency=medium
+
+  COMMENT: Drop this comment when you release the next update. I have added
+  this entry only to make sure that the next stable update uses the correct
+  version number (< version in kali-dev).
+  * 
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 21 Aug 2014 01:28:33 +0200
+
 kali-meta (1.55) kali; urgency=low
 
   * Reverted changes to metapackages such as capstone, gr-iqbal, and a few more.
