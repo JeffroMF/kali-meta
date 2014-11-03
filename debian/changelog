@@ -1,3 +1,9 @@
+kali-meta (1.55.2) kali; urgency=low
+
+  * Remove cuckoo from forensic metapackage.
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 02 Nov 2014 20:44:41 -0500
+
 kali-meta (1.55.1) kali; urgency=medium
 
   * Replace hackrf-tools with hackrf.
