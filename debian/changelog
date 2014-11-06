@@ -5,6 +5,30 @@ kali-meta (1.56) kali-dev; urgency=medium
 
  -- Raphaël Hertzog <hertzog@debian.org>  Thu, 21 Aug 2014 01:33:09 +0200
 
+kali-meta (1.55.22) kali; urgency=medium
+
+  * Replace distorm3 with python-distorm3 in kali-linux-forensic
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 06 Nov 2014 15:15:45 +0100
+
+kali-meta (1.55.21) kali; urgency=low
+
+  * Version bump.
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 02 Nov 2014 20:53:01 -0500
+
+kali-meta (1.55.2) kali; urgency=low
+
+  * Remove cuckoo from forensic metapackage.
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 02 Nov 2014 20:44:41 -0500
+
+kali-meta (1.55.1) kali; urgency=medium
+
+  * Replace hackrf-tools with hackrf.
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 21 Aug 2014 01:28:33 +0200
+
 kali-meta (1.55) kali; urgency=low
 
   * Reverted changes to metapackages such as capstone, gr-iqbal, and a few more.
