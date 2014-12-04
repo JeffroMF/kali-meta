@@ -1,3 +1,9 @@
+kali-meta (1.58) kali-dev; urgency=medium
+
+  * drop depends to truecrypt as it's not in kali-dev
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 04 Dec 2014 15:08:57 +0100
+
 kali-meta (1.57) kali-dev; urgency=medium
 
   * sync with changes in kali/stable.
