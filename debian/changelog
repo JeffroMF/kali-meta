@@ -1,3 +1,9 @@
+kali-meta (1.55.23) kali; urgency=medium
+
+  * Replace capstone with python-capstone in kali-linux-forensic
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 04 Dec 2014 08:56:36 +0100
+
 kali-meta (1.55.22) kali; urgency=medium
 
   * Replace distorm3 with python-distorm3 in kali-linux-forensic
