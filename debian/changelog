@@ -1,3 +1,10 @@
+kali-meta (1.55.24) kali; urgency=medium
+
+  * Fix kali-linux-all: teamsploit is available only for amd64 and i386 as it
+    depends of ruby-gtk-webkit which is available only for these architectures
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 12 Jan 2015 16:01:05 +0100
+
 kali-meta (1.55.23) kali; urgency=medium
 
   * Replace capstone with python-capstone in kali-linux-forensic
