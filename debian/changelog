@@ -1,3 +1,9 @@
+kali-meta (1.55.25) kali; urgency=medium
+
+  * Add kali-desktop-* metapackages.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 20 Feb 2015 17:14:56 +0100
+
 kali-meta (1.55.24) kali; urgency=medium
 
   * Fix kali-linux-all: teamsploit is available only for amd64 and i386 as it
