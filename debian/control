@@ -919,3 +919,86 @@ Description: Kali Linux RFID tools
  .
  This metapackage depends on all the applications that Kali Linux
  provides on top of Debian GNU/Linux.
+
+
+Package: kali-desktop-live
+Architecture: all
+Depends: ${misc:Depends},
+# l10n for everybody
+ locales-all,
+# easy reconfiguration of keyboard layout in console
+ console-setup,
+# access to encrypted devices
+ cryptsetup,
+# remember mixer settings across reboots
+ alsa-tools,
+# installer from live mode
+ debian-installer-launcher,
+Description: Meta-package for Kali live images
+ This metapackage depends on generic packages that should be installed on an
+ official Kali live image.
+ .
+ They provide features that are not directly related to penetration testing but
+ that are intended to make the image more useful and usable for a wide set of
+ users.
+
+
+Package: kali-desktop-common
+Architecture: all
+Depends: ${misc:Depends},
+ kali-root-login,
+ kali-defaults,
+ kali-menu,
+ kali-debtags,
+ kali-archive-keyring,
+ desktop-base,
+Description: Meta-package with dependencies common to all desktops provided by Kali
+ This metapackage depends on Kali packages that should be intalled on all
+ desktop installations of Kali Linux.
+ .
+ This metapackage is a dependency of all kali-desktop-* packages.
+
+
+Package: kali-desktop-gnome
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-common,
+ gnome-core,
+ gedit,
+ gnome-brave-icon-theme,
+ gnome-shell-extensions,
+ gnome-tweak-tool,
+ nautilus-open-terminal,
+ gnome-orca,
+ file-roller,
+Description: GNOME based Kali desktop
+ This metapackage installs a minimalistic GNOME desktop on your Kali system.
+
+
+Package: kali-desktop-kde
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-common,
+ kde-plasma-desktop,
+ kdm,
+Description: KDE based Kali desktop
+ This metapackage installs a minimalistic KDE desktop on your Kali system.
+
+
+Package: kali-desktop-xfce
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-common,
+ xfce4,
+ network-manager-gnome
+Description: XFCE based Kali destop
+ This metapackage installs a minimalistic XFCE desktop on your Kali system.
+
+
+Package: kali-desktop-lxde
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-common,
+ lxde,
+Description: LXDE based Kali destop
+ This metapackage installs a minimalistic LXDE desktop on your Kali system.
