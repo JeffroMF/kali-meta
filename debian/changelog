@@ -1,3 +1,10 @@
+kali-meta (1.59) kali-dev; urgency=medium
+
+  * Add meta-packages for kali-desktop-*. Update kali-desktop-gnome to
+    include gnome-session-flashback.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 20 Feb 2015 17:15:57 +0100
+
 kali-meta (1.58) kali-dev; urgency=medium
 
   * drop depends to truecrypt as it's not in kali-dev
