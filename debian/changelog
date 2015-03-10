@@ -1,3 +1,9 @@
+kali-meta (1.60) kali-dev; urgency=medium
+
+  * Drop unetbootin as it got removed from Debian Jessie (see #775689).
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 10 Mar 2015 17:13:21 +0100
+
 kali-meta (1.59) kali-dev; urgency=medium
 
   * Add meta-packages for kali-desktop-*. Update kali-desktop-gnome to
