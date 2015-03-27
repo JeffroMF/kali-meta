@@ -1,3 +1,9 @@
+kali-meta (1.63) kali-dev; urgency=medium
+
+  * Drop webshag is not maintained anymore (Closes 0002178)
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 27 Mar 2015 10:05:01 +0100
+
 kali-meta (1.62) kali-dev; urgency=medium
 
   * Add imagemagick to kali-linux-full for keepnote. It won't be needed
