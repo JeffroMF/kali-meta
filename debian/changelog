@@ -1,3 +1,10 @@
+kali-meta (1.64) kali-dev; urgency=medium
+
+  * Modify kali-desktop-gnome to depend on new theme and GNOME Shell
+    extensions that are enabled by kali-defaults.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 19 May 2015 18:07:03 +0200
+
 kali-meta (1.63) kali-dev; urgency=medium
 
   * Drop webshag is not maintained anymore (Closes 0002178)
