@@ -948,7 +948,6 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-common,
  gnome-core,
- gnome-session-flashback,
  gedit,
  gnome-brave-icon-theme,
  gnome-theme-eleganze,

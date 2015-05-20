@@ -1,3 +1,10 @@
+kali-meta (1.65) UNRELEASED; urgency=medium
+
+  * Drop gnome-session-flashback from kali-desktop-gnome as we no longer
+    use it by default.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 20 May 2015 10:04:09 +0200
+
 kali-meta (1.64) kali-dev; urgency=medium
 
   * Modify kali-desktop-gnome to depend on new theme and GNOME Shell
