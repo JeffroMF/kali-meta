@@ -979,6 +979,7 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-common,
  xfce4,
+ lightdm,
  network-manager-gnome
 Description: XFCE based Kali destop
  This metapackage installs a minimalistic XFCE desktop on your Kali system.
