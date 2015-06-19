@@ -1,3 +1,9 @@
+kali-meta (1.67) kali-dev; urgency=medium
+
+  * Add gnome-shell-extension-workspacestodock in kali-desktop-gnome.
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 19 Jun 2015 08:47:30 +0200
+
 kali-meta (1.66) kali-dev; urgency=medium
 
   * Add lightdm to kali-desktop-xfce.
