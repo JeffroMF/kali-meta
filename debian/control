@@ -958,7 +958,6 @@ Depends: ${misc:Depends},
  gnome-shell-extension-easyscreencast,
  gnome-shell-extension-workspacestodock,
  gnome-tweak-tool,
- nautilus-open-terminal,
  gnome-orca,
  file-roller,
 Description: GNOME based Kali desktop

@@ -1,3 +1,9 @@
+kali-meta (2.0) kali-dev; urgency=medium
+
+  * Drop obsolete nautilus-open-terminal from kali-desktop-gnome.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 06 Jul 2015 20:53:56 +0200
+
 kali-meta (1.68) kali-dev; urgency=medium
 
   * Add xfce4-battery-plugin to kali-desktop-xfce.
