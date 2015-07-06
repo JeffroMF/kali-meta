@@ -980,6 +980,7 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-common,
  xfce4,
+ xfce4-battery-plugin,
  lightdm,
  network-manager-gnome
 Description: XFCE based Kali destop

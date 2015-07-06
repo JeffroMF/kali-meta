@@ -1,3 +1,9 @@
+kali-meta (1.68) kali-dev; urgency=medium
+
+  * Add xfce4-battery-plugin to kali-desktop-xfce.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 06 Jul 2015 11:11:08 +0200
+
 kali-meta (1.67) kali-dev; urgency=medium
 
   * Add gnome-shell-extension-workspacestodock in kali-desktop-gnome.
