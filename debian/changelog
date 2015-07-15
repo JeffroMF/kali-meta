@@ -1,3 +1,9 @@
+kali-meta (2.2) kali-dev; urgency=medium
+
+  * Replace xfce4-battery-plugin with xfce4-power-manager-plugins.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 15 Jul 2015 10:59:32 +0200
+
 kali-meta (2.1) kali-dev; urgency=medium
 
   * Update kali-desktop-xfce to include gnome-theme-kali & xfce4-
