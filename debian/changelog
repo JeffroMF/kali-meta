@@ -1,3 +1,10 @@
+kali-meta (1.71) sana; urgency=medium
+
+  * Drop metasploit from kali-linux-full and kali-linux-top10, keeping
+    only metasploit-framework.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 21 Jul 2015 13:58:12 +0200
+
 kali-meta (1.70) sana; urgency=medium
 
   * Replace xfce4-battery-plugin with xfce4-power-manager-plugins
