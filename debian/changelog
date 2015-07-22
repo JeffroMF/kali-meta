@@ -1,3 +1,9 @@
+kali-meta (2.31) kali-dev; urgency=low
+
+  * Metapackage cleanup
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 22 Jul 2015 17:41:39 -0400
+
 kali-meta (2.3) kali-dev; urgency=medium
 
   * Drop metasploit from kali-linux-full and kali-linux-top10, keeping only
