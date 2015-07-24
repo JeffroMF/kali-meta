@@ -968,6 +968,9 @@ Depends: ${misc:Depends},
 Recommends:
  libcanberra-gtk3-module,
  libcanberra-gtk-module
+Conflicts:
+# This one should be removed with sana and newer (see https://bugs.kali.org/view.php?id=2445)
+ nautilus-open-terminal
 Description: GNOME based Kali desktop
  This metapackage installs a minimalistic GNOME desktop on your Kali system.
 
