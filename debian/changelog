@@ -1,10 +1,10 @@
-kali-meta (2.38) UNRELEASED; urgency=medium
+kali-meta (2.38) kali-dev; urgency=medium
 
   * Add libcanberra-gtk-module to Recommends of desktop meta-packages to avoid
     annoying warnings in terminals.
   * Conflicts with nautilus-open-terminal to get it removed on upgrade.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Jul 2015 11:23:07 +0200
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Jul 2015 15:19:34 +0200
 
 kali-meta (2.37) kali-dev; urgency=medium
 
