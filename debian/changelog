@@ -1,3 +1,10 @@
+kali-meta (2.38) UNRELEASED; urgency=medium
+
+  * Add libcanberra-gtk-module to Recommends of desktop meta-packages to avoid
+    annoying warnings in terminals.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Jul 2015 11:23:07 +0200
+
 kali-meta (2.37) kali-dev; urgency=medium
 
   * Drop bluepot which is not working with the current Bluetooth stack.

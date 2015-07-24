@@ -965,6 +965,9 @@ Depends: ${misc:Depends},
  gnome-tweak-tool,
  gnome-orca,
  file-roller,
+Recommends:
+ libcanberra-gtk3-module,
+ libcanberra-gtk-module
 Description: GNOME based Kali desktop
  This metapackage installs a minimalistic GNOME desktop on your Kali system.
 
@@ -989,6 +992,9 @@ Depends: ${misc:Depends},
  lightdm,
  network-manager-gnome,
  gnome-theme-kali,
+Recommends:
+ libcanberra-gtk3-module,
+ libcanberra-gtk-module
 Description: XFCE based Kali destop
  This metapackage installs a minimalistic XFCE desktop on your Kali system.
 
@@ -998,5 +1004,8 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-common,
  lxde,
+Recommends:
+ libcanberra-gtk3-module,
+ libcanberra-gtk-module
 Description: LXDE based Kali destop
  This metapackage installs a minimalistic LXDE desktop on your Kali system.
