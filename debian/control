@@ -1081,8 +1081,8 @@ Depends: ${misc:Depends},
 Recommends:
  libcanberra-gtk3-module,
  libcanberra-gtk-module
-Description: XFCE based Kali destop
- This metapackage installs a minimalistic XFCE desktop on your Kali system.
+Description: Xfce based Kali destop
+ This metapackage installs a minimalistic Xfce desktop on your Kali system.
 
 
 Package: kali-desktop-lxde
