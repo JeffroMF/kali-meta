@@ -1,3 +1,9 @@
+kali-meta (2.40) kali-dev; urgency=medium
+
+  * Add sparta to kali-linux-full.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Sun, 09 Aug 2015 20:34:28 +0200
+
 kali-meta (2.39) kali-dev; urgency=medium
 
   * Add kali-linux-nethunter metapackage.
