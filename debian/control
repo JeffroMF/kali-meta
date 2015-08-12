@@ -1004,8 +1004,6 @@ Depends: ${misc:Depends},
  cryptsetup,
 # remember mixer settings across reboots
  alsa-tools,
-# installer from live mode
- debian-installer-launcher,
 Description: Meta-package for Kali live images
  This metapackage depends on generic packages that should be installed on an
  official Kali live image.
