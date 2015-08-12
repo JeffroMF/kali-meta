@@ -1,3 +1,97 @@
+kali-meta (2.41) kali-dev; urgency=low
+
+  * Remove python-faraday from kali-full
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 10 Aug 2015 21:21:55 -0400
+
+kali-meta (2.40) kali-dev; urgency=medium
+
+  * Add sparta to kali-linux-full.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Sun, 09 Aug 2015 20:34:28 +0200
+
+kali-meta (2.39) kali-dev; urgency=medium
+
+  * Add kali-linux-nethunter metapackage.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Sun, 09 Aug 2015 14:39:12 +0200
+
+kali-meta (2.38) kali-dev; urgency=medium
+
+  * Add libcanberra-gtk-module to Recommends of desktop meta-packages to avoid
+    annoying warnings in terminals.
+  * Conflicts with nautilus-open-terminal to get it removed on upgrade.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Jul 2015 15:19:34 +0200
+
+kali-meta (2.37) kali-dev; urgency=medium
+
+  * Drop bluepot which is not working with the current Bluetooth stack.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Jul 2015 09:29:44 +0200
+
+kali-meta (2.36) kali-dev; urgency=medium
+
+  * Mark python-faraday as available only on amd64/i386.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 23 Jul 2015 20:29:23 +0200
+
+kali-meta (2.35) kali-dev; urgency=low
+
+  * Adding missing tools to metapackages, reorganization
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 23 Jul 2015 10:48:56 -0400
+
+kali-meta (2.34) kali-dev; urgency=medium
+
+  * Mark shellter as only available on i386/amd64.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 23 Jul 2015 10:02:37 +0200
+
+kali-meta (2.33) kali-dev; urgency=medium
+
+  * Drop ikat from everywhere.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 23 Jul 2015 08:29:48 +0200
+
+kali-meta (2.32) kali-dev; urgency=low
+
+  * Version bump
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 22 Jul 2015 18:57:40 -0400
+
+kali-meta (2.31) kali-dev; urgency=low
+
+  * Metapackage cleanup
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 22 Jul 2015 17:41:39 -0400
+
+kali-meta (2.3) kali-dev; urgency=medium
+
+  * Drop metasploit from kali-linux-full and kali-linux-top10, keeping only
+    metasploit-framework.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 21 Jul 2015 13:54:01 +0200
+
+kali-meta (2.2) kali-dev; urgency=medium
+
+  * Replace xfce4-battery-plugin with xfce4-power-manager-plugins.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 15 Jul 2015 10:59:32 +0200
+
+kali-meta (2.1) kali-dev; urgency=medium
+
+  * Update kali-desktop-xfce to include gnome-theme-kali & xfce4-
+    terminal.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 08 Jul 2015 16:53:16 +0200
+
+kali-meta (2.0) kali-dev; urgency=medium
+
+  * Drop obsolete nautilus-open-terminal from kali-desktop-gnome.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 06 Jul 2015 20:53:56 +0200
+
 kali-meta (1.71) sana; urgency=medium
 
   * Drop metasploit from kali-linux-full and kali-linux-top10, keeping
