@@ -3,7 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: Raphaël Hertzog <hertzog@debian.org>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://www.kali.org
 Vcs-Git: git://git.kali.org/packages/kali-meta.git
 Vcs-Browser: http://git.kali.org/?p=packages/kali-meta.git;a=summary
@@ -441,8 +441,8 @@ Description: Kali Linux complete system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the applications that are included in
+ official Kali Linux images.
 
 
 Package: kali-linux-all
@@ -478,8 +478,8 @@ Description: Kali Linux - all packages
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all other specific purpose metapackages and
+ and some more applications. Beware, this will install a lot of stuff!
 
 
 Package: kali-linux-sdr
@@ -502,8 +502,7 @@ Description: Kali Linux SDR tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the SDR tools that Kali Linux provides.
 
 
 Package: kali-linux-gpu
@@ -519,8 +518,7 @@ Description: Kali Linux GPU tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the GPU tools that Kali Linux provides.
 
 
 Package: kali-linux-wireless
@@ -571,8 +569,7 @@ Description: Kali Linux wireless tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the wireless tools that Kali Linux provides.
 
 
 Package: kali-linux-web
@@ -680,8 +677,8 @@ Description: Kali Linux webapp assessment tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the webapp assessment tools that Kali Linux
+ provides.
 
 
 Package: kali-linux-forensic
@@ -772,8 +769,7 @@ Description: Kali Linux forensic tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the forensic tools that Kali Linux provides.
 
 
 Package: kali-linux-voip
@@ -804,8 +800,7 @@ Description: Kali Linux VoIP tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the VoIP tools that Kali Linux provides.
 
 
 Package: kali-linux-pwtools
@@ -860,8 +855,8 @@ Description: Kali Linux password cracking tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the password cracking tools that Kali Linux
+ provides.
 
 
 Package: kali-linux-top10
@@ -883,8 +878,8 @@ Description: Kali Linux Top 10 tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on the 10 most important applications that Kali Linux
+ provides.
 
 
 Package: kali-linux-rfid
@@ -901,8 +896,7 @@ Description: Kali Linux RFID tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that Kali Linux
- provides on top of Debian GNU/Linux.
+ This metapackage depends on all the RFID tools that Kali Linux provides.
 
 
 Package: kali-linux-nethunter
