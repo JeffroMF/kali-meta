@@ -1,3 +1,9 @@
+kali-meta (2015.3.0) kali-dev; urgency=medium
+
+  * Replace "rdd" with "safecopy" since rdd got dropped from Debian.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 03 Sep 2015 12:19:03 +0200
+
 kali-meta (3.1) kali-dev; urgency=medium
 
   * Drop debian-installer-launcher from the live images.
