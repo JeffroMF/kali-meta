@@ -1050,7 +1050,7 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-common,
  kde-plasma-desktop,
- kdm,
+ sddm,
 Description: KDE based Kali desktop
  This metapackage installs a minimalistic KDE desktop on your Kali system.
 
