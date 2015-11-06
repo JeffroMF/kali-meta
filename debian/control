@@ -1011,6 +1011,8 @@ Depends: ${misc:Depends},
  kali-debtags,
  kali-archive-keyring,
  desktop-base,
+# To ensure xorg works by default in VM where KMS does not work yet?
+ xserver-xorg-legacy,
 Description: Meta-package with dependencies common to all desktops provided by Kali
  This metapackage depends on Kali packages that should be intalled on all
  desktop installations of Kali Linux.
