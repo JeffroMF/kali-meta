@@ -1013,7 +1013,12 @@ Depends: ${misc:Depends},
  kali-debtags,
  kali-archive-keyring,
  desktop-base,
-# To ensure xorg works by default in VM where KMS does not work yet?
+# To ensure pulseaudio started by systemd --user has DBUS_SESSION_ADDRESS
+# Related to kde-config-sddm
+ dbus-user-session,
+# To ensure xorg works by default in VM where KMS does not work yet.
+# Might be dropped when KMS works out of the box for all virtualized
+# video cards (QXL/VBOX/VMWARE at least)
  xserver-xorg-legacy,
 Description: Meta-package with dependencies common to all desktops provided by Kali
  This metapackage depends on Kali packages that should be intalled on all

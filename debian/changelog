@@ -1,3 +1,9 @@
+kali-meta (2015.3.5) kali-dev; urgency=medium
+
+  * Add dbus-user-session to kali-desktop-common. 
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 13 Nov 2015 09:56:19 +0100
+
 kali-meta (2015.3.4) kali-dev; urgency=medium
 
   * Add nethunter utils to kali-nethunter metapackage
