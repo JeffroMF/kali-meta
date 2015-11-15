@@ -1,3 +1,9 @@
+kali-meta (2015.3.6) kali-dev; urgency=medium
+
+  * Rearrange some tools and introduce new ones to the full metapackage.
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 15 Nov 2015 09:27:13 -0500
+
 kali-meta (2015.3.5) kali-dev; urgency=medium
 
   * Add dbus-user-session to kali-desktop-common. 
