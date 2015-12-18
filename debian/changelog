@@ -1,3 +1,9 @@
+kali-meta (2015.3.10) kali-dev; urgency=medium
+
+  * Replace waffit with wafw00f (bug 0002107)
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 18 Dec 2015 09:47:12 +0100
+
 kali-meta (2015.3.9) kali-dev; urgency=medium
 
   * Add exploitdb to kali-nethunter metapackage.
