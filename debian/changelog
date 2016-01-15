@@ -1,3 +1,9 @@
+kali-meta (2015.3.11) kali-dev; urgency=medium
+
+  * Update metas to include set, msfpc and zerofree
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 15 Jan 2016 14:51:11 -0500
+
 kali-meta (2015.3.10) kali-dev; urgency=medium
 
   * Replace waffit with wafw00f (bug 0002107)
