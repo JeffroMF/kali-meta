@@ -1,3 +1,9 @@
+kali-meta (2016.1.0) kali-dev; urgency=medium
+
+  * Add king-phisher to kali-linux-full.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 19 Jan 2016 13:22:59 +0100
+
 kali-meta (2015.3.11) kali-dev; urgency=medium
 
   * Update metas to include set, msfpc and zerofree
