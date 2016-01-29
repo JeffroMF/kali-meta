@@ -204,7 +204,6 @@ Depends: ${misc:Depends},
 # can be removed when debian bug 781230 is fixed:
  imagemagick,
  inetsim,
- inguma,
  intersect,
  intrace [amd64 i386],
  inviteflood,

@@ -1,3 +1,9 @@
+kali-meta (2016.2.0) kali-dev; urgency=medium
+
+  * Drop inguma from kali-linux-full
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 29 Jan 2016 14:01:44 +0100
+
 kali-meta (2016.1.0) kali-dev; urgency=medium
 
   * Add king-phisher to kali-linux-full.
