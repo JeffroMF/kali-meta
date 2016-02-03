@@ -1,3 +1,9 @@
+kali-meta (2016.2.1) kali-dev; urgency=medium
+
+  * Added whois to kali-linux (close 3035) 
+
+ -- Ben Wilson <g0tmi1k@offensive-security.com>  Wed, 03 Feb 2016 15:56:14 -0500
+
 kali-meta (2016.2.0) kali-dev; urgency=medium
 
   * Drop inguma from kali-linux-full

@@ -50,6 +50,7 @@ Depends: ${misc:Depends},
  unrar,
  upx-ucl,
  vim,
+ whois,
  zerofree,
 Description: Kali Linux base system
  This is Kali Linux, the most advanced penetration testing and security
