@@ -1,9 +1,9 @@
-kali-meta (2016.2.3) UNRELEASED; urgency=medium
+kali-meta (2016.2.3) kali-dev; urgency=medium
 
   * Add alternative "unar" to "unrar" for people who don't have non-free
     enabled.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 25 Mar 2016 09:17:44 +0100
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 25 Mar 2016 09:21:27 +0100
 
 kali-meta (2016.2.2) kali-dev; urgency=medium
 
