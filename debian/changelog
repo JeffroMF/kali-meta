@@ -1,3 +1,9 @@
+kali-meta (2016.2.4) kali-dev; urgency=medium
+
+  * Drop old packages: dff, ratproxy and webshag*
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 11 May 2016 10:20:29 +0200
+
 kali-meta (2016.2.3) kali-dev; urgency=medium
 
   * Add alternative "unar" to "unrar" for people who don't have non-free
