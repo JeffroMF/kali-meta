@@ -1,3 +1,9 @@
+kali-meta (2016.2.5) kali-dev; urgency=medium
+
+  * Drop creepy and multiforcer
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 27 Jun 2016 09:48:04 +0200
+
 kali-meta (2016.2.4) kali-dev; urgency=medium
 
   * Drop old packages: dff, ratproxy and webshag*
