@@ -1,3 +1,9 @@
+kali-meta (2016.2.6) kali-dev; urgency=medium
+
+  * Replace php5 by php and php5-mysql by php-mysql.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Sat, 02 Jul 2016 21:50:11 +0200
+
 kali-meta (2016.2.5) kali-dev; urgency=medium
 
   * Drop creepy and multiforcer
