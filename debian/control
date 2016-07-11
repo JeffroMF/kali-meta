@@ -1046,7 +1046,9 @@ Recommends:
  libcanberra-gtk-module
 Conflicts:
 # This one should be removed with sana and newer (see https://bugs.kali.org/view.php?id=2445)
- nautilus-open-terminal
+ nautilus-open-terminal,
+# Drop synaptics driver so that touchpads are managed with libinput
+ xserver-xorg-input-synaptics,
 Description: GNOME based Kali desktop
  This metapackage installs a minimalistic GNOME desktop on your Kali system.
 
