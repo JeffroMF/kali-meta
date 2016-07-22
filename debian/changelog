@@ -1,3 +1,10 @@
+kali-meta (2016.2.9) kali-dev; urgency=medium
+
+  * Add firefox-esr to kali-desktop-common to ensure we always
+    have a web browser installed.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 22 Jul 2016 13:03:36 +0200
+
 kali-meta (2016.2.8) kali-dev; urgency=medium
 
   * Add ident-user-enum (Closes 0002976)

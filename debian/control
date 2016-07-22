@@ -1011,6 +1011,8 @@ Depends: ${misc:Depends},
  kali-debtags,
  kali-archive-keyring,
  desktop-base,
+# We always want a web browser
+ firefox-esr | firefox | x-www-browser,
 # To ensure pulseaudio started by systemd --user has DBUS_SESSION_ADDRESS
 # Related to kde-config-sddm
  dbus-user-session,
