@@ -481,7 +481,7 @@ Description: Kali Linux - all packages
  auditing distribution.
  .
  This metapackage depends on all other specific purpose metapackages and
- and some more applications. Beware, this will install a lot of stuff!
+ some more applications. Beware, this will install a lot of stuff!
 
 
 Package: kali-linux-sdr
