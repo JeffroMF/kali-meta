@@ -1012,7 +1012,9 @@ Depends: ${misc:Depends},
  kali-archive-keyring,
  desktop-base,
 # We always want a web browser
- firefox-esr:any | firefox:any | www-browser,
+# Needs to be fixed/simplified after #832501 & #832503 are solved
+# We allow firefox-esr:armhf for usage on arm64 where the native one is broken
+ firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any,
 # To ensure pulseaudio started by systemd --user has DBUS_SESSION_ADDRESS
 # Related to kde-config-sddm
  dbus-user-session,

@@ -1,3 +1,11 @@
+kali-meta (2016.2.11) kali-dev; urgency=medium
+
+  * Third try with firefox-esr dependency. firefox-esr:any
+    is not usable until firefox-esr has been marked Multi-Arch: allowed.
+    Let's put firefox-esr:armhf as a real alternative.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 26 Jul 2016 10:31:47 +0200
+
 kali-meta (2016.2.10) kali-dev; urgency=medium
 
   * Use firefox-esr:any as dependency to allow usage of another
