@@ -1,3 +1,10 @@
+kali-meta (2016.2.12) kali-dev; urgency=medium
+
+  * Drop rcconf and sysv-rc-conf from kali-linux. Those tools are System V
+    specific and we use systemd nowadays.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 30 Aug 2016 09:43:01 +0200
+
 kali-meta (2016.2.11) kali-dev; urgency=medium
 
   * Third try with firefox-esr dependency. firefox-esr:any
