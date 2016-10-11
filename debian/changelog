@@ -1,3 +1,9 @@
+kali-meta (2016.3.1) kali-dev; urgency=medium
+
+  * Update eyewitness: available only for i386 and amd64
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 11 Oct 2016 16:26:10 +0200
+
 kali-meta (2016.2.12) kali-dev; urgency=medium
 
   * Drop rcconf and sysv-rc-conf from kali-linux. Those tools are System V
