@@ -1,3 +1,9 @@
+kali-meta (2017.1.1) kali-dev; urgency=medium
+
+  * Replace mysql-server by default-mysql-server in meta-packages
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 31 Jan 2017 14:42:55 +0100
+
 kali-meta (2017.1.0) kali-dev; urgency=medium
 
   * Drop w3af from meta-packages
