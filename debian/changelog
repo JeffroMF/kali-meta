@@ -1,4 +1,4 @@
-kali-meta (2017.1.2) kali-meta; urgency=medium
+kali-meta (2017.1.2) kali-dev; urgency=medium
 
   * Replace gqrx with gqrx-sdr. And provide a transitional gqrx package.
 
