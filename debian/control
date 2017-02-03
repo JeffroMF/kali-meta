@@ -3,7 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: Raphaël Hertzog <hertzog@debian.org>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://www.kali.org
 Vcs-Git: git://git.kali.org/packages/kali-meta.git
 Vcs-Browser: http://git.kali.org/?p=packages/kali-meta.git;a=summary
@@ -1096,7 +1096,7 @@ Description: LXDE based Kali desktop
 
 Package: gqrx
 Architecture: all
-Depends: gqrx-sdr
+Depends: gqrx-sdr, ${misc:Depends}
 Description: Transitional package for gqrx-sdr
  This package is empty. It only depends on gqrx-sdr to ensure a sane
  upgrade path in Kali.
