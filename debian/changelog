@@ -1,3 +1,9 @@
+kali-meta (2017.1.2) kali-meta; urgency=medium
+
+  * Replace gqrx with gqrx-sdr. And provide a transitional gqrx package.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 03 Feb 2017 14:48:51 +0100
+
 kali-meta (2017.1.1) kali-dev; urgency=medium
 
   * Replace mysql-server by default-mysql-server in meta-packages

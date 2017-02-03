@@ -490,7 +490,7 @@ Depends: ${misc:Depends},
  hackrf,
  kalibrate-rtl,
  rtlsdr-scanner,
- gqrx,
+ gqrx-sdr,
  multimon-ng [amd64],
  uhd-host,
  uhd-images,
@@ -1092,3 +1092,13 @@ Recommends:
  libcanberra-gtk-module
 Description: LXDE based Kali desktop
  This metapackage installs a minimalistic LXDE desktop on your Kali system.
+
+
+Package: gqrx
+Architecture: all
+Depends: gqrx-sdr
+Description: Transitional package for gqrx-sdr
+ This package is empty. It only depends on gqrx-sdr to ensure a sane
+ upgrade path in Kali.
+ .
+ This package can be safely removed once gqrx-sdr has been installed.
