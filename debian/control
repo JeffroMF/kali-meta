@@ -71,7 +71,7 @@ Depends: ${misc:Depends},
  apache-users,
  apktool [amd64 i386],
  armitage [amd64 i386],
- arping,
+ arping | iputils-arping,
  arpwatch,
  arp-scan,
  asleap,
@@ -1060,6 +1060,7 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-common,
  kde-plasma-desktop,
+ plasma-nm,
  sddm,
 Description: KDE based Kali desktop
  This metapackage installs a minimalistic KDE desktop on your Kali system.
