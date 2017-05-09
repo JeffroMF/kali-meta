@@ -1,3 +1,9 @@
+kali-meta (2017.2.0) kali-dev; urgency=medium
+
+  * Replace jsql with jsql-injection (renamed package) 
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 09 May 2017 14:53:02 +0200
+
 kali-meta (2017.1.5) kali-dev; urgency=medium
 
   * Drop i386 for rainbowcrack. New version 1.7 is only for amd64
