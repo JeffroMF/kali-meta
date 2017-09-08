@@ -1,9 +1,24 @@
-kali-meta (2017.2.0) kali-dev; urgency=medium
+kali-meta (2017.2.1) kali-dev; urgency=medium
 
   * Work-around a bad dependency in pcmanfm that broke the LXDE image
     (FS #4221).
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 08 Sep 2017 15:57:00 +0200
+
+kali-meta (2017.2.0) kali-dev; urgency=medium
+
+  * Replace jsql with jsql-injection (renamed package) 
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 09 May 2017 14:53:02 +0200
+
+kali-meta (2017.1.5) kali-dev; urgency=medium
+
+  * Drop i386 for rainbowcrack. New version 1.7 is only for amd64
+  * Drop gnome-shell-extension-refreshwifi in kali-desktop-gnome.
+    gome-shell version >=3.22.2 has timely scans implemented (see debian bug
+    859902)
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 11 Apr 2017 16:23:42 +0200
 
 kali-meta (2017.1.4) kali-dev; urgency=medium
 
