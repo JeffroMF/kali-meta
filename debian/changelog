@@ -1,3 +1,10 @@
+kali-meta (2017.2.0) kali-dev; urgency=medium
+
+  * Work-around a bad dependency in pcmanfm that broke the LXDE image
+    (FS #4221).
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 08 Sep 2017 15:57:00 +0200
+
 kali-meta (2017.1.4) kali-dev; urgency=medium
 
   * Add apt-transport-https and mlocate to the default installation.

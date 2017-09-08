@@ -1089,6 +1089,8 @@ Package: kali-desktop-lxde
 Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-common,
+# This dependency is a work-around for #874657: pcmanfm: should have explicit recommends on lxpolkit
+ lxpolkit,
  lxde,
 Recommends:
  libcanberra-gtk3-module,
