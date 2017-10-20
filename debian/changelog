@@ -1,3 +1,9 @@
+kali-meta (2017.3.2) kali-dev; urgency=medium
+
+  * Replace veil-evasion by veil
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 20 Oct 2017 14:23:34 +0200
+
 kali-meta (2017.3.1) kali-dev; urgency=medium
 
   * Replace peepdf by python-peepdf
