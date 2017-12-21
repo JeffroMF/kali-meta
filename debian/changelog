@@ -1,3 +1,9 @@
+kali-meta (2017.3.5) kali-dev; urgency=medium
+
+  * Added exploitdb-papers & exploit-bin-sploits 
+
+ -- Ben Wilson <g0tmi1k@offensive-security.com>  Thu, 21 Dec 2017 11:40:14 -0500
+
 kali-meta (2017.3.4) kali-dev; urgency=medium
 
   * Remove wvdial (not used anymore and removed from Debian)
