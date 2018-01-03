@@ -1,3 +1,9 @@
+kali-meta (2017.3.6) kali-dev; urgency=medium
+
+  * Removed exploitdb-papers & exploit-bin-sploits from kali-linux-all 
+
+ -- Ben Wilson <g0tmi1k@offensive-security.com>  Wed, 03 Jan 2018 08:30:05 -0500
+
 kali-meta (2017.3.5) kali-dev; urgency=medium
 
   * Added exploitdb-papers & exploit-bin-sploits 
