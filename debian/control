@@ -1069,6 +1069,7 @@ Depends: ${misc:Depends},
  xfce4-power-manager-plugins,
  lightdm,
  network-manager-gnome,
+ xserver-xorg-input-synaptics,
  gnome-theme-kali,
 Recommends:
  libcanberra-gtk3-module,

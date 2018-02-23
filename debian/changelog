@@ -1,3 +1,10 @@
+kali-meta (2018.2.0) kali-dev; urgency=medium
+
+  * Add xserver-xorg-input-synaptics as Depends on kali-desktop-xfce.
+    See https://bugs.kali.org/view.php?id=4553
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 23 Feb 2018 08:54:47 +0100
+
 kali-meta (2018.1.0) kali-dev; urgency=medium
 
   * Remove obsolete package keepnote and imagemagick (added only for keepnote)
