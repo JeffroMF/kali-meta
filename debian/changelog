@@ -1,3 +1,10 @@
+kali-meta (2018.2.2) kali-dev; urgency=medium
+
+  * Replace gnome-shell-extension-workspacestodock by
+    gnome-shell-extension-workspaces-to-dock
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 19 Jun 2018 12:13:56 +0200
+
 kali-meta (2018.2.1) kali-dev; urgency=medium
 
   * Replace readpst (transitional package) with pst-utils
