@@ -1,3 +1,9 @@
+kali-meta (2018.2.3) kali-dev; urgency=medium
+
+  * Remove arm64 from beef-xss since it doesn't support arm64.
+
+ -- Steev Klimaszewski <steev@kali.org>  Wed, 04 Jul 2018 03:49:32 -0500
+
 kali-meta (2018.2.2) kali-dev; urgency=medium
 
   * Replace gnome-shell-extension-workspacestodock by
