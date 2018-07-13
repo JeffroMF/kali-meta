@@ -65,7 +65,6 @@ Architecture: any
 Depends: ${misc:Depends},
  kali-linux,
  0trace,
- acccheck,
  ace-voip,
  afflib-tools,
  aircrack-ng,
