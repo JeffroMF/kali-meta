@@ -1,8 +1,20 @@
+kali-meta (2018.3.1) kali-dev; urgency=medium
+
+  * New upload to remove arm64 from beef-xss (problem in git repo)
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 18 Jul 2018 09:43:02 +0200
+
 kali-meta (2018.3.0) kali-dev; urgency=medium
 
   * Remove acccheck (unmaintained usptream and had security issues)
 
  -- Sophie Brun <sophie@freexian.com>  Fri, 13 Jul 2018 09:30:06 +0200
+
+kali-meta (2018.2.3) kali-dev; urgency=medium
+
+  * Remove arm64 from beef-xss since it doesn't support arm64.
+
+ -- Steev Klimaszewski <steev@kali.org>  Wed, 04 Jul 2018 03:49:32 -0500
 
 kali-meta (2018.2.2) kali-dev; urgency=medium
 
