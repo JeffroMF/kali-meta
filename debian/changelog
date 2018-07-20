@@ -1,3 +1,9 @@
+kali-meta (2018.3.2) kali-dev; urgency=medium
+
+  * Remove http-tunnel (old package and depends on removed package php-mcrypt)
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 20 Jul 2018 09:23:18 +0200
+
 kali-meta (2018.3.1) kali-dev; urgency=medium
 
   * New upload to remove arm64 from beef-xss (problem in git repo)
