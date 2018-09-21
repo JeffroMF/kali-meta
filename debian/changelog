@@ -1,3 +1,9 @@
+kali-meta (2018.4.0) kali-dev; urgency=medium
+
+  * Remove magictree.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 21 Sep 2018 15:31:15 +0200
+
 kali-meta (2018.3.2) kali-dev; urgency=medium
 
   * Remove http-tunnel (old package and depends on removed package php-mcrypt)
