@@ -1,3 +1,10 @@
+kali-meta (2019.1.0) kali-dev; urgency=medium
+
+  * Add gnome-shell-extension-desktop-icons to replace removed feature in
+    Nautilus
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 09 Nov 2018 10:07:36 +0100
+
 kali-meta (2018.4.1) kali-dev; urgency=medium
 
   * Remove deprecated and unmaintained vega.
