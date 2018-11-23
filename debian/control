@@ -23,6 +23,7 @@ Depends: ${misc:Depends},
  gdisk,
  git,
  gparted,
+ haveged,
  iw,
  lvm2,
  mercurial,
@@ -998,6 +999,8 @@ Depends: ${misc:Depends},
  kali-debtags,
  kali-archive-keyring,
  desktop-base,
+# Ensure we have enough entropy on boot to avoid delays (FS #4994)
+ haveged,
 # We always want a web browser
 # Needs to be fixed/simplified after #832501 & #832503 are solved
 # We allow firefox-esr:armhf for usage on arm64 where the native one is broken
