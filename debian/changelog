@@ -1,3 +1,13 @@
+kali-meta (2019.2.0) kali-dev; urgency=medium
+
+  * Update my maintainer email
+  * Make kali-desktop-kde depends on sddm-theme-debian-elarun
+  * Remove iphone-backup-analyzer from kali-linux-forensic.
+    It's unmaintained upstream and is unlikely to be ever updated
+    for pyside2 (see https://bugs.kali.org/view.php?id=4978).
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 08 Feb 2019 10:35:35 +0100
+
 kali-meta (2019.1.1) kali-dev; urgency=medium
 
   * Add haveged on kali-linux and kali-desktop-common to avoid problems due to
