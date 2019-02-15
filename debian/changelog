@@ -1,3 +1,10 @@
+kali-meta (2019.2.2) kali-dev; urgency=medium
+
+  * sslyze is no longer available for armhf and arm64 (its dependency nassl
+    doesn't compile for these archs)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 15 Feb 2019 11:37:45 +0100
+
 kali-meta (2019.2.1) kali-dev; urgency=medium
 
   * Added inspectrum to kali-linux-sdr (https://bugs.kali.org/view.php?id=4841) 
