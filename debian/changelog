@@ -1,3 +1,9 @@
+kali-meta (2019.2.3) kali-dev; urgency=medium
+
+  * Add impacket-scripts package: links to useful impackets examples
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 13 Mar 2019 14:39:46 +0100
+
 kali-meta (2019.2.2) kali-dev; urgency=medium
 
   * sslyze is no longer available for armhf and arm64 (its dependency nassl
