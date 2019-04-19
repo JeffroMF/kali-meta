@@ -1,7 +1,7 @@
 Source: kali-meta
 Section: metapackages
 Priority: optional
-Maintainer: Raphaël Hertzog <raphael@offensive-security.com>
+Maintainer: Kali Developers <devel@kali.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 4.1.3
 Homepage: http://www.kali.org
