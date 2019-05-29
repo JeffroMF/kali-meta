@@ -1118,8 +1118,17 @@ Depends: ${misc:Depends},
 Recommends:
  libcanberra-gtk3-module,
  libcanberra-gtk-module
-Description: Xfce based Kali desktop
+Description: XFCE based Kali desktop
  This metapackage installs a minimalistic XFCE desktop on your Kali system.
+
+
+Package: kali-desktop-mate
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-common,
+ xmate-desktop-environment,
+Description: MATE based Kali desktop
+ This metapackage installs a minimalistic MATE desktop on your Kali system.
 
 
 Package: kali-desktop-lxde
