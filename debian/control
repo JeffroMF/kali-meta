@@ -932,7 +932,7 @@ Depends: ${misc:Depends},
 # Any other metapackages
  kali-defaults,
  kali-root-login,
-# Desktop Manager (DM)
+# Window Manager (WM)
  desktop-base,
  xfce4,
  xfce4-goodies,
@@ -1122,15 +1122,6 @@ Description: XFCE based Kali desktop
  This metapackage installs a minimalistic XFCE desktop on your Kali system.
 
 
-Package: kali-desktop-mate
-Architecture: all
-Depends: ${misc:Depends},
- kali-desktop-common,
- xmate-desktop-environment,
-Description: MATE based Kali desktop
- This metapackage installs a minimalistic MATE desktop on your Kali system.
-
-
 Package: kali-desktop-lxde
 Architecture: all
 Depends: ${misc:Depends},
@@ -1143,6 +1134,41 @@ Recommends:
  libcanberra-gtk-module
 Description: LXDE based Kali desktop
  This metapackage installs a minimalistic LXDE desktop on your Kali system.
+
+
+ Package: kali-desktop-mate
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-common,
+ mate-desktop-environment,
+ xorg,
+Description: MATE based Kali desktop
+ This metapackage installs a minimalistic MATE desktop on your Kali system.
+
+
+Package: kali-desktop-i3
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-common,
+ conky,
+ dmenu,
+ i3,
+ xorg,
+Description: I3 based Kali desktop
+ This metapackage installs a minimalistic I3 desktop on your Kali system.
+
+
+Package: kali-desktop-e17
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-common,
+ enlightenment,
+ lightdm,
+ xorg,
+# To tweak default configuration with help of /usr/bin/eet
+ libeet-bin,
+Description: E17 based Kali desktop
+ This metapackage installs a minimalistic Enlightenment E17 desktop on your Kali system.
 
 
 Package: gqrx
