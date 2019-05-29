@@ -1170,6 +1170,72 @@ Description: E17 based Kali desktop
  This metapackage installs a minimalistic Enlightenment E17 desktop on your Kali system.
 
 
+# PWK
+Package: offsec-pwk
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+ kali-linux,
+# Packages
+ apache2,
+ atftpd,
+ cewl,
+ cherrytree,
+ crunch,
+ dnsenum,
+ dnsrecon,
+ dnsutils,
+ edb-debugger,
+ enum4linux,
+ exploitdb,
+ findutils,
+ firefox-esr,
+ gzip,
+ hash-identifier,
+ hydra,
+ iptables,
+ john,
+ medusa,
+ metasploit-framework,
+ mingw-w64,
+ nano,
+ nbtscan,
+ ncat,
+ ncrack,
+ netcat-traditional,
+ net-tools,
+ nmap,
+ onesixtyone,
+ openjdk-10-jdk-headless,
+ openssh-server,
+ openvas,
+ openvpn,
+ passing-the-hash,
+ proxychains,
+ pure-ftpd,
+ python,
+ recon-ng,
+ rinetd,
+ sbd,
+ snmp,
+ snmpcheck,
+ sqlmap,
+ stunnel4,
+ tcpdump,
+ theharvester,
+ upx-ucl,
+ wget,
+ whois,
+ windows-binaries,
+ wine,
+ wireshark,
+Description: Resources for Offsec's PWK
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on the resources required for Offsec's PWK.
+
+
 Package: gqrx
 Architecture: all
 Depends: gqrx-sdr, ${misc:Depends}
