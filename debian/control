@@ -888,15 +888,14 @@ Depends: ${misc:Depends},
 # Packages
  aircrack-ng,
  burpsuite,
+ crackmapexec,
+ hashcat,
  hydra,
- john,
- maltego,
- maltego-teeth,
  metasploit-framework,
  nmap,
+ responder,
  sqlmap,
  wireshark,
- zaproxy,
 Description: Kali Linux Top 10 tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
