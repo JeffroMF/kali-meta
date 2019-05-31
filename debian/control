@@ -461,6 +461,9 @@ Depends: ${misc:Depends},
  kali-linux-wireless,
 # Packages
  android-sdk,
+ brutespray,
+ changeme,
+ chaosreader,
  device-pharmer,
  exploitdb-bin-sploits,
  exploitdb-papers,
@@ -478,9 +481,12 @@ Depends: ${misc:Depends},
  shellnoob,
  shellter [amd64 i386],
  teamsploit,
+ testssl.sh,
  veil [amd64 i386],
+ w3af,
  webhandler,
  websploit,
+ wig,
 Description: Kali Linux - all packages
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
