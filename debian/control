@@ -1005,7 +1005,7 @@ Depends: ${misc:Depends},
  wireshark,
  wpasupplicant,
  zip,
-Description: Kali Linux Netunter tools
+Description: Kali Linux NetHunter tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
