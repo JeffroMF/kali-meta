@@ -74,7 +74,6 @@ Depends: ${misc:Depends},
  ace-voip,
  afflib-tools,
  aircrack-ng,
- amap,
  apache-users,
  apktool [amd64 i386],
  armitage [amd64 i386],
@@ -443,7 +442,7 @@ Description: Kali Linux complete system
 
 
 # Every package
-Package: kali-linux-complete
+Package: kali-linux-everything
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
@@ -460,6 +459,7 @@ Depends: ${misc:Depends},
  kali-linux-windows-resources,
  kali-linux-wireless,
 # Packages
+ amap,
  android-sdk,
  brutespray,
  changeme,
@@ -1274,3 +1274,25 @@ Description: Transitional package for gqrx-sdr
  upgrade path in Kali.
  .
  This package can be safely removed once gqrx-sdr has been installed.
+
+
+
+
+Package: kali-linux-all
+Architecture: all
+Depends: kali-linux-everything, ${misc:Depends}
+Description: Transitional package for kali-linux-everything
+ This package is empty. It only depends on kali-linux-everything to ensure a sane
+ upgrade path in Kali.
+ .
+ This package can be safely removed once kali-linux-everything has been installed.
+
+
+Package: kali-linux-full
+Architecture: all
+Depends: kali-linux-default, ${misc:Depends}
+Description: Transitional package for kali-linux-default
+ This package is empty. It only depends on kali-linux-default to ensure a sane
+ upgrade path in Kali.
+ .
+ This package can be safely removed once kali-linux-default has been installed.
