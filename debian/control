@@ -457,6 +457,7 @@ Depends: ${misc:Depends},
  kali-linux-top10,
  kali-linux-voip,
  kali-linux-web,
+ kali-linux-windows-resources,
  kali-linux-wireless,
 # Packages
  android-sdk,
@@ -931,9 +932,14 @@ Depends: ${misc:Depends},
 # Any other metapackages
  kali-linux,
 # Packages
+ hyperion,
  ncat-w32,
+ ollydbg,
  powercat,
  secure-socket-funneling-windows-binaries,
+ wce,
+ tftpd32,
+ mimikatz,
  windows-binaries,
 Description: Kali Linux Windows resources
  This is Kali Linux, the most advanced penetration testing and security
