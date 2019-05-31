@@ -1276,8 +1276,6 @@ Description: Transitional package for gqrx-sdr
  This package can be safely removed once gqrx-sdr has been installed.
 
 
-
-
 Package: kali-linux-all
 Architecture: all
 Depends: kali-linux-everything, ${misc:Depends}
@@ -1296,3 +1294,13 @@ Description: Transitional package for kali-linux-default
  upgrade path in Kali.
  .
  This package can be safely removed once kali-linux-default has been installed.
+
+
+Package: kali-linux-pwtools
+Architecture: all
+Depends: kali-linux-password-tools, ${misc:Depends}
+Description: Transitional package for kali-linux-password-tools
+ This package is empty. It only depends on kali-linux-password-tools to ensure a sane
+ upgrade path in Kali.
+ .
+ This package can be safely removed once kali-linux-password-tools has been installed.
