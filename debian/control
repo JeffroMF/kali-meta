@@ -924,6 +924,24 @@ Description: Kali Linux RFID tools
  This metapackage depends on all the RFID tools that Kali Linux provides.
 
 
+# Windows resources
+Package: kali-linux-windows-resources
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+ kali-linux,
+# Packages
+ ncat-w32,
+ powercat,
+ secure-socket-funneling-windows-binaries,
+ windows-binaries,
+Description: Kali Linux Windows resources
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the Windows resources that Kali Linux provides.
+
+
 # NetHunter - Android Mobile
 Package: kali-linux-nethunter
 Architecture: any
