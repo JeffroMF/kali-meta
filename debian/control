@@ -451,7 +451,7 @@ Depends: ${misc:Depends},
  kali-linux-forensic,
  kali-linux-full,
  kali-linux-gpu,
- kali-linux-pwtools,
+ kali-linux-password-tools,
  kali-linux-rfid,
  kali-linux-sdr,
  kali-linux-top10,
@@ -822,7 +822,7 @@ Description: Kali Linux VoIP tools
 
 
 # Password Tools
-Package: kali-linux-pwtools
+Package: kali-linux-password-tools
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
