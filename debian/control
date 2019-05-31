@@ -64,7 +64,7 @@ Description: Kali Linux base system
 
 
 # Default for base images
-Package: kali-linux-full
+Package: kali-linux-default
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
@@ -443,13 +443,13 @@ Description: Kali Linux complete system
 
 
 # Every package
-Package: kali-linux-all
+Package: kali-linux-complete
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
  kali-linux,
+ kali-linux-default,
  kali-linux-forensic,
- kali-linux-full,
  kali-linux-gpu,
  kali-linux-password-tools,
  kali-linux-rfid,
