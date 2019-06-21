@@ -1,6 +1,10 @@
 kali-meta (2019.3.2) kali-dev; urgency=medium
 
+  [ Joseph O'Gorman ]
   * Add lightdm to mate (Fixes: 5558)
+
+  [ Raphaël Hertzog ]
+  * Drop old workaround for a missing dependency on pcmanfm.
 
  -- Joseph O'Gorman <gamb1t@kali.org>  Thu, 20 Jun 2019 19:03:10 -0400
 
