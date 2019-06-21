@@ -10,7 +10,7 @@ kali-meta (2019.3.2) kali-dev; urgency=medium
   * Add network-manager-gnome to kali-desktop-mate, similar to what
     taks-mate-desktop has.
 
- -- Joseph O'Gorman <gamb1t@kali.org>  Thu, 20 Jun 2019 19:03:10 -0400
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 21 Jun 2019 09:01:15 +0200
 
 kali-meta (2019.3.1) kali-dev; urgency=medium
 
