@@ -1098,6 +1098,7 @@ Depends: ${misc:Depends},
  kali-desktop-common,
  mate-desktop-environment,
  xorg,
+ lightdm,
 Description: MATE based Kali desktop
  This metapackage installs a minimalistic MATE desktop on your Kali system.
 
