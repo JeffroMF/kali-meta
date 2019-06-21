@@ -1095,7 +1095,6 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-common,
  mate-desktop-environment,
- xorg,
  lightdm,
 Description: MATE based Kali desktop
  This metapackage installs a minimalistic MATE desktop on your Kali system.
@@ -1119,7 +1118,6 @@ Depends: ${misc:Depends},
  kali-desktop-common,
  enlightenment,
  lightdm,
- xorg,
 # To tweak default configuration with help of /usr/bin/eet
  libeet-bin,
 Description: E17 based Kali desktop

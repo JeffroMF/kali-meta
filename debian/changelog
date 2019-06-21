@@ -5,6 +5,8 @@ kali-meta (2019.3.2) kali-dev; urgency=medium
 
   [ Raphaël Hertzog ]
   * Drop old workaround for a missing dependency on pcmanfm.
+  * Drop explicit dependency on xorg when we have a display manager
+    dependency.
 
  -- Joseph O'Gorman <gamb1t@kali.org>  Thu, 20 Jun 2019 19:03:10 -0400
 
