@@ -1,3 +1,9 @@
+kali-meta (2019.3.5) kali-dev; urgency=medium
+
+  * Close #2 - Fix dependencies
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 08 Jul 2019 20:19:30 +0100
+
 kali-meta (2019.3.4) kali-dev; urgency=medium
 
   * Close #2 - Fix dependencies
