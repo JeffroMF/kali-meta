@@ -44,7 +44,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-tools-social-engineering
 #  - kali-tools-sniffing-spoofing
 #  - kali-tools-post-exploitation
-#  - kali-tools-forensic
+#  - kali-tools-forensics
 #  - kali-tools-reporting
 #
 # * Courses
@@ -571,7 +571,7 @@ Depends: ${misc:Depends},
  kali-tools-bluetooth,
  kali-tools-database,
  kali-tools-exploitation,
- kali-tools-forensic,
+ kali-tools-forensics,
  kali-tools-fuzzing,
  kali-tools-gpu,
  kali-tools-hardware,
@@ -628,7 +628,7 @@ Depends: ${misc:Depends},
  o-saft,
  pnscan,
  pompem,
- princeprocessor,
+ princeprocessor [amd64],
  shed,
  testssl.sh,
  wig,
@@ -808,7 +808,7 @@ Depends: ${misc:Depends},
  openocd,
  qemu,
  radare2,
- radare2-cutter,
+ radare2-cutter [amd64 i386],
 Description: Kali Linux hardware attacks tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
@@ -824,7 +824,7 @@ Depends: ${misc:Depends},
 # Any other metapackages
 # Packages
  afl,
- sandsifter,
+ sandsifter [amd64],
  sfuzz,
  spike,
  wfuzz,
@@ -1011,10 +1011,10 @@ Depends: ${misc:Depends},
  ncat-w32,
  ollydbg,
  powercat,
- regripper,
+ regripper [amd64 i386],
  sbd,
  secure-socket-funneling-windows-binaries,
- shellter,
+ shellter [amd64 i386],
  tftpd32,
  wce,
  windows-binaries,
@@ -1123,7 +1123,6 @@ Depends: ${misc:Depends},
  iaxflood,
  inviteflood,
  lynis,
- nessus,
  nikto,
  nmap,
  ohrwurm,
@@ -1132,9 +1131,9 @@ Depends: ${misc:Depends},
  protos-sip,
  rtpbreak,
  rtpflood,
- rtpinsertsound,
- rtpmixsound,
- sctpscan,
+ rtpinsertsound [amd64 i386],
+ rtpmixsound [amd64 i386],
+ sctpscan [amd64 i386],
  sfuzz,
  siege,
  siparmyknife,
@@ -1249,7 +1248,7 @@ Depends: ${misc:Depends},
  uniscan,
  wafw00f,
  wapiti,
- watobo,
+ watobo [amd64 i386],
  webacoo,
  webhandler,
  webscarab,
@@ -1315,7 +1314,6 @@ Depends: ${misc:Depends},
  gpp-decrypt,
  hash-identifier,
  hashcat [amd64 i386],
- hashcat,
  hashcat-utils [amd64 i386],
  hashid,
  hydra,
@@ -1327,7 +1325,7 @@ Depends: ${misc:Depends},
  medusa,
  mimikatz,
  ncrack,
- oclhashcat,
+ oclhashcat [amd64 i386],
  onesixtyone,
  ophcrack,
  ophcrack-cli,
@@ -1395,7 +1393,7 @@ Depends: ${misc:Depends},
  apktool,
  clang,
  dex2jar,
- edb-debugger,
+ edb-debugger [amd64 i386],
  flasm,
  jad,
  javasnoop,
@@ -1403,8 +1401,8 @@ Depends: ${misc:Depends},
  metasploit-framework,
  ollydbg,
  radare2,
- radare2-cutter,
- recstudio,
+ radare2-cutter [amd64 i386],
+ recstudio [i386],
 Description: Kali Linux reverse engineering menu
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
@@ -1451,7 +1449,7 @@ Depends: ${misc:Depends},
  msfpc,
  set,
  u3-pwn,
- veil,
+ veil [amd64 i386],
 Description: Kali Linux social engineering tools menu
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
@@ -1474,7 +1472,7 @@ Depends: ${misc:Depends},
  dsniff,
  ettercap-graphical,
  ettercap-text-only,
- ferret-sidejack,
+ ferret-sidejack [i386],
  fiked,
  hamster-sidejack,
  hexinject,
@@ -1511,7 +1509,7 @@ Depends: ${misc:Depends},
 # Packages
  backdoor-factory,
  bdfproxy,
- cymothoa,
+ cymothoa [amd64 i386],
  dbd,
  dns2tcp,
  exe2hexbat,
@@ -1527,12 +1525,12 @@ Depends: ${misc:Depends},
  ptunnel,
  pwnat,
  sbd,
- shellter,
+ shellter [amd64 i386],
  sslh,
  stunnel4,
  u3-pwn,
  udptunnel,
- veil,
+ veil [amd64 i386],
  webacoo,
  weevely,
 Description: Kali Linux post exploitation tools menu
@@ -1543,8 +1541,8 @@ Description: Kali Linux post exploitation tools menu
  that Kali Linux provides.
 
 
-# Forensic
-Package: kali-tools-forensic
+# Forensics
+Package: kali-tools-forensics
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
@@ -1600,7 +1598,7 @@ Depends: ${misc:Depends},
  python-distorm3,
  python-peepdf,
  radare2,
- radare2-cutter,
+ radare2-cutter [amd64 i386],
  recoverjpeg,
  recstudio [i386],
  reglookup,
@@ -1631,8 +1629,6 @@ Depends: ${misc:Depends},
  xplico [amd64 i386],
  yara,
  libaff4-utils,
- python-binplist
- dfdatetime,
  dfvfs,
  dfwinreg,
  exifprobe,
@@ -1640,7 +1636,7 @@ Depends: ${misc:Depends},
  ext4magic,
  forensic-artifacts,
  forensics-colorize,
- gpart,
+ gpart [amd64 i386],
  grokevt,
  lime-forensics,
  mac-robber,
@@ -1650,9 +1646,13 @@ Depends: ${misc:Depends},
  nasty,
  neopi,
  plaso,
- rdd,
+ python-binplist,
+ python-dfdatetime,
+ python-dfvfs,
+ python-dfwinreg,
+ rdd [amd64],
  recoverdm,
- rekall,
+ rekall-core,
  rephrase,
  rsakeyfind,
  ssdeep,
@@ -1674,8 +1674,8 @@ Depends: ${misc:Depends},
 # Any other metapackages
 # Packages
  cutycapt,
- dradis,
- eyewitness,
+ dradis [amd64 i386],
+ eyewitness [amd64 i386],
  maltego,
  metagoofil,
  pipal,
@@ -1707,7 +1707,7 @@ Depends: ${misc:Depends},
  dnsenum,
  dnsrecon,
  dnsutils,
- edb-debugger,
+ edb-debugger [amd64 i386],
  enum4linux,
  exploitdb,
  findutils,
@@ -2028,14 +2028,14 @@ Description: Transitional package for kali-linux-everything
  This package can be safely removed once kali-linux-everything has been installed.
 
 
-Package: kali-linux-forensic
+Package: kali-linux-forensics
 Architecture: all
-Depends: kali-tools-forensic, ${misc:Depends}
-Description: Transitional package for kali-tools-forensic
- This package is empty. It only depends on kali-tools-forensic to ensure a sane
+Depends: kali-tools-forensics, ${misc:Depends}
+Description: Transitional package for kali-tools-forensics
+ This package is empty. It only depends on kali-tools-forensics to ensure a sane
  upgrade path in Kali.
  .
- This package can be safely removed once kali-tools-forensic has been installed.
+ This package can be safely removed once kali-tools-forensics has been installed.
 
 
 Package: kali-linux-full
