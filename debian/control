@@ -1631,7 +1631,7 @@ Depends: ${misc:Depends},
  xplico [amd64 i386],
  yara,
  libaff4-utils,
- binplist,
+ python-binplist
  dfdatetime,
  dfvfs,
  dfwinreg,
