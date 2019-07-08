@@ -2031,12 +2031,12 @@ Description: Transitional package for kali-linux-everything
 
 Package: kali-linux-forensics
 Architecture: all
-Depends: kali-tools-forensics, ${misc:Depends}
-Description: Transitional package for kali-tools-forensics
- This package is empty. It only depends on kali-tools-forensics to ensure a sane
+Depends: kali-tools-forensic, ${misc:Depends}
+Description: Transitional package for kali-tools-forensic
+ This package is empty. It only depends on kali-tools-forensic to ensure a sane
  upgrade path in Kali.
  .
- This package can be safely removed once kali-tools-forensics has been installed.
+ This package can be safely removed once kali-tools-forensic has been installed.
 
 
 Package: kali-linux-full
