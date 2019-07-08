@@ -585,7 +585,7 @@ Depends: ${misc:Depends},
  kali-tools-sdr,
  kali-tools-sniffing-spoofing,
  kali-tools-social-engineering,
- kali-tools-cryptography-steganography
+ kali-tools-crypto-stego,
  kali-tools-top10,
  kali-tools-voip,
  kali-tools-vulnerability,
@@ -783,7 +783,6 @@ Package: kali-tools-gpu
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  oclgausscrack [amd64 i386],
  oclhashcat [amd64 i386],
@@ -801,7 +800,6 @@ Package: kali-tools-hardware
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  binwalk,
  cutecom,
@@ -824,7 +822,6 @@ Package: kali-tools-fuzzing
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  afl,
  sandsifter,
@@ -844,7 +841,6 @@ Package: kali-tools-crypto-stego
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  aesfix,
  aeskeyfind,
@@ -865,7 +861,6 @@ Package: kali-tools-802-11
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  aircrack-ng,
  asleap,
@@ -902,7 +897,6 @@ Package: kali-tools-bluetooth
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  bluelog,
  blueranger,
@@ -927,7 +921,6 @@ Package: kali-tools-rfid
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  gnuradio,
  libfreefare-bin,
@@ -949,7 +942,6 @@ Package: kali-tools-sdr
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  chirp,
  gnuradio,
@@ -978,7 +970,6 @@ Package: kali-tools-voip
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  ace-voip,
  dnmap,
@@ -1012,7 +1003,6 @@ Package: kali-tools-windows-resources
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  dbd,
  dnschef,
@@ -1048,7 +1038,6 @@ Package: kali-tools-information-gathering
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  0trace,
  arping,
@@ -1120,7 +1109,6 @@ Package: kali-tools-vulnerability
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  ace,
  afl,
@@ -1175,7 +1163,6 @@ Package: kali-tools-web
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  apache-users,
  apache2,
@@ -1288,7 +1275,6 @@ Package: kali-tools-database
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  bbqsql,
  hexorbase,
@@ -1315,7 +1301,6 @@ Package: kali-tools-passwords
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
  kali-tools-gpu,
 # Packages
  cewl,
@@ -1384,7 +1369,6 @@ Package: kali-tools-wireless
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
  kali-tools-802-11,
  kali-tools-bluetooth,
  kali-tools-rfid,
@@ -1408,7 +1392,6 @@ Package: kali-tools-reverse-engineering
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  apktool,
  clang,
@@ -1436,7 +1419,6 @@ Package: kali-tools-exploitation
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  armitage [amd64 i386],
  beef-xss [amd64 i386 armhf],
@@ -1462,7 +1444,6 @@ Package: kali-tools-social-engineering
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  backdoor-factory,
  beef-xss [amd64 i386 armhf],
@@ -1485,7 +1466,6 @@ Package: kali-tools-sniffing-spoofing
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  bdfproxy,
  bettercap,
@@ -1529,7 +1509,6 @@ Package: kali-tools-post-exploitation
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  backdoor-factory,
  bdfproxy,
@@ -1570,7 +1549,6 @@ Package: kali-tools-forensic
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  afflib-tools,
  apktool [amd64 i386],
@@ -1695,7 +1673,6 @@ Package: kali-tools-reporting
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  cutycapt,
  dradis,
@@ -1817,7 +1794,6 @@ Package: kali-tools-headless
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  aircrack-ng,
  crackmapexec,
@@ -1840,7 +1816,6 @@ Package: kali-tools-top10
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- #kali-linux-core,
 # Packages
  aircrack-ng,
  burpsuite,
