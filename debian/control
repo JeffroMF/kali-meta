@@ -1838,7 +1838,7 @@ Description: Kali Linux top 10 tools
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-Package: kali-desktop
+Package: kali-desktop-core
 Architecture: all
 Depends: ${misc:Depends},
  kali-archive-keyring,
