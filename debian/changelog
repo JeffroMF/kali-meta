@@ -1,3 +1,10 @@
+kali-meta (2019.3.6) kali-dev; urgency=medium
+
+  * Don't request co-installation of conflicting packages (ettercap-graphical
+    vs ettercap-text-only, and arping vs iputils-arping).
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 08 Jul 2019 22:02:28 +0200
+
 kali-meta (2019.3.5) kali-dev; urgency=medium
 
   * Close #2 - Fix dependencies
