@@ -1,3 +1,9 @@
+kali-meta (2019.3.7) kali-dev; urgency=medium
+
+  * limit copy-router-config and sslyze
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 08 Jul 2019 21:33:30 +0100
+
 kali-meta (2019.3.6) kali-dev; urgency=medium
 
   * Don't request co-installation of conflicting packages (ettercap-graphical
