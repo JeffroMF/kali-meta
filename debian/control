@@ -1909,8 +1909,7 @@ Depends: ${misc:Depends},
  kali-desktop-core,
  i3,
  conky,
- dmenu,
- suckless-tools,
+ suckless-tools | dmenu,
  xorg,
 Description: I3 based Kali desktop
  This metapackage installs a
