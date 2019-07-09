@@ -1,3 +1,12 @@
+kali-meta (2019.3.9) UNRELEASED; urgency=medium
+
+  * Fix description of kali-linux-full
+  * Fixup/improve long descriptions
+  * Drop findutils and gzip from offsec-pwk as they are essential packages
+  * Bump Standards-Version to 4.3.0 and debhelper compat level to 12
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 09 Jul 2019 14:04:08 +0200
+
 kali-meta (2019.3.8) kali-dev; urgency=medium
 
   * Fix i3 - dmenu and suckless-tools
