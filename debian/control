@@ -553,8 +553,8 @@ Description: Kali Linux large system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the applications that are included in
- official Kali Linux images.
+ This metapackage installs the applications which are included by default in
+ official Kali Linux images and adds many more on top of those.
 
 
 # Every package
@@ -631,7 +631,7 @@ Depends: ${misc:Depends},
  shed,
  testssl.sh,
  wig,
-Description: Kali Linux everything
+Description: Everything in Kali Linux
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -680,8 +680,8 @@ Description: Kali Linux ARM system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the social engineering tools
- that Kali Linux provides.
+ This metapackage depends on applications that are particularly interesting
+ to run on ARM devices.
 
 
 # NetHunter - Android Mobile
@@ -1288,7 +1288,7 @@ Description: Kali Linux database assessment tools menu
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the webapp assessment tools that Kali Linux
+ This metapackage depends on all the database assessment tools that Kali Linux
  provides.
 
 
@@ -1800,8 +1800,7 @@ Description: Kali Linux headless tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on all the tools which don't require X11/GUI
- that Kali Linux provides.
+ This metapackage depends on some popular tools which don't require X11/GUI.
 
 
 # Top 10
@@ -1974,8 +1973,8 @@ Depends: ${misc:Depends},
 Recommends:
  libcanberra-gtk3-module,
  libcanberra-gtk-module
-Description: XFCE based Kali desktop
- This metapackage installs a minimalistic XFCE desktop on your Kali system.
+Description: Xfce based Kali desktop
+ This metapackage installs a minimalistic Xfce desktop on your Kali system.
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -2015,20 +2014,22 @@ Package: kali-linux-all
 Architecture: all
 Depends: kali-linux-everything, ${misc:Depends}
 Description: Transitional package for kali-linux-everything
- This package is empty. It only depends on kali-linux-everything to ensure a sane
- upgrade path in Kali.
+ This package is empty. It only depends on kali-linux-everything to ensure a
+ sane upgrade path in Kali.
  .
- This package can be safely removed once kali-linux-everything has been installed.
+ This package can be safely removed once kali-linux-everything has been
+ installed.
 
 
 Package: kali-linux-forensics
 Architecture: all
 Depends: kali-tools-forensics, ${misc:Depends}
 Description: Transitional package for kali-tools-forensics
- This package is empty. It only depends on kali-tools-forensics to ensure a sane
- upgrade path in Kali.
+ This package is empty. It only depends on kali-tools-forensics to ensure a
+ sane upgrade path in Kali.
  .
- This package can be safely removed once kali-tools-forensics has been installed.
+ This package can be safely removed once kali-tools-forensics has been
+ installed.
 
 
 Package: kali-linux-full
@@ -2055,10 +2056,11 @@ Package: kali-linux-pwtools
 Architecture: all
 Depends: kali-tools-passwords, ${misc:Depends}
 Description: Transitional package for kali-tools-passwords
- This package is empty. It only depends on kali-tools-passwords to ensure a sane
- upgrade path in Kali.
+ This package is empty. It only depends on kali-tools-passwords to ensure a
+ sane upgrade path in Kali.
  .
- This package can be safely removed once kali-tools-passwords has been installed.
+ This package can be safely removed once kali-tools-passwords has been
+ installed.
 
 
 Package: kali-linux-rfid
