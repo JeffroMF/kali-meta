@@ -2034,11 +2034,11 @@ Description: Transitional package for kali-tools-forensics
 Package: kali-linux-full
 Architecture: all
 Depends: kali-linux-large, ${misc:Depends}
-Description: Transitional package for kali-linux-default
- This package is empty. It only depends on kali-linux-default to ensure a sane
+Description: Transitional package for kali-linux-large
+ This package is empty. It only depends on kali-linux-large to ensure a sane
  upgrade path in Kali.
  .
- This package can be safely removed once kali-linux-default has been installed.
+ This package can be safely removed once kali-linux-large has been installed.
 
 
 Package: kali-linux-gpu
