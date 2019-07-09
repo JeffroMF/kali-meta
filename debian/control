@@ -133,9 +133,8 @@ Description: Kali Linux base system
 Package: kali-linux-light
 Architecture: any
 Depends: ${misc:Depends},
-# Any other metapackages
+ Any other metapackages
  kali-linux-core,
- kali-tools-top10,
 # Packages
  firefox-esr,
  openssh-server,
