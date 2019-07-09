@@ -1,3 +1,11 @@
+kali-meta (2019.3.8) kali-dev; urgency=medium
+
+  * Fix i3 - dmenu and suckless-tools
+  * Remove top10 from kali-linux-light
+  * Switch to old default matching metapackage (kali-linux-large)
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Tue, 09 Jul 2019 11:01:35 +0100
+
 kali-meta (2019.3.7) kali-dev; urgency=medium
 
   * limit copy-router-config and sslyze
