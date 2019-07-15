@@ -1585,7 +1585,6 @@ Depends: ${misc:Depends},
  parted,
  pasco,
  pdf-parser,
- pdfbook,
  pdfid,
  pdgmail,
  pev,
@@ -1654,6 +1653,7 @@ Depends: ${misc:Depends},
  unhide,
  winregfs,
  xmount,
+Conflicts: pdfbook
 Description: Kali Linux forensic tools menu
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
