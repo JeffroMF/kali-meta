@@ -1564,7 +1564,7 @@ Depends: ${misc:Depends},
  cabextract,
  chkrootkit,
  creddump,
- dc3dd
+ dc3dd,
  dcfldd,
  ddrescue,
  dumpzilla,
