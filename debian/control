@@ -95,7 +95,6 @@ Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
 # Packages
- apt-transport-https,
  cifs-utils,
  ftp,
  gdisk,

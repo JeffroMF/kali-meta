@@ -1,6 +1,10 @@
 kali-meta (2019.3.10) kali-dev; urgency=medium
 
+  [ Steev Klimaszewski ]
   * Update package dependencies for armel/armhf/arm64 architectures
+
+  [ Raphaël Hertzog ]
+  * Remove apt-transport-https (apt supports https natively)
 
  -- Steev Klimaszewski <steev@kali.org>  Wed, 24 Jul 2019 16:22:17 -0500
 
