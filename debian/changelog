@@ -1,3 +1,9 @@
+kali-meta (2019.3.11) kali-dev; urgency=medium
+
+  * Remove guymager, beef-xss and radare2-cutter from armel
+
+ -- Steev Klimaszewski <steev@kali.org>  Fri, 26 Jul 2019 02:04:36 -0500
+
 kali-meta (2019.3.10) kali-dev; urgency=medium
 
   [ Steev Klimaszewski ]
