@@ -1,3 +1,11 @@
+kali-meta (2019.3.13) kali-dev; urgency=medium
+
+  * Remove obsolete giskismet: replaced by kismet-logtools in new Kismet
+    version.
+  * Remove obsolete and unmaintained mitmf
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 15 Aug 2019 09:38:48 +0200
+
 kali-meta (2019.3.12) kali-dev; urgency=medium
 
   * Add ettercap-graphical to kali-linux-nethunter metapackage so that
