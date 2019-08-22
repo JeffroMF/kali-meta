@@ -15,8 +15,6 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-linux-core
 #  - kali-linux-light
 #  - kali-linux-default
-#  - kali-linux-large
-#  - kali-linux-everything
 #  - kali-linux-arm
 #  - kali-linux-nethunter
 #
@@ -48,10 +46,13 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-tools-reporting
 #
 # * Courses
+#  - offsec-awae
 #  - offsec-pwk
 #
 # * Misc
 #  - kali-desktop-live
+#  - kali-linux-everything
+#  - kali-linux-large
 #  - kali-tools-headless
 #  - kali-tools-top10
 #
@@ -63,7 +64,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-desktop-kde
 #  - kali-desktop-lxde
 #  - kali-desktop-mate
-#  - kali-desktop-plymouth
+#  - kali-desktop-pantheon
 #  - kali-desktop-xfce
 #
 # * Legacy
@@ -151,6 +152,7 @@ Depends: ${misc:Depends},
  kali-linux-core,
 # Packages
  aircrack-ng,
+ amass,
  arp-scan,
  arping | iputils-arping,
  autopsy,
@@ -307,7 +309,6 @@ Depends: ${misc:Depends},
  hashdeep,
  hotpatch [amd64 i386],
  ifenslave,
- leafpad,
  minicom,
  miredo,
  multimac,
@@ -344,297 +345,6 @@ Description: Kali Linux default system
  .
  This metapackage depends on all the applications that are included in
  official Kali Linux images.
-
-
-# Large more common programs (+ common + default)
-Package: kali-linux-large
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
- kali-linux-core,
- kali-linux-default,
-# Packages
- 0trace,
- ace-voip,
- afflib-tools,
- amap,
- apache-users,
- apktool,
- armitage,
- arpwatch,
- asleap,
- automater,
- backdoor-factory,
- bbqsql,
- bdfproxy,
- bed,
- beef-xss [!armel],
- blindelephant,
- bluelog,
- blueranger,
- bluesnarfer,
- braa,
- btscanner,
- cabextract,
- cdpsnarf,
- chirp,
- cisco-auditing-tool,
- cisco-global-exploiter,
- cisco-ocs,
- cisco-torch,
- cmospwd [amd64 i386],
- copy-router-config [amd64 i386],
- cowpatty,
- cymothoa [amd64 i386],
- darkstat,
- dc3dd,
- dcfldd,
- ddrescue,
- deblaze,
- dex2jar,
- dhcpig,
- dnmap,
- dnsmap,
- dnstracer,
- dnswalk,
- doona,
- dotdotpwn,
- dradis [amd64 i386],
- driftnet,
- dsniff,
- dumpzilla,
- eapmd5pass,
- enumiax,
- ettercap-graphical | ettercap-text-only,
- ewf-tools,
- extundelete,
- fcrackzip,
- ferret-sidejack [i386],
- fiked,
- fimap,
- flasm,
- foremost,
- fragroute,
- fragrouter,
- framework2,
- ftester,
- funkload,
- galleta,
- golismero,
- grabber,
- hackrf,
- hamster-sidejack,
- hexinject,
- httrack,
- iaxflood,
- intersect,
- intrace,
- inviteflood,
- irpas,
- jad,
- javasnoop,
- jboss-autopwn,
- johnny,
- joomscan,
- jsql-injection,
- keimpx,
- killerbee,
- kismet-logtools,
- libfindrtp [amd64 arm64 i386],
- libfreefare-bin,
- libhivex-bin,
- libnfc-bin,
- lynis,
- mdbtools,
- mdk3,
- medusa,
- memdump,
- mercurial,
- mfcuk,
- mfoc,
- mfterm,
- missidentify,
- ncat-w32,
- netwag,
- nipper-ng,
- nishang,
- ohrwurm,
- ollydbg [amd64 i386],
- oscanner,
- p0f,
- pack,
- padbuster,
- paros,
- pasco,
- pdgmail,
- perl-cisco-copyconfig [amd64 i386],
- pev,
- plecost,
- polenum,
- powerfuzzer,
- protos-sip,
- proxystrike,
- pst-utils,
- pyrit,
- python-rfidiot,
- rainbowcrack [amd64],
- rcracki-mt,
- recoverjpeg,
- recstudio [i386],
- redfang,
- reglookup,
- regripper [amd64 i386],
- rifiuti,
- rifiuti2,
- rtpbreak,
- rtpflood,
- rtpinsertsound [amd64 arm64 i386],
- rtpmixsound [amd64 arm64 i386],
- safecopy,
- sctpscan [amd64 i386],
- sfuzz,
- sidguesser,
- siege,
- siparmyknife,
- sipcrack,
- sipp,
- sipvicious,
- smali,
- smtp-user-enum,
- sniffjoke,
- spectools,
- sqldict [amd64 i386],
- sqlninja,
- sqlsus,
- sslsniff,
- subversion,
- sucrack,
- t50,
- termineter,
- tftpd32,
- thc-ssl-dos,
- tlssled,
- tnscmd10g,
- truecrack,
- twofi,
- u3-pwn,
- ua-tester,
- unicornscan,
- uniscan,
- urlcrazy,
- vinetto,
- volafox,
- volatility,
- wapiti,
- wce,
- webacoo,
- webscarab,
- wifi-honey,
- wifitap,
- wol-e,
- xprobe,
- xspy,
- xsser,
- yersinia,
- zaproxy,
- zim,
-# System Tools
- cgpt,
- chkrootkit,
- edb-debugger [amd64 i386],
- gdb,
- mc,
- tcpflow,
- vim-gtk,
- zerofree,
-Description: Kali Linux large system
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage installs the applications which are included by default in
- official Kali Linux images and adds many more on top of those.
-
-
-# Every package
-Package: kali-linux-everything
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
- kali-linux-core,
- kali-linux-default,
- kali-linux-large,
- kali-linux-nethunter,
- kali-tools-802-11,
- kali-tools-bluetooth,
- kali-tools-database,
- kali-tools-exploitation,
- kali-tools-forensics,
- kali-tools-fuzzing,
- kali-tools-gpu,
- kali-tools-hardware,
- kali-tools-headless,
- kali-tools-information-gathering,
- kali-tools-passwords,
- kali-tools-post-exploitation,
- kali-tools-reporting,
- kali-tools-reverse-engineering,
- kali-tools-rfid,
- kali-tools-sdr,
- kali-tools-sniffing-spoofing,
- kali-tools-social-engineering,
- kali-tools-crypto-stego,
- kali-tools-top10,
- kali-tools-voip,
- kali-tools-vulnerability,
- kali-tools-web,
- kali-tools-windows-resources,
- kali-tools-wireless,
-# Packages
- android-sdk,
- device-pharmer,
- exploitdb-bin-sploits,
- exploitdb-papers,
- freeradius,
- hackersh,
- htshells,
- ident-user-enum,
- ismtp,
- linux-exploit-suggester,
- openvas,
- parsero,
- payloadsallthethings,
- python-halberd,
- sandi,
- set,
- shellnoob,
- shellter [amd64 i386],
- teamsploit,
- veil [amd64 i386],
- webhandler,
- websploit,
- bruteforce-salted-openssl,
- brutespray,
- capstone-tool,
- changeme,
- chaosreader,
- crack,
- dislocker,
- goldeneye,
- knocker,
- nmapsi4,
- o-saft,
- pnscan,
- pompem,
- princeprocessor [amd64 arm64],
- shed,
- testssl.sh,
- wig,
-Description: Everything in Kali Linux
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage depends on all other specific purpose metapackages and
- some more applications. Beware, this will install a lot of stuff!
 
 
 # ARM
@@ -825,25 +535,6 @@ Description: Kali Linux hardware attacks tools
  that Kali Linux provides.
 
 
-# Fuzzing
-Package: kali-tools-fuzzing
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
-# Packages
- afl,
- sandsifter [amd64],
- sfuzz,
- spike,
- wfuzz,
-Description: Kali Linux fuzzing attacks tools
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage depends on all the fuzzing attack tools
- that Kali Linux provides.
-
-
 # Cryptography + Steganography
 Package: kali-tools-crypto-stego
 Architecture: any
@@ -861,6 +552,25 @@ Description: Kali Linux Cryptography and Steganography tools
  auditing distribution.
  .
  This metapackage depends on all the Cryptography and Steganography tools
+ that Kali Linux provides.
+
+
+# Fuzzing
+Package: kali-tools-fuzzing
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+# Packages
+ afl,
+ sandsifter [amd64],
+ sfuzz,
+ spike,
+ wfuzz,
+Description: Kali Linux fuzzing attacks tools
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the fuzzing attack tools
  that Kali Linux provides.
 
 
@@ -1233,7 +943,7 @@ Depends: ${misc:Depends},
  siege,
  skipfish,
  slowhttptest,
- sqldict [amd64 i386],
+ sqldict,
  sqlitebrowser,
  sqlmap,
  sqlninja,
@@ -1286,7 +996,7 @@ Depends: ${misc:Depends},
  mdbtools,
  oscanner,
  sidguesser,
- sqldict,
+ sqldict [amd64 i386],
  sqlitebrowser,
  sqlmap,
  sqlninja,
@@ -1693,6 +1403,29 @@ Description: Kali Linux reporting tools menu
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+# Advanced Web Attacks and Exploitation
+Package: offsec-awae
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+ kali-linux-core,
+# Packages
+ burpsuite,
+ firefox-esr,
+ impacket-scripts,
+ netcat-traditional,
+ network-manager-openvpn-gnome,
+ openjdk-11-jdk-headless,
+ python2,
+ rdesktop,
+ xfreerdp,
+Description: Resources for Offsec's AWAE
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on the resources required for Offsec's AWAE.
+
+
 # Penetration Testing Training with Kali Linux
 Package: offsec-pwk
 Architecture: any
@@ -1723,8 +1456,9 @@ Depends: ${misc:Depends},
  nbtscan,
  ncat,
  ncrack,
- netcat-traditional,
  net-tools,
+ netcat-traditional,
+ network-manager-openvpn-gnome,
  nmap,
  onesixtyone,
  openjdk-11-jdk-headless,
@@ -1785,6 +1519,298 @@ Description: Meta-package for Kali live images
  They provide features that are not directly related to penetration testing but
  that are intended to make the image more useful and usable for a wide set of
  users.
+
+
+
+# Every package
+Package: kali-linux-everything
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+ kali-linux-core,
+ kali-linux-default,
+ kali-linux-large,
+ kali-linux-nethunter,
+ kali-tools-802-11,
+ kali-tools-bluetooth,
+ kali-tools-database,
+ kali-tools-exploitation,
+ kali-tools-forensics,
+ kali-tools-fuzzing,
+ kali-tools-gpu,
+ kali-tools-hardware,
+ kali-tools-headless,
+ kali-tools-information-gathering,
+ kali-tools-passwords,
+ kali-tools-post-exploitation,
+ kali-tools-reporting,
+ kali-tools-reverse-engineering,
+ kali-tools-rfid,
+ kali-tools-sdr,
+ kali-tools-sniffing-spoofing,
+ kali-tools-social-engineering,
+ kali-tools-crypto-stego,
+ kali-tools-top10,
+ kali-tools-voip,
+ kali-tools-vulnerability,
+ kali-tools-web,
+ kali-tools-windows-resources,
+ kali-tools-wireless,
+# Packages
+ android-sdk,
+ device-pharmer,
+ exploitdb-bin-sploits,
+ exploitdb-papers,
+ freeradius,
+ hackersh,
+ htshells,
+ ident-user-enum,
+ ismtp,
+ linux-exploit-suggester,
+ openvas,
+ parsero,
+ payloadsallthethings,
+ python-halberd,
+ sandi,
+ set,
+ shellnoob,
+ shellter [amd64 i386],
+ teamsploit,
+ veil [amd64 i386],
+ webhandler,
+ websploit,
+ bruteforce-salted-openssl,
+ brutespray,
+ capstone-tool,
+ changeme,
+ chaosreader,
+ crack,
+ dislocker,
+ goldeneye,
+ knocker,
+ nmapsi4,
+ o-saft,
+ pnscan,
+ pompem,
+ princeprocessor [amd64 arm64],
+ shed,
+ testssl.sh,
+ wig,
+Description: Everything in Kali Linux
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all other specific purpose metapackages and
+ some more applications. Beware, this will install a lot of stuff!
+
+
+# More common programs (+ common + default)
+Package: kali-linux-large
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+ kali-linux-core,
+ kali-linux-default,
+# Packages
+ 0trace,
+ ace-voip,
+ afflib-tools,
+ amap,
+ apache-users,
+ apktool,
+ armitage,
+ arpwatch,
+ asleap,
+ automater,
+ backdoor-factory,
+ bbqsql,
+ bdfproxy,
+ bed,
+ beef-xss [!armel],
+ blindelephant,
+ bluelog,
+ blueranger,
+ bluesnarfer,
+ braa,
+ btscanner,
+ cabextract,
+ cdpsnarf,
+ chirp,
+ cisco-auditing-tool,
+ cisco-global-exploiter,
+ cisco-ocs,
+ cisco-torch,
+ cmospwd [amd64 i386],
+ copy-router-config [amd64 i386],
+ cowpatty,
+ cymothoa [amd64 i386],
+ darkstat,
+ dc3dd,
+ dcfldd,
+ ddrescue,
+ deblaze,
+ dex2jar,
+ dhcpig,
+ dnmap,
+ dnsmap,
+ dnstracer,
+ dnswalk,
+ doona,
+ dotdotpwn,
+ dradis [amd64 i386],
+ driftnet,
+ dsniff,
+ dumpzilla,
+ eapmd5pass,
+ enumiax,
+ ettercap-graphical | ettercap-text-only,
+ ewf-tools,
+ extundelete,
+ fcrackzip,
+ ferret-sidejack [i386],
+ fiked,
+ fimap,
+ flasm,
+ foremost,
+ fragroute,
+ fragrouter,
+ framework2,
+ ftester,
+ funkload,
+ galleta,
+ golismero,
+ grabber,
+ hackrf,
+ hamster-sidejack,
+ hexinject,
+ httrack,
+ iaxflood,
+ intersect,
+ intrace,
+ inviteflood,
+ irpas,
+ jad,
+ javasnoop,
+ jboss-autopwn,
+ johnny,
+ joomscan,
+ jsql-injection,
+ keimpx,
+ killerbee,
+ kismet-logtools,
+ libfindrtp [amd64 arm64 i386],
+ libfreefare-bin,
+ libhivex-bin,
+ libnfc-bin,
+ lynis,
+ mdbtools,
+ mdk3,
+ medusa,
+ memdump,
+ mercurial,
+ mfcuk,
+ mfoc,
+ mfterm,
+ missidentify,
+ ncat-w32,
+ netwag,
+ nipper-ng,
+ nishang,
+ ohrwurm,
+ ollydbg [amd64 i386],
+ oscanner,
+ p0f,
+ pack,
+ padbuster,
+ paros,
+ pasco,
+ pdgmail,
+ perl-cisco-copyconfig [amd64 i386],
+ pev,
+ plecost,
+ polenum,
+ powerfuzzer,
+ protos-sip,
+ proxystrike,
+ pst-utils,
+ pyrit,
+ python-rfidiot,
+ rainbowcrack [amd64],
+ rcracki-mt,
+ recoverjpeg,
+ recstudio [i386],
+ redfang,
+ reglookup,
+ regripper [amd64 i386],
+ rifiuti,
+ rifiuti2,
+ rtpbreak,
+ rtpflood,
+ rtpinsertsound [amd64 arm64 i386],
+ rtpmixsound [amd64 arm64 i386],
+ safecopy,
+ sctpscan [amd64 i386],
+ sfuzz,
+ sidguesser,
+ siege,
+ siparmyknife,
+ sipcrack,
+ sipp,
+ sipvicious,
+ smali,
+ smtp-user-enum,
+ sniffjoke,
+ spectools,
+ sqldict [amd64 i386],
+ sqlninja,
+ sqlsus,
+ sslsniff,
+ subversion,
+ sucrack,
+ t50,
+ termineter,
+ tftpd32,
+ thc-ssl-dos,
+ tlssled,
+ tnscmd10g,
+ truecrack,
+ twofi,
+ u3-pwn,
+ ua-tester,
+ unicornscan,
+ uniscan,
+ urlcrazy,
+ vinetto,
+ volafox,
+ volatility,
+ wapiti,
+ wce,
+ webacoo,
+ webscarab,
+ wifi-honey,
+ wifitap,
+ wol-e,
+ xprobe,
+ xspy,
+ xsser,
+ yersinia,
+ zaproxy,
+ zim,
+# System Tools
+ cgpt,
+ chkrootkit,
+ edb-debugger [amd64 i386],
+ gdb,
+ mc,
+ tcpflow,
+ vim-gtk,
+ zerofree,
+Description: Kali Linux large system
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage installs the applications which are included by default in
+ official Kali Linux images and adds many more on top of those.
 
 
 # Headless
@@ -1858,7 +1884,7 @@ Depends: ${misc:Depends},
 # video cards (QXL/VBOX/VMWARE at least)
  xserver-xorg-legacy,
 Description: Meta-package with dependencies common to all desktops provided by Kali
- This metapackage depends on Kali packages that should be intalled on all
+ This metapackage depends on Kali packages that should be installed on all
  desktop installations of Kali Linux.
  .
  This metapackage is a dependency of all kali-desktop-* packages.
@@ -1897,11 +1923,11 @@ Depends: ${misc:Depends},
  file-roller,
 Recommends:
  libcanberra-gtk3-module,
- libcanberra-gtk-module
+ libcanberra-gtk-module,
 Conflicts:
 # Drop synaptics driver so that touchpads are managed with libinput
  xserver-xorg-input-synaptics,
- gnome-shell-extension-workspacestodock
+ gnome-shell-extension-workspacestodock,
 Description: GNOME based Kali desktop
  This metapackage installs a minimalistic GNOME desktop on your Kali system.
 
@@ -1938,7 +1964,7 @@ Depends: ${misc:Depends},
  lxde,
 Recommends:
  libcanberra-gtk3-module,
- libcanberra-gtk-module
+ libcanberra-gtk-module,
 Description: LXDE based Kali desktop
  This metapackage installs a minimalistic LXDE desktop on your Kali system.
 
@@ -1971,15 +1997,16 @@ Depends: ${misc:Depends},
  xfce4,
  xfce4-terminal,
  xfce4-power-manager-plugins,
+ gnome-theme-kali,
  lightdm,
+ mousepad,
  network-manager-gnome,
  xserver-xorg-input-synaptics,
- gnome-theme-kali,
 Recommends:
  libcanberra-gtk3-module,
- libcanberra-gtk-module
-Description: Xfce based Kali desktop
- This metapackage installs a minimalistic Xfce desktop on your Kali system.
+ libcanberra-gtk-module,
+Description: XFCE based Kali desktop
+ This metapackage installs a minimalistic XFCE desktop on your Kali system.
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
