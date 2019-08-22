@@ -13,8 +13,8 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #
 # * Systems
 #  - kali-linux-core
-#  - kali-linux-light
 #  - kali-linux-default
+#  - kali-linux-light
 #  - kali-linux-arm
 #  - kali-linux-nethunter
 #
@@ -128,20 +128,6 @@ Description: Kali Linux base system
  on any Kali system.
 
 
-# Default for Kali Linux light images
-Package: kali-linux-light
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
- kali-linux-core,
-# Packages
- firefox-esr,
- openssh-server,
-Description: Kali Linux light tools
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage depends for Kali Linux Light.
 
 
 # Default for (base) images
@@ -345,6 +331,22 @@ Description: Kali Linux default system
  .
  This metapackage depends on all the applications that are included in
  official Kali Linux images.
+
+
+# Default for Kali Linux light images
+Package: kali-linux-light
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+ kali-linux-core,
+# Packages
+ firefox-esr,
+ openssh-server,
+Description: Kali Linux light tools
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends for Kali Linux Light.
 
 
 # ARM
