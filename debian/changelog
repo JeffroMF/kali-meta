@@ -1,3 +1,9 @@
+kali-meta (2019.4.1) kali-dev; urgency=medium
+
+  * Add amass and offsec-awae
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 22 Aug 2019 15:51:32 +0100
+
 kali-meta (2019.3.13) kali-dev; urgency=medium
 
   * Remove obsolete giskismet: replaced by kismet-logtools in new Kismet
