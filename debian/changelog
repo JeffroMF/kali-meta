@@ -1,3 +1,9 @@
+kali-meta (2019.4.2) kali-dev; urgency=medium
+
+  * Fix offsec-awae
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Tue, 27 Aug 2019 17:20:29 +0100
+
 kali-meta (2019.4.1) kali-dev; urgency=medium
 
   * Add amass and offsec-awae
