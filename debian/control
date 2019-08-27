@@ -1782,13 +1782,13 @@ Depends: ${misc:Depends},
 # Packages
  burpsuite,
  firefox-esr,
+ freerdp2-x11,
  impacket-scripts,
  netcat-traditional,
  network-manager-openvpn-gnome,
  openjdk-11-jdk-headless,
  python2,
  rdesktop,
- xfreerdp,
 Description: Resources for Offsec's AWAE
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
