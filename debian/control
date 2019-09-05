@@ -575,7 +575,7 @@ Depends: ${misc:Depends},
 # Any other metapackages
 # Packages
  ace,
- afl,
+ afl++,
  bed,
  cisco-auditing-tool,
  cisco-global-exploiter,
@@ -1219,7 +1219,7 @@ Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
 # Packages
- afl,
+ afl++,
  sandsifter [amd64],
  sfuzz,
  spike,
