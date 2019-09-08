@@ -1,3 +1,9 @@
+kali-meta (2019.4.4) kali-dev; urgency=medium
+
+  * Add powershell
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Sun, 08 Sep 2019 14:41:29 +0100
+
 kali-meta (2019.4.3) kali-dev; urgency=medium
 
   * Replace afl by afl++ (see issue 5645)
