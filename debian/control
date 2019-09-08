@@ -49,8 +49,8 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-linux-large
 #  - kali-linux-everything
 #  - kali-tools-top10
-#  - kali-desktop-live
 #  - kali-tools-headless
+#  - kali-desktop-live
 #
 # * Courses
 #  - offsec-awae
@@ -1605,6 +1605,7 @@ Depends: ${misc:Depends},
  edb-debugger [amd64 i386],
  gdb,
  mc,
+ powershell,
  tcpflow,
  vim-gtk,
  zerofree,
@@ -1722,6 +1723,27 @@ Description: Kali Linux top 10 tools
  provides.
 
 
+# Headless
+Package: kali-tools-headless
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+# Packages
+ aircrack-ng,
+ crackmapexec,
+ hydra,
+ john,
+ metasploit-framework,
+ nmap,
+ responder,
+ sqlmap,
+Description: Kali Linux headless tools
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on some popular tools which don't require X11/GUI.
+
+
 # Live boot
 Package: kali-desktop-live
 Architecture: all
@@ -1745,27 +1767,6 @@ Description: Meta-package for Kali live images
  They provide features that are not directly related to penetration testing but
  that are intended to make the image more useful and usable for a wide set of
  users.
-
-
-# Headless
-Package: kali-tools-headless
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
-# Packages
- aircrack-ng,
- crackmapexec,
- hydra,
- john,
- metasploit-framework,
- nmap,
- responder,
- sqlmap,
-Description: Kali Linux headless tools
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage depends on some popular tools which don't require X11/GUI.
 
 
 #
