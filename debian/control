@@ -892,7 +892,6 @@ Depends: ${misc:Depends},
  shellnoob,
  sqlmap,
  termineter,
- vfeed,
 Description: Kali Linux exploitation tools menu
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
