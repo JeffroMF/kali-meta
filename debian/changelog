@@ -1,3 +1,10 @@
+kali-meta (2019.4.7) kali-dev; urgency=medium
+
+  * Drop libgnuradio-baz from kali-tools-sdr
+  * Drop gqrx transitional package
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 17 Sep 2019 14:19:46 +0200
+
 kali-meta (2019.4.6) kali-dev; urgency=medium
 
   * Remove vfeed (upstream discontinued the vFeed Community Edition)
