@@ -68,7 +68,6 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-desktop-xfce
 #
 # * Legacy
-#  - gqrx
 #  - kali-desktop-common
 #  - kali-linux
 #  - kali-linux-all
@@ -1318,7 +1317,6 @@ Depends: ${misc:Depends},
 # Packages
  chirp,
  gnuradio,
- gqrx,
  gqrx-sdr,
  gr-air-modes,
  gr-iqbal,
@@ -2016,16 +2014,6 @@ Description: XFCE based Kali desktop
 #
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 #
-
-
-Package: gqrx
-Architecture: all
-Depends: gqrx-sdr, ${misc:Depends}
-Description: Transitional package for gqrx-sdr
- This package is empty. It only depends on gqrx-sdr to ensure a sane
- upgrade path in Kali.
- .
- This package can be safely removed once gqrx-sdr has been installed.
 
 
 Package: kali-desktop-common
