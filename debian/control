@@ -99,7 +99,6 @@ Depends: ${misc:Depends},
  ftp,
  gdisk,
  iw,
- lvm2,
  mlocate,
  netcat-traditional,
  nfs-common,
@@ -1716,6 +1715,7 @@ Depends: ${misc:Depends},
  console-setup,
 # Access to encrypted devices
  cryptsetup,
+ lvm2,
 # l10n for everybody
  locales-all,
 # Wipe HDD
