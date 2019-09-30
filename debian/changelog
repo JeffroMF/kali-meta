@@ -1,3 +1,9 @@
+kali-meta (2019.4.9) kali-dev; urgency=medium
+
+  * Move lvm2 from kali-linux-core to kali-desktop-live.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 30 Sep 2019 16:31:25 +0200
+
 kali-meta (2019.4.8) kali-dev; urgency=medium
 
   * Remove obsolete packages:
