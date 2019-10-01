@@ -1,3 +1,11 @@
+kali-meta (2019.4.10) kali-dev; urgency=medium
+
+  * Remove obsolete packages:
+    deblaze mana-toolkit powerfuzzer proxystrike creddump dnmap fimap findmyhash
+    ghost-phisher grabber hexorbase intersect maltego-teeth nfspy
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 01 Oct 2019 15:14:58 +0200
+
 kali-meta (2019.4.9) kali-dev; urgency=medium
 
   * Move lvm2 from kali-linux-core to kali-desktop-live.
