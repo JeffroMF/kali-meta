@@ -1,3 +1,14 @@
+kali-meta (2019.4.12) kali-dev; urgency=medium
+
+  [ g0t mi1k ]
+  * Replace nethunter's tightvcnserver with tigervnc-standalone-server
+
+  [ Sophie Brun ]
+  * Remove obsolete oclhashcat and replace it with hashcat in kali-tools-802-11
+  * Add hostapd-wpe in kali-tools-802-11 (see 5763)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 29 Oct 2019 10:05:38 +0100
+
 kali-meta (2019.4.11) kali-dev; urgency=medium
 
   * Remove obsolete package: funkload
