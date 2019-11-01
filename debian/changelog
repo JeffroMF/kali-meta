@@ -1,3 +1,13 @@
+kali-meta (2019.4.13) kali-dev; urgency=medium
+
+  [ Re4son ]
+  * Replace nethunter's tightvcnserver with tigervnc-standalone-server
+
+  [ Sophie Brun ]
+  * Use new package kali-theme and remove old package gnome-theme-kali
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 01 Nov 2019 10:53:44 +0100
+
 kali-meta (2019.4.12) kali-dev; urgency=medium
 
   [ g0t mi1k ]
