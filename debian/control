@@ -405,7 +405,7 @@ Depends: ${misc:Depends},
  kali-defaults,
  kali-root-login,
 # Window Manager (WM)
- desktop-base,
+ kali-themes,
  xfce4,
  xfce4-goodies,
  xfce4-places-plugin,
@@ -1806,7 +1806,6 @@ Depends: ${misc:Depends},
  kali-menu,
  kali-root-login,
  kali-themes,
- desktop-base,
 # Ensure we have enough entropy on boot to avoid delays (FS #4994)
  haveged,
 # We always want a web browser
