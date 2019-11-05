@@ -1798,7 +1798,7 @@ Description: Resources for Offsec's PWK
 
 
 Package: kali-desktop-core
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends},
  kali-archive-keyring,
  kali-debtags,
