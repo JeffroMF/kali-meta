@@ -330,7 +330,7 @@ Depends: ${misc:Depends},
 # Any other metapackages
  kali-linux-core,
 # Packages
- firefox-esr,
+ firefox-esr [!armel], midori [armel],
  openssh-server,
 Description: Kali Linux light tools
  This is Kali Linux, the most advanced penetration testing and security
@@ -1712,7 +1712,7 @@ Depends: ${misc:Depends},
  kali-linux-core,
 # Packages
  burpsuite,
- firefox-esr,
+ firefox-esr [!armel], midori [armel],
  freerdp2-x11,
  impacket-scripts,
  netcat-traditional,
@@ -1745,7 +1745,7 @@ Depends: ${misc:Depends},
  edb-debugger [amd64 i386],
  enum4linux,
  exploitdb,
- firefox-esr,
+ firefox-esr [!armel], midori [armel],
  hash-identifier,
  hydra,
  iptables,
@@ -1810,9 +1810,8 @@ Depends: ${misc:Depends},
 # Ensure we have enough entropy on boot to avoid delays (FS #4994)
  haveged,
 # We always want a web browser
-# Needs to be fixed/simplified after #832501 & #832503 are solved
 # We allow firefox-esr:armhf for usage on arm64 where the native one is broken
- firefox-esr | firefox-esr:any | firefox-esr:armhf | firefox | www-browser | www-browser:any,
+ firefox-esr [!armel] | midori [armel] | firefox-esr:armhf [arm64] | firefox | www-browser,
 # To ensure pulseaudio started by systemd --user has DBUS_SESSION_ADDRESS
 # Related to kde-config-sddm
  dbus-user-session,
