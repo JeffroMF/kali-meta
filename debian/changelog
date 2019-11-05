@@ -1,3 +1,10 @@
+kali-meta (2019.4.15) kali-dev; urgency=medium
+
+  * Mark kali-desktop-core as "Arch: any"
+  * Add kali-desktop-base dependency on desktops without proper kali-themes integration
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 05 Nov 2019 12:17:14 +0100
+
 kali-meta (2019.4.14) kali-dev; urgency=medium
 
   * Use midori instead of firefox-esr on armel
