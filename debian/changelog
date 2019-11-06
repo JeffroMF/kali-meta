@@ -1,3 +1,12 @@
+kali-meta (2019.4.16) kali-dev; urgency=medium
+
+  * Add qterminal to all our desktop images (via kali-desktop-core)
+  * Adjust the package list for XFCE (via kali-desktop-xfce)
+    Add xcape and xfce4-whiskermenu-plugin, drop xfce4-terminal (replaced
+    by qterminal).
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 06 Nov 2019 21:55:22 +0100
+
 kali-meta (2019.4.15) kali-dev; urgency=medium
 
   * Mark kali-desktop-core as "Arch: any"
