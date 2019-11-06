@@ -1806,6 +1806,8 @@ Depends: ${misc:Depends},
  kali-menu,
  kali-root-login,
  kali-themes,
+# Our recommended terminal
+ qterminal,
 # Ensure we have enough entropy on boot to avoid delays (FS #4994)
  haveged,
 # We always want a web browser
