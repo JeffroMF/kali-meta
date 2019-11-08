@@ -267,7 +267,6 @@ Depends: ${misc:Depends},
  wireshark,
  wordlists,
  wpscan,
- zenmap,
 # System Tools
  apache2,
  atftpd,
@@ -542,7 +541,6 @@ Depends: ${misc:Depends},
  urlcrazy,
  wafw00f,
  xprobe,
- zenmap,
 Description: Kali Linux information gathering menu
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
