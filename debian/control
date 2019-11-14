@@ -1933,17 +1933,24 @@ Description: MATE based Kali desktop
 Package: kali-desktop-xfce
 Architecture: all
 Depends: ${misc:Depends},
+# Basics
  kali-desktop-core,
  xfce4,
- xfce4-power-manager-plugins,
- xfce4-whiskermenu-plugin,
  lightdm,
+# Integrated in the default configuration in some way (in the panel, in the
+# favorites, autostarted, etc.)
  kazam,
  mousepad,
  network-manager-gnome,
- xserver-xorg-input-synaptics,
  xcape,
+ xfce4-power-manager-plugins,
+ xfce4-screenshooter,
+ xfce4-whiskermenu-plugin,
+# XFCE doesn't work with libinput yet, so install synaptics driver instead
+# See https://bugs.kali.org/view.php?id=4553
+ xserver-xorg-input-synaptics,
 Recommends:
+# Installed by default but can be removed wihout adverse effect
  xfce4-goodies,
  parole,
  ristretto,
