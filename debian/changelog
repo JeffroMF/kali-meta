@@ -1,3 +1,9 @@
+kali-meta (2019.4.19) kali-dev; urgency=medium
+
+  * Add parole and ristretto to kali-desktop-xfce
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 14 Nov 2019 10:13:45 +0100
+
 kali-meta (2019.4.18) kali-dev; urgency=medium
 
   [ Re4son ]
