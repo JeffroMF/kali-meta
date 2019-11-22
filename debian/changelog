@@ -1,3 +1,10 @@
+kali-meta (2019.4.21) kali-dev; urgency=medium
+
+  * Xfce is spelled Xfce and not full uppercase (according to lintian)
+  * Add kali-undercover to kali-desktop-xfce Recommends
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 22 Nov 2019 08:08:24 +0100
+
 kali-meta (2019.4.20) kali-dev; urgency=medium
 
   * Add xfce4-screenshooter to the Depends
