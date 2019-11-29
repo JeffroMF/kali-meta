@@ -1,3 +1,9 @@
+kali-meta (2020.1.0) kali-dev; urgency=medium
+
+  * Don't force synaptics driver for Xfce
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 29 Nov 2019 11:25:18 +0100
+
 kali-meta (2019.4.21) kali-dev; urgency=medium
 
   * Xfce is spelled Xfce and not full uppercase (according to lintian)
