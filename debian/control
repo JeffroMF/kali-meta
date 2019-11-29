@@ -1946,9 +1946,6 @@ Depends: ${misc:Depends},
  xfce4-power-manager-plugins,
  xfce4-screenshooter,
  xfce4-whiskermenu-plugin,
-# Xfce doesn't work with libinput yet, so install synaptics driver instead
-# See https://bugs.kali.org/view.php?id=4553
- xserver-xorg-input-synaptics,
 Recommends:
 # Installed by default but can be removed wihout adverse effect
  kali-undercover,
