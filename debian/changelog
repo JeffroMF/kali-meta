@@ -1,3 +1,9 @@
+kali-meta (2020.1.2) kali-dev; urgency=medium
+
+  * Replace python-dfvfs by python3-dfvfs
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 10 Dec 2019 09:40:37 +0100
+
 kali-meta (2020.1.1) kali-dev; urgency=medium
 
   * Replace obsolete jad package by jadx and bytecode-viewer (see 5036) 
