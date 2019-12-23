@@ -1,3 +1,9 @@
+kali-meta (2020.1.6) kali-dev; urgency=medium
+
+  * Add wallpapers packages
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 23 Dec 2019 13:19:30 +0000
+
 kali-meta (2020.1.5) kali-dev; urgency=medium
 
   * burpsuite is only available for amd64
