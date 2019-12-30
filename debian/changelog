@@ -1,3 +1,9 @@
+kali-meta (2020.1.8) kali-dev; urgency=medium
+
+  * Drop kali-root-login from the default installation
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Mon, 30 Dec 2019 16:01:30 +0100
+
 kali-meta (2020.1.7) kali-dev; urgency=medium
 
   * Add kali-grant-root to kali-desktop-core
