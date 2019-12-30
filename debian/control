@@ -555,7 +555,7 @@ Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
 # Packages
- ace,
+ ace-voip,
  afl++,
  bed,
  cisco-auditing-tool,
