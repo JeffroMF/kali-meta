@@ -1,3 +1,9 @@
+kali-meta (2020.1.9) kali-dev; urgency=medium
+
+  * Add kali-root-login as Suggests
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 02 Jan 2020 09:31:19 +0100
+
 kali-meta (2020.1.8) kali-dev; urgency=medium
 
   * Drop kali-root-login from the default installation
