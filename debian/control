@@ -1819,6 +1819,8 @@ Depends: ${misc:Depends},
 # Might be dropped when KMS works out of the box for all virtualized
 # video cards (QXL/VBOX/VMWARE at least)
  xserver-xorg-legacy,
+# Avoid its removal when it was auto-installed in the past
+Suggests: kali-root-login
 Description: Meta-package with dependencies common to all desktops provided by Kali
  This metapackage depends on Kali packages that should be installed on all
  desktop installations of Kali Linux.
