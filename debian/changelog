@@ -3,7 +3,7 @@ kali-meta (2020.1.10) kali-dev; urgency=medium
   * Replace sparta by legion (fork in Python 3 and Qt5)
   * Replace python-faraday by faraday
 
- -- Sophie Brun <sophie@offensive-security.com>  Fri, 03 Jan 2020 16:07:41 +0100
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 03 Jan 2020 16:17:42 +0100
 
 kali-meta (2020.1.9) kali-dev; urgency=medium
 
