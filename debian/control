@@ -402,7 +402,6 @@ Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
  kali-defaults,
- kali-root-login,
 # Window Manager (WM)
  kali-themes,
  xfce4,
@@ -1805,7 +1804,6 @@ Depends: ${misc:Depends},
  kali-defaults,
  kali-grant-root,
  kali-menu,
- kali-root-login,
  kali-themes,
 # Our recommended terminal
  qterminal,
