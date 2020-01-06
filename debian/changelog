@@ -1,3 +1,9 @@
+kali-meta (2020.1.11) kali-dev; urgency=medium
+
+  * Replace python-dfwinreg by python3-dfwinreg
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 06 Jan 2020 13:21:58 +0100
+
 kali-meta (2020.1.10) kali-dev; urgency=medium
 
   * Replace sparta by legion (fork in Python 3 and Qt5)
