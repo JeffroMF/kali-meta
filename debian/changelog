@@ -1,6 +1,7 @@
-kali-meta (2020.1.12) UNRELEASED; urgency=medium
+kali-meta (2020.1.12) kali-dev; urgency=medium
 
   * Add qsslcaudit in meta-packages (replaces sslcaudit, see 5177) 
+  * Use python3 modules when available
 
  -- Sophie Brun <sophie@offensive-security.com>  Tue, 07 Jan 2020 10:57:17 +0100
 
