@@ -1955,6 +1955,12 @@ Depends: ${misc:Depends},
 Recommends:
 # Installed by default but can be removed wihout adverse effect
  kali-undercover,
+ network-manager-fortisslvpn-gnome,
+ network-manager-l2tp-gnome,
+ network-manager-openconnect-gnome,
+ network-manager-openvpn-gnome,
+ network-manager-pptp-gnome,
+ network-manager-vpnc-gnome,
  xfce4-goodies,
  parole,
  ristretto,
