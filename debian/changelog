@@ -1,3 +1,9 @@
+kali-meta (2020.1.13) kali-dev; urgency=medium
+
+  * Add VPN plugins for NetworkManager to kali-desktop-xfce's Recommends
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 24 Jan 2020 09:32:41 +0100
+
 kali-meta (2020.1.12) kali-dev; urgency=medium
 
   * Add qsslcaudit in meta-packages (replaces sslcaudit, see 5177) 
