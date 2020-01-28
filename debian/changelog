@@ -1,3 +1,9 @@
+kali-meta (2020.1.14) kali-dev; urgency=medium
+
+  * Add gvfs-backends and gvfs-fuse to kali-desktop-xfce
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 28 Jan 2020 14:09:04 +0100
+
 kali-meta (2020.1.13) kali-dev; urgency=medium
 
   * Add VPN plugins for NetworkManager to kali-desktop-xfce's Recommends
