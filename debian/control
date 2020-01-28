@@ -1954,6 +1954,8 @@ Depends: ${misc:Depends},
  xfce4-whiskermenu-plugin,
 Recommends:
 # Installed by default but can be removed wihout adverse effect
+ gvfs-backends,
+ gvfs-fuse,
  kali-undercover,
  network-manager-fortisslvpn-gnome,
  network-manager-l2tp-gnome,
