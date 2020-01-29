@@ -1,3 +1,9 @@
+kali-meta (2020.2.0) kali-dev; urgency=medium
+
+  * Force installation of policykit-1-gnome in Xfce
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 29 Jan 2020 09:15:22 +0100
+
 kali-meta (2020.1.14) kali-dev; urgency=medium
 
   * Add gvfs-backends and gvfs-fuse to kali-desktop-xfce
