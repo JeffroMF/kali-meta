@@ -124,7 +124,7 @@ Recommends:
  firmware-atheros,
  firmware-b43-installer [amd64 i386],
  firmware-b43legacy-installer [amd64 i386],
- firmware-brcm80211,
+ firmware-brcm80211 [amd64 i386],
  firmware-intel-sound,
  firmware-ipw2x00,
  firmware-iwlwifi,
