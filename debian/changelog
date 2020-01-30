@@ -1,3 +1,9 @@
+kali-meta (2020.2.2) kali-dev; urgency=medium
+
+  * Don't install firmware-bcm80211 on arm
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 30 Jan 2020 22:40:56 +0100
+
 kali-meta (2020.2.1) kali-dev; urgency=medium
 
   * Install popular firmware packages by default
