@@ -93,7 +93,6 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 Package: kali-linux-core
 Architecture: any
 Depends: ${misc:Depends},
-# Any other metapackages
 # Packages
  cifs-utils,
  ftp,
@@ -118,14 +117,47 @@ Depends: ${misc:Depends},
  unrar | unar,
  vim,
  whois,
+Recommends:
+# Firmwares for good hardware support by default
+ bluez-firmware,
+ firmware-amd-graphics,
+ firmware-atheros,
+ firmware-b43-installer [amd64 i386],
+ firmware-b43legacy-installer [amd64 i386],
+ firmware-brcm80211,
+ firmware-intel-sound,
+ firmware-ipw2x00,
+ firmware-iwlwifi,
+ firmware-libertas,
+ firmware-linux,
+ firmware-misc-nonfree,
+ firmware-realtek,
+ firmware-ti-connectivity,
+ firmware-zd1211,
+## Some firmware packages are not installed on purpose
+# firmware-adi (replaced by firmware-misc-nonfree)
+# firmware-ath9k-htc (alternative to a specific firmware in firmware-atheros)
+# firmware-bnx2 (uncommon)
+# firmware-bnx2x (too big for uncommon network hardware)
+# firmware-cavium (too big/uncommon)
+# firmware-intelwimax (too big/uncommon)
+# firmware-ivtv (for tv cards, irrelevant for Kali)
+# firmware-microbit-* (very specific hardware, irrelevant for Kali)
+# firmware-myricom (too big/uncommon)
+# firmware-netronome (too big/uncommon)
+# firmware-netxen (uncommon)
+# firmware-qlogic (too big/uncommon)
+# firmware-qcom-media (too big/uncommon)
+# firmware-ralink (replaced by firmware-misc-nonfree)
+# firmware-samsung (very specific hardware)
+# firmware-siano (digital tv receiver, irrelevant for Kali)
+# firmware-tomu (very specific hardware, irrelevant for Kali)
 Description: Kali Linux base system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
  This metapackage depends on all the packages that are installed by default
  on any Kali system.
-
-
 
 
 # Default for (base) images
