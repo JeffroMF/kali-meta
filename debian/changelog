@@ -1,3 +1,9 @@
+kali-meta (2020.2.1) kali-dev; urgency=medium
+
+  * Install popular firmware packages by default
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 30 Jan 2020 12:05:40 +0100
+
 kali-meta (2020.2.0) kali-dev; urgency=medium
 
   * Force installation of policykit-1-gnome in Xfce
