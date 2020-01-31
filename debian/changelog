@@ -1,3 +1,9 @@
+kali-meta (2020.2.3) kali-dev; urgency=medium
+
+  * Don't install firmware-ipw2x00, it fails to install non-interactively
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 31 Jan 2020 08:57:28 +0100
+
 kali-meta (2020.2.2) kali-dev; urgency=medium
 
   * Don't install firmware-bcm80211 on arm
