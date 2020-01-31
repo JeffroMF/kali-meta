@@ -126,7 +126,6 @@ Recommends:
  firmware-b43legacy-installer [amd64 i386],
  firmware-brcm80211 [amd64 i386],
  firmware-intel-sound,
- firmware-ipw2x00,
  firmware-iwlwifi,
  firmware-libertas,
  firmware-linux,
@@ -141,6 +140,7 @@ Recommends:
 # firmware-bnx2x (too big for uncommon network hardware)
 # firmware-cavium (too big/uncommon)
 # firmware-intelwimax (too big/uncommon)
+# firmware-ipw2x00 (requires to accept a license, fails non-interactively)
 # firmware-ivtv (for tv cards, irrelevant for Kali)
 # firmware-microbit-* (very specific hardware, irrelevant for Kali)
 # firmware-myricom (too big/uncommon)
