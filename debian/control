@@ -1925,7 +1925,7 @@ Depends: ${misc:Depends},
  desktop-base,
  kde-plasma-desktop,
  plasma-nm,
- sddm-theme-debian-elarun,
+ sddm-theme-breeze,
  sddm,
 Description: KDE based Kali desktop
  This metapackage installs a minimalistic KDE desktop on your Kali system.
