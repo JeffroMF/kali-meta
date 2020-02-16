@@ -2,7 +2,7 @@ kali-meta (2020.2.5) kali-dev; urgency=medium
 
   * Update offsec-pwk to pwk2 packages
 
- -- Ben Wilson <g0tmi1k@kali-dev>  Sun, 16 Feb 2020 15:11:14 +0000
+ -- Ben Wilson <g0tmi1k@kali.org>  Sun, 16 Feb 2020 15:11:14 +0000
 
 kali-meta (2020.2.4) kali-dev; urgency=medium
 
@@ -48,7 +48,7 @@ kali-meta (2020.1.13) kali-dev; urgency=medium
 
 kali-meta (2020.1.12) kali-dev; urgency=medium
 
-  * Add qsslcaudit in meta-packages (replaces sslcaudit, see 5177) 
+  * Add qsslcaudit in meta-packages (replaces sslcaudit, see 5177)
   * Use python3 modules when available
 
  -- Sophie Brun <sophie@offensive-security.com>  Tue, 07 Jan 2020 10:57:17 +0100
@@ -403,7 +403,7 @@ kali-meta (2019.2.1) kali-dev; urgency=medium
 
   * Added inspectrum to kali-linux-sdr (https://bugs.kali.org/view.php?id=4841)
 
- -- Ben Wilson <g0tmi1k@offensive-security.com>  Mon, 11 Feb 2019 07:07:24 +0000
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 11 Feb 2019 07:07:24 +0000
 
 kali-meta (2019.2.0) kali-dev; urgency=medium
 
@@ -496,13 +496,13 @@ kali-meta (2017.3.6) kali-dev; urgency=medium
 
   * Removed exploitdb-papers & exploit-bin-sploits from kali-linux-all
 
- -- Ben Wilson <g0tmi1k@offensive-security.com>  Wed, 03 Jan 2018 08:30:05 -0500
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 03 Jan 2018 08:30:05 -0500
 
 kali-meta (2017.3.5) kali-dev; urgency=medium
 
   * Added exploitdb-papers & exploit-bin-sploits
 
- -- Ben Wilson <g0tmi1k@offensive-security.com>  Thu, 21 Dec 2017 11:40:14 -0500
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 21 Dec 2017 11:40:14 -0500
 
 kali-meta (2017.3.4) kali-dev; urgency=medium
 
@@ -635,7 +635,7 @@ kali-meta (2016.2.8) kali-dev; urgency=medium
 
   * Add ident-user-enum (Closes 0002976)
 
- -- Ben Wilson <g0tmi1k@offensive-security.com>  Thu, 14 Jul 2016 16:26:23 -0400
+ -- Ben Wilson <g0tmi1k@kali.org>  Thu, 14 Jul 2016 16:26:23 -0400
 
 kali-meta (2016.2.7) kali-dev; urgency=medium
 
@@ -680,7 +680,7 @@ kali-meta (2016.2.1) kali-dev; urgency=medium
 
   * Added whois to kali-linux (close 3035)
 
- -- Ben Wilson <g0tmi1k@offensive-security.com>  Wed, 03 Feb 2016 15:56:14 -0500
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 03 Feb 2016 15:56:14 -0500
 
 kali-meta (2016.2.0) kali-dev; urgency=medium
 
