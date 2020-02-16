@@ -1,3 +1,9 @@
+kali-meta (2020.2.5) kali-dev; urgency=medium
+
+  * Update offsec-pwk to pwk2 packages
+
+ -- Ben Wilson <g0tmi1k@kali-dev>  Sun, 16 Feb 2020 15:11:14 +0000
+
 kali-meta (2020.2.4) kali-dev; urgency=medium
 
   * Remove obsolete package fragroute
