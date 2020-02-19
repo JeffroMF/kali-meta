@@ -14,7 +14,6 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 # * Systems
 #  - kali-linux-core
 #  - kali-linux-default
-#  - kali-linux-light
 #  - kali-linux-arm
 #  - kali-linux-nethunter
 #
@@ -74,6 +73,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-linux-forensics
 #  - kali-linux-full
 #  - kali-linux-gpu
+#  - kali-linux-light
 #  - kali-linux-pwtools
 #  - kali-linux-rfid
 #  - kali-linux-sdr
@@ -353,22 +353,6 @@ Description: Kali Linux default system
  .
  This metapackage depends on all the applications that are included in
  official Kali Linux images.
-
-
-# Default for Kali Linux light images
-Package: kali-linux-light
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
- kali-linux-core,
-# Packages
- firefox-esr [!armel], midori [armel],
- openssh-server,
-Description: Kali Linux light tools
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage depends for Kali Linux Light.
 
 
 # ARM
@@ -2081,6 +2065,22 @@ Description: Transitional package for kali-tools-gpu
  upgrade path in Kali.
  .
  This package can be safely removed once kali-tools-gpu has been installed.
+
+
+# Default for Kali Linux light images
+Package: kali-linux-light
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+ kali-linux-core,
+# Packages
+ firefox-esr [!armel], midori [armel],
+ openssh-server,
+Description: Kali Linux light tools
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends for Kali Linux Light.
 
 
 Package: kali-linux-pwtools
