@@ -1,3 +1,9 @@
+kali-meta (2020.2.7) kali-dev; urgency=medium
+
+  * offsec-* is used for monitoring packages
+
+ -- Ben <g0tmi1k@kali.org>  Wed, 19 Feb 2020 20:58:06 +0000
+
 kali-meta (2020.2.6) kali-dev; urgency=medium
 
   * Update offsec-pwk, kali-linux-large, kali-linux-default
