@@ -347,7 +347,6 @@ Depends: ${misc:Depends},
  vboot-utils,
  vlan,
  vpnc,
- xpdf,
  xtightvncviewer,
 Description: Kali Linux default system
  This is Kali Linux, the most advanced penetration testing and security
@@ -1838,8 +1837,6 @@ Depends: ${misc:Depends},
  kali-grant-root,
  kali-menu,
  kali-themes,
-# Our recommended terminal
- qterminal,
 # Ensure we have enough entropy on boot to avoid delays (FS #4994)
  haveged,
 # We always want a web browser
@@ -1869,6 +1866,8 @@ Depends: ${misc:Depends},
  enlightenment,
  lightdm,
  suckless-tools,
+# Our recommended terminal
+ qterminal,
 # To tweak default configuration with help of /usr/bin/eet
  libeet-bin,
 Description: E17 based Kali desktop
@@ -1881,18 +1880,34 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-core,
  gnome-core,
- gnome-brave-icon-theme,
  gnome-shell-extensions,
  gnome-shell-extension-proxyswitcher,
  gnome-shell-extension-dashtodock,
  gnome-shell-extension-desktop-icons,
- gnome-shell-extension-easyscreencast,
  gnome-shell-extension-workspaces-to-dock,
  gnome-tweak-tool,
- gnome-orca,
- gedit,
+# Image viewer:
+ eog,
+# Video player:
+ totem,
+# Archiver:
  file-roller,
+# Terminal:
+ qterminal,
+# Editor:
+ gedit,
+# Calculator:
+ gnome-calculator,
+# Document viewer:
+ evince,
+# Task manager:
+ gnome-system-monitor,
+# Screenshot tool:
+ gnome-screenshot,
+# Video recorder:
+ gnome-shell-extension-easyscreencast,
 Recommends:
+# Installed by default but can be removed wihout adverse effect
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
 Conflicts:
@@ -1927,6 +1942,26 @@ Depends: ${misc:Depends},
  plasma-nm,
  sddm-theme-breeze,
  sddm,
+# Image viewer:
+ gwenview,
+# Video player:
+ vlc,
+# Archiver:
+ ark,
+# Terminal:
+ konsole,
+# Editor:
+ kwrite,
+# Calculator:
+ kcalc,
+# PDF viewer:
+ okular,
+# Task manager:
+ ksysguard,
+# Screenshot tool:
+ kde-spectacle,
+# Video recorder:
+ simplescreenrecorder,
 Description: KDE based Kali desktop
  This metapackage installs a minimalistic KDE desktop on your Kali system.
 
@@ -1937,7 +1972,10 @@ Depends: ${misc:Depends},
  kali-desktop-core,
  kali-desktop-base,
  lxde,
+# Our recommended terminal
+ qterminal,
 Recommends:
+# Installed by default but can be removed wihout adverse effect
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
 Description: LXDE based Kali desktop
@@ -1952,7 +1990,33 @@ Depends: ${misc:Depends},
  mate-desktop-environment,
  lightdm,
  network-manager-gnome,
+# Image viewer:
+ eom,
+# Video player:
+ parole,
+# Archiver:
+ engrampa,
+# Terminal:
+ mate-terminal,
+# Editor:
  pluma,
+# Calculator:
+ mate-calc,
+# PDF viewer:
+ atril,
+# Task manager:
+ mate-system-monitor,
+# Screenshot tool:
+# mate-screenshot provided by mate-utils
+ mate-utils,
+# Video recorder:
+ kazam,
+Recommends:
+# Installed by default but can be removed wihout adverse effect
+ libcanberra-gtk3-module,
+ libcanberra-gtk-module,
+ lightdm-gtk-greeter-settings,
+ blueman,
 Description: MATE based Kali desktop
  This metapackage installs a minimalistic MATE desktop on your Kali system.
 
@@ -1969,18 +2033,35 @@ Description: MATE based Kali desktop
 Package: kali-desktop-xfce
 Architecture: all
 Depends: ${misc:Depends},
-# Basics
  kali-desktop-core,
  xfce4,
  lightdm,
+# Image viewer:
+ ristretto,
+# Video player:
+ parole,
+# Archiver:
+ engrampa,
+ thunar-archive-plugin,
+# Terminal:
+ qterminal,
+# Editor: 
+ mousepad,
+# Calculator:
+ mate-calc,
+# Document viewer:
+ atril,
+# Task manager:
+ xfce4-taskmanager,
+# Screenshot tool:
+ xfce4-screenshooter,
+# Video recorder:
+ kazam,
 # Integrated in the default configuration in some way (in the panel, in the
 # favorites, autostarted, etc.)
- kazam,
- mousepad,
  network-manager-gnome,
  xcape,
  xfce4-power-manager-plugins,
- xfce4-screenshooter,
  xfce4-whiskermenu-plugin,
 # Required for pkexec to work
  policykit-1-gnome,
@@ -1995,11 +2076,30 @@ Recommends:
  network-manager-openvpn-gnome,
  network-manager-pptp-gnome,
  network-manager-vpnc-gnome,
- xfce4-goodies,
- parole,
- ristretto,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
+ lightdm-gtk-greeter-settings,
+ blueman,
+# Xfce4 plugins included in xfce4-goodies
+ xfce4-battery-plugin,
+ xfce4-clipman-plugin,
+ xfce4-cpufreq-plugin,
+ xfce4-cpugraph-plugin,
+ xfce4-datetime-plugin,
+ xfce4-diskperf-plugin,
+ xfce4-fsguard-plugin,
+ xfce4-genmon-plugin,
+ xfce4-mailwatch-plugin,
+ xfce4-netload-plugin,
+ xfce4-notes-plugin,
+ xfce4-places-plugin,
+ xfce4-sensors-plugin,
+ xfce4-smartbookmark-plugin,
+ xfce4-systemload-plugin,
+ xfce4-timer-plugin,
+ xfce4-verve-plugin,
+ xfce4-wavelan-plugin,
+ xfce4-weather-plugin,
 Description: Xfce based Kali desktop
  This metapackage installs a minimalistic Xfce desktop on your Kali system.
 
