@@ -1,3 +1,10 @@
+kali-meta (2020.2.9) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Update desktop specific default apps
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 20 Feb 2020 14:46:21 +0100
+
 kali-meta (2020.2.8) kali-dev; urgency=medium
 
   * Add cloud-enum, photon & phpgcc
