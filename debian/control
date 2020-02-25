@@ -122,8 +122,6 @@ Recommends:
  bluez-firmware,
  firmware-amd-graphics,
  firmware-atheros,
- firmware-b43-installer [amd64 i386],
- firmware-b43legacy-installer [amd64 i386],
  firmware-brcm80211 [amd64 i386],
  firmware-intel-sound,
  firmware-iwlwifi,
@@ -136,6 +134,8 @@ Recommends:
 ## Some firmware packages are not installed on purpose
 # firmware-adi (replaced by firmware-misc-nonfree)
 # firmware-ath9k-htc (alternative to a specific firmware in firmware-atheros)
+# firmware-b43-installer [amd64 i386] (requires network to install)
+# firmware-b43legacy-installer [amd64 i386] (requires network to install)
 # firmware-bnx2 (uncommon)
 # firmware-bnx2x (too big for uncommon network hardware)
 # firmware-cavium (too big/uncommon)
