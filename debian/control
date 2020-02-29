@@ -423,7 +423,8 @@ Depends: ${misc:Depends},
 # Window Manager (WM)
  kali-themes,
 # Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
- qt5-style-plugins,
+ qt5ct,
+ qt5-gtk2-platformtheme,
  xfce4,
  xfce4-goodies,
  xfce4-places-plugin,
@@ -1869,7 +1870,8 @@ Depends: ${misc:Depends},
  lightdm,
  suckless-tools,
 # Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
- qt5-style-plugins,
+ qt5ct,
+ qt5-gtk2-platformtheme,
 # Our recommended terminal
  qterminal,
 # To tweak default configuration with help of /usr/bin/eet
@@ -1891,7 +1893,8 @@ Depends: ${misc:Depends},
  gnome-shell-extension-workspaces-to-dock,
  gnome-tweak-tool,
 # Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
- qt5-style-plugins,
+ qt5ct,
+ qt5-gtk2-platformtheme,
 # Image viewer:
  eog,
 # Video player:
@@ -1934,7 +1937,8 @@ Depends: ${misc:Depends},
  suckless-tools | dmenu,
  xorg,
 # Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
- qt5-style-plugins,
+ qt5ct,
+ qt5-gtk2-platformtheme,
 Description: I3 based Kali desktop
  This metapackage installs a
  minimalistic I3 desktop on your Kali system.
@@ -1981,7 +1985,8 @@ Depends: ${misc:Depends},
  kali-desktop-base,
  lxde,
 # Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
- qt5-style-plugins,
+ qt5ct,
+ qt5-gtk2-platformtheme,
 # Our recommended terminal
  qterminal,
 Recommends:
@@ -2001,7 +2006,8 @@ Depends: ${misc:Depends},
  lightdm,
  network-manager-gnome,
 # Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
- qt5-style-plugins,
+ qt5ct,
+ qt5-gtk2-platformtheme,
 # Image viewer:
  eom,
 # Video player:
@@ -2049,7 +2055,8 @@ Depends: ${misc:Depends},
  xfce4,
  lightdm,
 # Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
- qt5-style-plugins,
+ qt5ct,
+ qt5-gtk2-platformtheme,
 # Image viewer:
  ristretto,
 # Video player:
