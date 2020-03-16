@@ -1,4 +1,4 @@
-kali-meta (2020.1.15) kali-experimental; urgency=medium
+kali-meta (2020.1.16) kali-experimental; urgency=medium
 
   * Revert a bunch of changes that we don't want in the context of Kali
     2020.1 release ISO. This special version will only be pushed in
