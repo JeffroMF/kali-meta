@@ -422,7 +422,7 @@ Depends: ${misc:Depends},
  kali-defaults,
 # Window Manager (WM)
  kali-themes,
-# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+# Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
  qt5ct,
  qt5-gtk2-platformtheme,
  xfce4,
@@ -1869,7 +1869,7 @@ Depends: ${misc:Depends},
  enlightenment,
  lightdm,
  suckless-tools,
-# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+# Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
  qt5ct,
  qt5-gtk2-platformtheme,
 # Our recommended terminal
@@ -1892,7 +1892,7 @@ Depends: ${misc:Depends},
  gnome-shell-extension-desktop-icons,
  gnome-shell-extension-workspaces-to-dock,
  gnome-tweak-tool,
-# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+# Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
  qt5ct,
  qt5-gtk2-platformtheme,
 # Image viewer:
@@ -1936,7 +1936,7 @@ Depends: ${misc:Depends},
  conky,
  suckless-tools | dmenu,
  xorg,
-# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+# Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
  qt5ct,
  qt5-gtk2-platformtheme,
 Description: I3 based Kali desktop
@@ -1984,7 +1984,7 @@ Depends: ${misc:Depends},
  kali-desktop-core,
  kali-desktop-base,
  lxde,
-# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+# Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
  qt5ct,
  qt5-gtk2-platformtheme,
 # Our recommended terminal
@@ -2005,7 +2005,7 @@ Depends: ${misc:Depends},
  mate-desktop-environment,
  lightdm,
  network-manager-gnome,
-# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+# Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
  qt5ct,
  qt5-gtk2-platformtheme,
 # Image viewer:
@@ -2054,7 +2054,7 @@ Depends: ${misc:Depends},
  kali-desktop-core,
  xfce4,
  lightdm,
-# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+# Needed for QT_QPA_PLATFORMTHEME=gtk2 to have an effect
  qt5ct,
  qt5-gtk2-platformtheme,
 # Image viewer:
