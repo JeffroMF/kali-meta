@@ -9,12 +9,6 @@ kali-meta (2020.2.11) kali-dev; urgency=medium
 
  -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 03 Mar 2020 16:02:51 +0100
 
-kali-meta (2020.2.10) kali-dev; urgency=medium
-
-  * Fix package name: phpggc (not phpgcc)
-
- -- Sophie Brun <sophie@offensive-security.com>  Fri, 21 Feb 2020 11:20:44 +0100
-
 kali-meta (2020.2.9) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]
