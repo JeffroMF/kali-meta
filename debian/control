@@ -302,6 +302,7 @@ Depends: ${misc:Depends},
  wireshark,
  wordlists,
  wpscan,
+ zaproxy,
 # System Tools
  apache2,
  atftpd,
@@ -1414,6 +1415,7 @@ Depends: ${misc:Depends},
  cowpatty,
  cymothoa [amd64 i386],
  darkstat,
+ dbeaver,
  dc3dd,
  dcfldd,
  ddrescue,
@@ -2066,7 +2068,7 @@ Depends: ${misc:Depends},
  thunar-archive-plugin,
 # Terminal:
  qterminal,
-# Editor: 
+# Editor:
  mousepad,
 # Calculator:
  mate-calc,

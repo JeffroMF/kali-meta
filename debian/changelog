@@ -1,3 +1,9 @@
+kali-meta (2020.2.12) kali-dev; urgency=medium
+
+  * Add dbeaver & zaproxy
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Fri, 20 Mar 2020 16:43:14 +0000
+
 kali-meta (2020.2.11) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]
