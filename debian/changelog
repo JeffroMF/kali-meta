@@ -1,3 +1,16 @@
+kali-meta (2020.2.14) kali-dev; urgency=medium
+
+  * Remove Python 2 packages that have not switched to Python 3:
+    - webhandler
+    - golismero
+    - clusterd
+    - python-peepdf
+    - python-rfidiot
+    - bbqsql
+    - pyrit
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 30 Mar 2020 10:38:40 +0200
+
 kali-meta (2020.2.13) kali-dev; urgency=medium
 
   * dbeaver x64 only
