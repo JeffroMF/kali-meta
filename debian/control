@@ -150,6 +150,7 @@ Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
  kali-linux-core,
+ kali-tools-top10,
 # Packages
  aircrack-ng,
  amass,
