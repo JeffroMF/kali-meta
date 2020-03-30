@@ -1,5 +1,12 @@
+kali-meta (2020.2.15) kali-dev; urgency=medium
+
+  * Make sure that kali-linux-default pulls kali-tools-top10
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Mon, 30 Mar 2020 18:32:46 +0200
+
 kali-meta (2020.2.14) kali-dev; urgency=medium
 
+  [ Sophie Brun ]
   * Remove Python 2 packages that have not switched to Python 3:
     - webhandler
     - golismero
@@ -8,6 +15,9 @@ kali-meta (2020.2.14) kali-dev; urgency=medium
     - python-rfidiot
     - bbqsql
     - pyrit
+
+  [ Raphaël Hertzog ]
+  * Drop legacy metapackages, including kali-linux-light
 
  -- Sophie Brun <sophie@offensive-security.com>  Mon, 30 Mar 2020 10:38:40 +0200
 
