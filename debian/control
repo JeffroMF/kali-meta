@@ -13,6 +13,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #
 # * Systems
 #  - kali-linux-core
+#  - kali-tools-top10
 #  - kali-linux-default
 #  - kali-linux-arm
 #  - kali-linux-nethunter
@@ -47,7 +48,6 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 # * Misc
 #  - kali-linux-large
 #  - kali-linux-everything
-#  - kali-tools-top10
 #  - kali-tools-headless
 #  - kali-desktop-live
 #
@@ -144,6 +144,30 @@ Description: Kali Linux base system
  on any Kali system.
 
 
+# Top 10 tools
+Package: kali-tools-top10
+Architecture: any
+Depends: ${misc:Depends},
+# Any other metapackages
+# Packages
+ aircrack-ng,
+ burpsuite [amd64],
+ crackmapexec,
+ hydra,
+ john,
+ metasploit-framework,
+ nmap,
+ responder,
+ sqlmap,
+ wireshark,
+Description: Kali Linux top 10 tools
+ This is Kali Linux, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on the 10 most important applications that Kali Linux
+ provides.
+
+
 # Default for (base) images
 Package: kali-linux-default
 Architecture: any
@@ -152,7 +176,6 @@ Depends: ${misc:Depends},
  kali-linux-core,
  kali-tools-top10,
 # Packages
- aircrack-ng,
  amass,
  arp-scan,
  arping | iputils-arping,
@@ -162,7 +185,6 @@ Depends: ${misc:Depends},
  bluez-hcidump,
  bulk-extractor,
  bully,
- burpsuite [amd64],
  cadaver,
  cewl,
  cherrytree,
@@ -196,14 +218,12 @@ Depends: ${misc:Depends},
  hashcat-utils [amd64 i386],
  hashid,
  hping3,
- hydra,
  hydra-gtk,
  i2c-tools,
  ike-scan,
  impacket-scripts,
  inetsim,
  iodine,
- john,
  king-phisher,
  kismet,
  laudanum,
@@ -214,7 +234,6 @@ Depends: ${misc:Depends},
  maltego,
  maskprocessor,
  masscan,
- metasploit-framework,
  mimikatz,
  mitmproxy,
  msfpc,
@@ -225,7 +244,6 @@ Depends: ${misc:Depends},
  netdiscover,
  netsed,
  nikto,
- nmap,
  onesixtyone,
  ophcrack,
  ophcrack-cli,
@@ -247,7 +265,6 @@ Depends: ${misc:Depends},
  rebind,
  recon-ng,
  redsocks,
- responder,
  rsmangler,
  samdump2,
  sbd,
@@ -261,7 +278,6 @@ Depends: ${misc:Depends},
  spiderfoot,
  spike,
  spooftooph,
- sqlmap,
  ssldump,
  sslscan,
  sslsplit,
@@ -282,7 +298,6 @@ Depends: ${misc:Depends},
  wifite,
  windows-binaries,
  winexe,
- wireshark,
  wordlists,
  wpscan,
  zaproxy,
@@ -1618,30 +1633,6 @@ Description: Everything in Kali Linux
  .
  This metapackage depends on all other specific purpose metapackages and
  some more applications. Beware, this will install a lot of stuff!
-
-
-# Top 10
-Package: kali-tools-top10
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
-# Packages
- aircrack-ng,
- burpsuite [amd64],
- crackmapexec,
- hydra,
- john,
- metasploit-framework,
- nmap,
- responder,
- sqlmap,
- wireshark,
-Description: Kali Linux top 10 tools
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage depends on the 10 most important applications that Kali Linux
- provides.
 
 
 # Headless
