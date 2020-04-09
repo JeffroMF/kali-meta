@@ -1,3 +1,16 @@
+kali-meta (2020.2.16) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Order alphabetically dependencies of kali-tools-forensics
+
+  [ Ben Wilson ]
+  * Remove duplicate tools from top10
+
+  [ Sophie Brun ]
+  * Remove old Python 2 packages: neopi and volafox
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 09 Apr 2020 16:51:09 +0200
+
 kali-meta (2020.2.15) kali-dev; urgency=medium
 
   * Make sure that kali-linux-default pulls kali-tools-top10
