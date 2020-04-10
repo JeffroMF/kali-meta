@@ -1,3 +1,11 @@
+kali-meta (2020.2.17) kali-dev; urgency=medium
+
+  * Get rid of libaff4-utils, dropped from Debian a while ago
+  * Replace last Python 2 dependencies with their Python 3 counterparts
+  * Bump Standards-Version
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 10 Apr 2020 09:15:28 +0200
+
 kali-meta (2020.2.16) kali-dev; urgency=medium
 
   [ Raphaël Hertzog ]
