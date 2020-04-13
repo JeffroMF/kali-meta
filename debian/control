@@ -2057,6 +2057,7 @@ Recommends:
  libcanberra-gtk-module,
  lightdm-gtk-greeter-settings,
  blueman,
+ catfish,
 # Xfce4 plugins included in xfce4-goodies
  xfce4-battery-plugin,
  xfce4-clipman-plugin,
