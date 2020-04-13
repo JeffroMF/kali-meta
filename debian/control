@@ -2040,6 +2040,7 @@ Depends: ${misc:Depends},
  xcape,
  xfce4-power-manager-plugins,
  xfce4-whiskermenu-plugin,
+ xfce4-statusnotifier-plugin,
 # Required for pkexec to work
  policykit-1-gnome,
 Recommends:
@@ -2078,5 +2079,6 @@ Recommends:
  xfce4-verve-plugin,
  xfce4-wavelan-plugin,
  xfce4-weather-plugin,
+ xfce4-xkb-plugin,
 Description: Xfce based Kali desktop
  This metapackage installs a minimalistic Xfce desktop on your Kali system.
