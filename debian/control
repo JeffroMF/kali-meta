@@ -2041,6 +2041,8 @@ Depends: ${misc:Depends},
  xfce4-power-manager-plugins,
  xfce4-whiskermenu-plugin,
  xfce4-statusnotifier-plugin,
+# Needed for thunar xdg directory bookmarks
+ xdg-user-dirs-gtk,
 # Required for pkexec to work
  policykit-1-gnome,
 Recommends:
