@@ -1,3 +1,11 @@
+kali-meta (2020.2.18) kali-dev; urgency=medium
+
+  * Add catfish to kali-desktop-xfce
+  * Add xkb and status-notifier plugins to kali-desktop-xfce
+  * Add xdg-user-dirs-gtk to kali-desktop-xfce
+
+ -- Daniel Ruiz de Alegría <daniel@drasite.com>  Wed, 22 Apr 2020 04:33:35 +0200
+
 kali-meta (2020.2.17) kali-dev; urgency=medium
 
   * Get rid of libaff4-utils, dropped from Debian a while ago
