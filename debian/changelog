@@ -1,3 +1,9 @@
+kali-meta (2020.2.19) kali-dev; urgency=medium
+
+  * Dradis is only available in amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 24 Apr 2020 09:23:12 +0200
+
 kali-meta (2020.2.18) kali-dev; urgency=medium
 
   * Add catfish to kali-desktop-xfce
