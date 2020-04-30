@@ -1858,7 +1858,7 @@ Depends: ${misc:Depends},
 # Archiver:
  file-roller,
 # Terminal:
- qterminal,
+ gnome-terminal,
 # Editor:
  gedit,
 # Calculator:
