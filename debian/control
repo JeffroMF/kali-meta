@@ -1905,7 +1905,6 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-core,
  kali-desktop-base,
- desktop-base,
  kde-plasma-desktop,
  plasma-nm,
  sddm-theme-breeze,
