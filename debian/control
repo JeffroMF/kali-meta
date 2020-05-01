@@ -1904,7 +1904,6 @@ Package: kali-desktop-kde
 Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-core,
- kali-desktop-base,
  kde-plasma-desktop,
  plasma-nm,
  sddm-theme-breeze,
