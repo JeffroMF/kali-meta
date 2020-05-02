@@ -1,3 +1,11 @@
+kali-meta (2020.2.20) kali-dev; urgency=medium
+
+  * Use gnome-terminal instead of qterminal for kali-desktop-gnome
+  * Remove desktop-base dependency from kali-desktop-kde
+  * Remove kali-desktop-base dependency from kali-desktop-kde
+
+ -- Daniel Ruiz de Alegría <daniel@drasite.com>  Sat, 02 May 2020 18:09:26 +0200
+
 kali-meta (2020.2.19) kali-dev; urgency=medium
 
   * Dradis is only available in amd64
