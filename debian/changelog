@@ -1,3 +1,9 @@
+kali-meta (2020.2.21) kali-dev; urgency=medium
+
+  * On amd64, add powershell to kali-linux-large
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 08 May 2020 08:19:52 +0200
+
 kali-meta (2020.2.20) kali-dev; urgency=medium
 
   * Use gnome-terminal instead of qterminal for kali-desktop-gnome
