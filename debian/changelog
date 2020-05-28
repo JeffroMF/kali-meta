@@ -1,3 +1,10 @@
+kali-meta (2020.3.0) kali-dev; urgency=medium
+
+  * Remove offsec-awae and offsec-pwk metapackages. They are now in another
+    source package: offsec-courses
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 28 May 2020 14:23:37 +0200
+
 kali-meta (2020.2.21) kali-dev; urgency=medium
 
   * On amd64, add powershell to kali-linux-large

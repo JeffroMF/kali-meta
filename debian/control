@@ -52,8 +52,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-desktop-live
 #
 # * Courses
-#  - offsec-awae
-#  - offsec-pwk
+#   The metapackages for the courses are now in the source package "offsec-courses"
 #
 # * Desktop
 #  - kali-desktop-core
@@ -1678,109 +1677,6 @@ Description: Meta-package for Kali live images
  They provide features that are not directly related to penetration testing but
  that are intended to make the image more useful and usable for a wide set of
  users.
-
-
-#
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-#
-
-
-# Advanced Web Attacks and Exploitation
-Package: offsec-awae
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
- kali-linux-core,
-# Packages
- burpsuite [amd64],
- firefox-esr [!armel], midori [armel],
- freerdp2-x11,
- impacket-scripts,
- netcat-traditional,
- openjdk-11-jdk-headless,
- python2,
- rdesktop,
-Description: Resources for Offsec's AWAE
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage depends on the resources required for Offsec's AWAE.
-
-
-# Penetration Testing Training with Kali Linux
-Package: offsec-pwk
-Architecture: any
-Depends: ${misc:Depends},
-# Any other metapackages
- kali-linux-core,
-# Packages
- apache2,
- atftp,
- axel,
- burpsuite [amd64],
- busybox,
- cewl,
- crowbar,
- crunch,
- curl,
- cutycapt,
- default-libmysqlclient-dev,
- dirb,
- dnsenum,
- dnsrecon,
- enum4linux,
- exe2hexbat,
- exploitdb,
- firefox-esr [!armel], midori [armel],
- freerdp2-x11,
- hashcat [amd64 i386],
- hashid,
- httptunnel,
- hydra,
- iptables,
- john,
- kali-tools-windows-resources,
- kerberoast,
- leafpad,
- masscan,
- medusa,
- metasploit-framework,
- mimikatz,
- mingw-w64,
- nano,
- nbtscan,
- netcat,
- nikto,
- nmap,
- onesixtyone,
- openssl,
- openvpn,
- passing-the-hash,
- powercat,
- proxychains,
- pure-ftpd,
- python3,
- rdesktop,
- recon-ng,
- rinetd,
- seclists,
- shellter [amd64 i386],
- snmp,
- socat,
- sqlmap,
- tcpdump,
- theharvester,
- wce,
- wget,
- whois,
- wine,
- wireshark,
- wpscan,
-Description: Resources for Offsec's PWK 2
- This is Kali Linux, the most advanced penetration testing and security
- auditing distribution.
- .
- This metapackage depends on the resources required for Offsec's PWK 2.
 
 
 #
