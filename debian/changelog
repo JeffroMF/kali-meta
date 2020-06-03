@@ -1,3 +1,9 @@
+kali-meta (2020.3.1) kali-dev; urgency=medium
+
+  * nmapsi4 is no longer available for armel
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 03 Jun 2020 10:14:33 +0200
+
 kali-meta (2020.3.0) kali-dev; urgency=medium
 
   * Remove offsec-awae and offsec-pwk metapackages. They are now in another
