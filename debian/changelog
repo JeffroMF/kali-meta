@@ -1,4 +1,4 @@
-kali-meta (2020.3.1) kali-dev; urgency=medium
+kali-meta (2020.3.2) kali-dev; urgency=medium
 
   * Remove ace-voip & cdpsnarf
 
