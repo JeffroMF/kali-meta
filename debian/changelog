@@ -1,3 +1,12 @@
+kali-meta (2020.3.3) kali-dev; urgency=medium
+
+  * Remove flasm (obsolete package, unmaintained upstreami, removed from
+    Debian)
+  * Remove arachni (no longer maintained upstream and depends on phantomjs,
+    removed from Debian)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 12 Jun 2020 10:55:43 +0200
+
 kali-meta (2020.3.2) kali-dev; urgency=medium
 
   * Remove ace-voip & cdpsnarf
