@@ -1,3 +1,9 @@
+kali-meta (2020.3.4) kali-dev; urgency=medium
+
+  * Add GoBuster
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Fri, 26 Jun 2020 18:18:00 +0100
+
 kali-meta (2020.3.3) kali-dev; urgency=medium
 
   * Remove flasm (obsolete package, unmaintained upstreami, removed from
