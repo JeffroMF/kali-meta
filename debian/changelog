@@ -1,6 +1,6 @@
 kali-meta (2020.3.5) kali-dev; urgency=medium
 
-  * Hashat is available everywhere but armel
+  * Hashcat is available everywhere but armel
 
  -- Steev Klimaszewski <steev@kali.org>  Sun, 28 Jun 2020 12:45:16 -0500
 
