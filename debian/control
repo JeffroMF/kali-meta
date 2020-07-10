@@ -100,6 +100,9 @@ Depends: ${misc:Depends},
  unrar | unar,
  vim,
  whois,
+ zsh,
+ zsh-autosuggestions,
+ zsh-syntax-highlighting,
 Recommends:
 # Firmwares for good hardware support by default
  bluez-firmware,
