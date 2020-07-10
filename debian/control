@@ -1937,7 +1937,7 @@ Recommends:
  gvfs-backends,
  gvfs-fuse,
  kali-undercover,
- kali-hidpi-mode
+ kali-hidpi-mode,
  network-manager-fortisslvpn-gnome,
  network-manager-l2tp-gnome,
  network-manager-openconnect-gnome,
