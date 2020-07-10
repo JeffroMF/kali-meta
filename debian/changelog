@@ -1,3 +1,13 @@
+kali-meta (2020.3.6) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add kali-hidpi-mode to kali-desktop-xfce package
+
+  [ Raphaël Hertzog ]
+  * Install zsh by default so that user can easily switch to it
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 10 Jul 2020 14:29:01 +0200
+
 kali-meta (2020.3.5) kali-dev; urgency=medium
 
   * Hashcat is available everywhere but armel
