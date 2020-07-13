@@ -1,3 +1,9 @@
+kali-meta (2020.3.8) kali-dev; urgency=medium
+
+  * hashcat-utils is available everywhere but armel
+
+ -- Steev Klimaszewski <steev@kali.org>  Mon, 13 Jul 2020 16:20:55 -0500
+
 kali-meta (2020.3.7) kali-dev; urgency=medium
 
   * Remove sandsifter (still in Python 2)
