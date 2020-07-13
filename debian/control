@@ -1175,7 +1175,6 @@ Depends: ${misc:Depends},
 # Any other metapackages
 # Packages
  afl++,
- sandsifter [amd64],
  sfuzz,
  spike,
  wfuzz,
