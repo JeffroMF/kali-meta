@@ -1689,6 +1689,8 @@ Depends: ${misc:Depends},
  kali-themes,
 # Ensure we have enough entropy on boot to avoid delays (FS #4994)
  haveged,
+# We want this font for the emojis in our default shell prompt
+ fonts-noto-color-emoji,
 # We always want a web browser
 # We allow firefox-esr:armhf for usage on arm64 where the native one is broken
  firefox-esr [!armel] | midori [armel] | firefox-esr:armhf [arm64] | firefox | www-browser,
