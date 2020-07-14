@@ -1,3 +1,9 @@
+kali-meta (2020.3.9) kali-dev; urgency=medium
+
+  * Make kali-desktop-core depend on fonts-noto-color-emoji
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 14 Jul 2020 10:05:44 +0200
+
 kali-meta (2020.3.8) kali-dev; urgency=medium
 
   * hashcat-utils is available everywhere but armel
