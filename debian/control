@@ -1793,6 +1793,25 @@ Description: I3 based Kali desktop
  minimalistic I3 desktop on your Kali system.
 
 
+Package: kali-desktop-i3
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-core,
+ kali-desktop-base,
+ i3-gaps,
+ i3-gaps-dotfiles,
+ multilockscreen,
+ conky,
+ suckless-tools | dmenu,
+ xorg,
+# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+ qt5ct,
+ qt5-gtk2-platformtheme,
+Description: I3-gaps based Kali desktop
+ This metapackage installs a
+ minimalistic I3-gaps desktop on your Kali system.
+
+
 Package: kali-desktop-kde
 Architecture: all
 Depends: ${misc:Depends},
