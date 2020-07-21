@@ -59,6 +59,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-desktop-e17
 #  - kali-desktop-gnome
 #  - kali-desktop-i3
+#  - kali-desktop-i3-gaps
 #  - kali-desktop-kde
 #  - kali-desktop-lxde
 #  - kali-desktop-mate
@@ -1793,7 +1794,7 @@ Description: I3 based Kali desktop
  minimalistic I3 desktop on your Kali system.
 
 
-Package: kali-desktop-i3
+Package: kali-desktop-i3-gaps
 Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-core,
