@@ -59,6 +59,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-desktop-e17
 #  - kali-desktop-gnome
 #  - kali-desktop-i3
+#  - kali-desktop-i3-gaps
 #  - kali-desktop-kde
 #  - kali-desktop-lxde
 #  - kali-desktop-mate
@@ -1791,6 +1792,25 @@ Depends: ${misc:Depends},
 Description: I3 based Kali desktop
  This metapackage installs a
  minimalistic I3 desktop on your Kali system.
+
+
+Package: kali-desktop-i3-gaps
+Architecture: all
+Depends: ${misc:Depends},
+ kali-desktop-core,
+ kali-desktop-base,
+ i3-gaps,
+ i3-gaps-dotfiles,
+ multilockscreen,
+ conky,
+ suckless-tools | dmenu,
+ xorg,
+# Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
+ qt5ct,
+ qt5-gtk2-platformtheme,
+Description: I3-gaps based Kali desktop
+ This metapackage installs a
+ minimalistic I3-gaps desktop on your Kali system.
 
 
 Package: kali-desktop-kde
