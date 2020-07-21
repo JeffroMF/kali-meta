@@ -12,8 +12,7 @@ kali-meta (2020.3.11) kali-dev; urgency=medium
 
 kali-meta (2020.3.10) kali-dev; urgency=medium
 
-  * Create a metapackage entry for i3-gaps
-  * Rename the metapackge entry for i3-gaps to kali-desktop-i3-gaps
+  * Add new kali-desktop-i3-gaps metapackage.
 
  -- Joseph O'Gorman <gamb1t@kali.org>  Mon, 20 Jul 2020 17:24:09 -0400
 
