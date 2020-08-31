@@ -1,3 +1,9 @@
+kali-meta (2020.4.0) kali-dev; urgency=medium
+
+  * Remove obsolete package cookie-cadger
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 31 Aug 2020 11:50:23 +0200
+
 kali-meta (2020.3.11) kali-dev; urgency=medium
 
   * Replace openvas by gvm
