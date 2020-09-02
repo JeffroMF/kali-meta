@@ -1,3 +1,13 @@
+kali-meta (2020.4.1) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Add lintian override file to not fail Gitlab CI
+
+  [ Sophie Brun ]
+  * Remove killerbee package (Python 2 EOL)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 02 Sep 2020 16:42:29 +0200
+
 kali-meta (2020.4.0) kali-dev; urgency=medium
 
   * Remove obsolete package cookie-cadger
