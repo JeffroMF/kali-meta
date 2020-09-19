@@ -73,11 +73,15 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #
 
 
-# Core Kali - every Kali has this
+# Core Kali - Every Kali has this
 Package: kali-linux-core
 Architecture: any
 Depends: ${misc:Depends},
+# Any other metapackages
+#N/A
 # Packages
+#N/A
+# System Tools
  cifs-utils,
  ftp,
  gdisk,
@@ -489,6 +493,7 @@ Package: kali-tools-top10
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  aircrack-ng,
  burpsuite [amd64],
@@ -513,6 +518,7 @@ Package: kali-tools-headless
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  aircrack-ng,
  crackmapexec,
@@ -836,6 +842,7 @@ Package: kali-tools-information-gathering
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  0trace,
  arping | iputils-arping,
@@ -899,6 +906,7 @@ Package: kali-tools-vulnerability
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  afl++,
  bed,
@@ -949,6 +957,7 @@ Package: kali-tools-web
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  apache-users,
  apache2,
@@ -1041,6 +1050,7 @@ Package: kali-tools-database
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  jsql-injection,
  mdbtools,
@@ -1150,6 +1160,7 @@ Package: kali-tools-reverse-engineering
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  apktool,
  bytecode-viewer,
@@ -1177,6 +1188,7 @@ Package: kali-tools-exploitation
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  armitage,
  beef-xss [!armel],
@@ -1200,6 +1212,7 @@ Package: kali-tools-social-engineering
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  backdoor-factory,
  beef-xss [!armel],
@@ -1220,6 +1233,7 @@ Package: kali-tools-sniffing-spoofing
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  bettercap,
  darkstat,
@@ -1258,6 +1272,7 @@ Package: kali-tools-post-exploitation
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  backdoor-factory,
  cymothoa [amd64 i386],
@@ -1295,6 +1310,7 @@ Package: kali-tools-forensics
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  afflib-tools,
  apktool,
@@ -1411,6 +1427,7 @@ Package: kali-tools-reporting
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  cutycapt,
  dradis [amd64],
@@ -1438,6 +1455,7 @@ Package: kali-tools-802-11
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  aircrack-ng,
  asleap,
@@ -1470,6 +1488,7 @@ Package: kali-tools-bluetooth
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  bluelog,
  blueranger,
@@ -1494,6 +1513,7 @@ Package: kali-tools-crypto-stego
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  aesfix,
  aeskeyfind,
@@ -1514,6 +1534,7 @@ Package: kali-tools-fuzzing
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  afl++,
  sfuzz,
@@ -1532,6 +1553,7 @@ Package: kali-tools-gpu
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  oclgausscrack [amd64 i386],
  truecrack,
@@ -1547,6 +1569,7 @@ Package: kali-tools-hardware
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  binwalk,
  cutecom,
@@ -1569,6 +1592,7 @@ Package: kali-tools-rfid
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  gnuradio,
  libfreefare-bin,
@@ -1589,6 +1613,7 @@ Package: kali-tools-sdr
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  chirp,
  gnuradio,
@@ -1615,6 +1640,7 @@ Package: kali-tools-voip
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  enumiax,
  iaxflood,
@@ -1646,6 +1672,7 @@ Package: kali-tools-windows-resources
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
+#N/A
 # Packages
  dbd,
  dnschef,
