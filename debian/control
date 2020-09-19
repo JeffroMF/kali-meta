@@ -346,27 +346,13 @@ Depends: ${misc:Depends},
  kali-linux-core,
  kali-tools-headless,
 # Packages
- abootimg,
  aircrack-ng,
  cewl,
- cgpt,
  crunch,
  dnsrecon,
- dnsutils,
- ethtool,
  exploitdb,
- fake-hwclock,
- firmware-atheros,
-# We purposely skip firmware-broadcom because
-# most ARM devices need custom broadcom firmware
-#firmware-broadcom
- firmware-linux,
- firmware-libertas,
- firmware-realtek,
  hydra,
- initramfs-tools,
  john,
- libnfc-bin,
  medusa,
  metasploit-framework,
  mfoc,
@@ -376,18 +362,35 @@ Depends: ${misc:Depends},
  proxychains,
  recon-ng,
  sqlmap,
- tcpdump,
  theharvester,
- tor,
+ windows-binaries,
+ winexe,
+ wpscan,
+# System Tools
+ abootimg,
+ cgpt,
+ dnsutils,
+ ethtool,
+ fake-hwclock,
+ initramfs-tools,
+ libnfc-bin,
+ tcpdump,
  tshark,
  u-boot-tools,
  usbutils,
  vboot-utils,
  vboot-kernel-utils,
  whois,
- windows-binaries,
- winexe,
- wpscan,
+Recommends:
+# Firmwares for good hardware support by default
+ firmware-atheros,
+ firmware-linux,
+ firmware-libertas,
+ firmware-realtek,
+# Some firmware packages are not installed on purpose
+# We purposely skip firmware-broadcom because
+# most ARM devices need custom broadcom firmware
+#firmware-broadcom,
 Description: Kali Linux ARM system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
