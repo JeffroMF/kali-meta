@@ -238,9 +238,7 @@ Recommends:
  firmware-libertas,
  firmware-realtek,
 # Some firmware packages are not installed on purpose
-# We purposely skip firmware-broadcom because
-# most ARM devices need custom broadcom firmware
-#firmware-broadcom,
+#firmware-broadcom, (most ARM devices need custom broadcom firmware)
 Description: Kali Linux ARM system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
@@ -341,7 +339,7 @@ Description: Kali Linux NetHunter tools
 #
 
 
-# Top 10 tools
+# Top 10 tools (useful for doing demonstrations with)
 Package: kali-tools-top10
 Architecture: any
 Depends: ${misc:Depends},
@@ -366,7 +364,7 @@ Description: Kali Linux top 10 tools
  provides.
 
 
-# Headless
+# Headless (Any CLI tools from kali-linux-default)
 Package: kali-tools-headless
 Architecture: any
 Depends: ${misc:Depends},
