@@ -159,7 +159,7 @@ Package: kali-linux-headless
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
-#N/A
+ kali-linux-core,
 # Packages
  aircrack-ng,
  amass,
@@ -321,11 +321,12 @@ Depends: ${misc:Depends},
  vboot-utils,
  vlan,
  vpnc,
-Description: Kali Linux headless tools
+Description: Kali Linux default headless system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
- This metapackage depends on some popular tools which don't require X11/GUI.
+ This metapackage depends on all the applications that are included in
+ official Kali Linux images and that don't require X11/GUI.
 
 
 # Default for (base) images with a graphical desktop
@@ -333,9 +334,8 @@ Package: kali-linux-default
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
- kali-linux-core,
- kali-tools-top10,
  kali-linux-headless,
+ kali-tools-top10,
 # Packages
 # Should only have GUI listed below
 # as CLI is pulled from another metapackage
