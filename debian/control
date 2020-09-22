@@ -97,41 +97,6 @@ Depends: ${misc:Depends},
  zsh,
  zsh-autosuggestions,
  zsh-syntax-highlighting,
-Recommends:
-# Firmwares for good hardware support by default
- bluez-firmware,
- firmware-amd-graphics,
- firmware-atheros,
- firmware-brcm80211 [amd64 i386],
- firmware-intel-sound,
- firmware-iwlwifi,
- firmware-libertas,
- firmware-linux,
- firmware-misc-nonfree,
- firmware-realtek,
- firmware-ti-connectivity,
- firmware-zd1211,
-# Some firmware packages are not installed on purpose
-#firmware-adi, (replaced by firmware-misc-nonfree)
-#firmware-ath9k-htc, (alternative to a specific firmware in firmware-atheros)
-#firmware-b43-installer [amd64 i386], (requires network to install)
-#firmware-b43legacy-installer [amd64 i386], (requires network to install)
-#firmware-bnx2, (uncommon)
-#firmware-bnx2x, (too big for uncommon network hardware)
-#firmware-cavium, (too big/uncommon)
-#firmware-intelwimax, (too big/uncommon)
-#firmware-ipw2x00, (requires to accept a license, fails non-interactively)
-#firmware-ivtv, (for tv cards, irrelevant for Kali)
-#firmware-microbit-*, (very specific hardware, irrelevant for Kali)
-#firmware-myricom, (too big/uncommon)
-#firmware-netronome, (too big/uncommon)
-#firmware-netxen, (uncommon)
-#firmware-qlogic, (too big/uncommon)
-#firmware-qcom-media, (too big/uncommon)
-#firmware-ralink, (replaced by firmware-misc-nonfree)
-#firmware-samsung, (very specific hardware)
-#firmware-siano, (digital tv receiver, irrelevant for Kali)
-#firmware-tomu, (very specific hardware, irrelevant for Kali)
 Description: Kali Linux base system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
@@ -321,6 +286,41 @@ Depends: ${misc:Depends},
  vlan,
  vpnc,
  whois,
+Recommends:
+# Firmwares for good hardware support by default
+ bluez-firmware,
+ firmware-amd-graphics,
+ firmware-atheros,
+ firmware-brcm80211 [amd64 i386],
+ firmware-intel-sound,
+ firmware-iwlwifi,
+ firmware-libertas,
+ firmware-linux,
+ firmware-misc-nonfree,
+ firmware-realtek,
+ firmware-ti-connectivity,
+ firmware-zd1211,
+# Some firmware packages are not installed on purpose
+#firmware-adi, (replaced by firmware-misc-nonfree)
+#firmware-ath9k-htc, (alternative to a specific firmware in firmware-atheros)
+#firmware-b43-installer [amd64 i386], (requires network to install)
+#firmware-b43legacy-installer [amd64 i386], (requires network to install)
+#firmware-bnx2, (uncommon)
+#firmware-bnx2x, (too big for uncommon network hardware)
+#firmware-cavium, (too big/uncommon)
+#firmware-intelwimax, (too big/uncommon)
+#firmware-ipw2x00, (requires to accept a license, fails non-interactively)
+#firmware-ivtv, (for tv cards, irrelevant for Kali)
+#firmware-microbit-*, (very specific hardware, irrelevant for Kali)
+#firmware-myricom, (too big/uncommon)
+#firmware-netronome, (too big/uncommon)
+#firmware-netxen, (uncommon)
+#firmware-qlogic, (too big/uncommon)
+#firmware-qcom-media, (too big/uncommon)
+#firmware-ralink, (replaced by firmware-misc-nonfree)
+#firmware-samsung, (very specific hardware)
+#firmware-siano, (digital tv receiver, irrelevant for Kali)
+#firmware-tomu, (very specific hardware, irrelevant for Kali)
 Description: Kali Linux default headless system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
