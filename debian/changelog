@@ -1,3 +1,9 @@
+kali-meta (2020.4.3) kali-dev; urgency=medium
+
+  * Put vim-tiny in -core, but a more complete vim in -headless
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 22 Sep 2020 15:50:47 +0200
+
 kali-meta (2020.4.2) kali-dev; urgency=medium
 
   [ Ben Wilson ]
