@@ -1,3 +1,24 @@
+kali-meta (2020.4.2) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add missing metapackages to kali-linux-everything and sort order to match
+  * Sort kali-linux-arm to match kali-linux-core
+  * Add missing packages to kali-linux-everything and removed duplicate ones
+  * Take vncserver out of kali-linux-core
+  * Move CLI programs to kali-linux-headless (kali-linux-default)
+  * Add more core tools
+
+  [ Raphaël Hertzog ]
+  * Rename kali-tools-headless into kali-linux-headless
+  * Depend on kali-defaults-desktop in kali-desktop-core
+  * Move kali-linux-headless to its logical place
+  * Change dependency chain: default -> headless -> core
+  * Trim down kali-linux-core by moving non-essential sysadmin tools to
+    -headless
+  * Move Recommends on firmware from -core to -headless too
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 22 Sep 2020 15:18:34 +0200
+
 kali-meta (2020.4.1) kali-dev; urgency=medium
 
   [ Raphaël Hertzog ]
