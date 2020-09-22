@@ -84,7 +84,6 @@ Depends: ${misc:Depends},
 #N/A
 # System Tools
  ftp,
- git,
  netcat-traditional,
  openssh-client,
  openssh-server,
@@ -97,6 +96,9 @@ Depends: ${misc:Depends},
  zsh,
  zsh-autosuggestions,
  zsh-syntax-highlighting,
+Recommends:
+# Moved heavy deps to recommends to offer a slimmer alternative with --no-install-recommends
+ git
 Description: Kali Linux base system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
@@ -247,6 +249,7 @@ Depends: ${misc:Depends},
  ethtool,
  expect,
  gdisk,
+ git,
  hashdeep,
  hotpatch [amd64 i386],
  ifenslave,
