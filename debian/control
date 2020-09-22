@@ -19,7 +19,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #
 # * Misc
 #  - kali-tools-top10
-#  - kali-tools-headless
+#  - kali-linux-headless
 #  - kali-linux-large
 #  - kali-linux-everything
 #  - kali-desktop-live
@@ -160,7 +160,7 @@ Depends: ${misc:Depends},
 # Any other metapackages
  kali-linux-core,
  kali-tools-top10,
- kali-tools-headless,
+ kali-linux-headless,
 # Packages
 # Should only have GUI listed below
 # as CLI is pulled from another metapackage
@@ -198,7 +198,7 @@ Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
  kali-linux-core,
- kali-tools-headless,
+ kali-linux-headless,
 # Packages
  aircrack-ng,
  cewl,
@@ -368,7 +368,7 @@ Description: Kali Linux top 10 tools
 
 
 # Headless (Any CLI tools from kali-linux-default)
-Package: kali-tools-headless
+Package: kali-linux-headless
 Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
@@ -743,7 +743,7 @@ Depends: ${misc:Depends},
  kali-linux-nethunter,
 #* Misc
  kali-tools-top10,
- kali-tools-headless,
+ kali-linux-headless,
  kali-linux-large,
  kali-linux-nethunter,
  kali-tools-802-11,
