@@ -1790,6 +1790,7 @@ Depends: ${misc:Depends},
  gnome-shell-extension-desktop-icons,
  gnome-shell-extension-workspaces-to-dock,
  gnome-tweak-tool,
+ xdg-user-dirs-gtk,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
  qt5-gtk2-platformtheme,
