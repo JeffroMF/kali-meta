@@ -1,3 +1,10 @@
+kali-meta (2020.4.5) kali-dev; urgency=medium
+
+  * Remove obsolete volatitlity (Python 2 EOL). We can't replace it with
+    volatility3 because of license issues.
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 05 Oct 2020 16:08:53 +0200
+
 kali-meta (2020.4.4) kali-dev; urgency=medium
 
   * Move git to Recommends in kali-linux-core
