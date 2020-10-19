@@ -1,3 +1,9 @@
+kali-meta (2020.4.6) kali-dev; urgency=medium
+
+  * Replace proxychains with proxychains4 (see 6724)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 19 Oct 2020 16:06:25 +0200
+
 kali-meta (2020.4.5) kali-dev; urgency=medium
 
   * Remove obsolete volatitlity (Python 2 EOL). We can't replace it with
