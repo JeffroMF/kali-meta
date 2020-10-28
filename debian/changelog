@@ -1,3 +1,10 @@
+kali-meta (2020.4.7) kali-dev; urgency=medium
+
+  * Remove gnome-shell-extension-easyscreencast (it doesn't work with
+    gnome-shell 3.38)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 28 Oct 2020 16:41:23 +0100
+
 kali-meta (2020.4.6) kali-dev; urgency=medium
 
   * Replace proxychains with proxychains4 (see 6724)

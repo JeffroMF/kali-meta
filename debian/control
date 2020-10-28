@@ -1811,7 +1811,9 @@ Depends: ${misc:Depends},
 # Screenshot tool:
  gnome-screenshot,
 # Video recorder:
- gnome-shell-extension-easyscreencast,
+ gir1.2-appindicator3-0.1,
+ gnome-shell-extension-appindicator,
+ kazam,
 Recommends:
 # Installed by default but can be removed wihout adverse effect
  libcanberra-gtk3-module,
