@@ -291,6 +291,10 @@ Depends: ${misc:Depends},
  vpnc,
  whois,
 Recommends:
+# Python2 transition
+ python2,
+ python-is-python2,
+ offsec-awae-python2,
 # Firmwares for good hardware support by default
  bluez-firmware,
  firmware-amd-graphics,
