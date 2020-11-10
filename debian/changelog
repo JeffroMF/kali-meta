@@ -1,3 +1,19 @@
+kali-meta (2020.4.8) kali-dev; urgency=medium
+
+  [ Re4son ]
+  * Add kali-legacy-wallpapers to nethunter
+  * Add dbus-x11 to NetHunter.
+
+  [ Raphaël Hertzog ]
+  * Add python2, python-is-python2 and offsec-awae-python2 to the Recommends
+    of kali-linux-headless. That way they are installed by default in most
+    images but they can be removed by the user.
+  * Replace kali-legacy-wallpapers by kali-wallpapers-2019.4 in
+    kali-linux-nethunter. We are moving the old wallpapers to a dedicated
+    package.
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Tue, 10 Nov 2020 14:28:44 +0100
+
 kali-meta (2020.4.7) kali-dev; urgency=medium
 
   * Remove gnome-shell-extension-easyscreencast (it doesn't work with
