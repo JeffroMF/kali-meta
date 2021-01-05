@@ -1,3 +1,9 @@
+kali-meta (2021.1.0) kali-dev; urgency=medium
+
+  * Update kali-desktop-xfce for Xfce 4.16
+
+ -- Daniel Ruiz de Alegría <daniel@drasite.com>  Tue, 05 Jan 2021 13:32:08 +0100
+
 kali-meta (2020.4.8) kali-dev; urgency=medium
 
   [ Re4son ]

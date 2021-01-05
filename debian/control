@@ -2005,10 +2005,8 @@ Depends: ${misc:Depends},
 # Integrated in the default configuration in some way (in the panel, in the
 # favorites, autostarted, etc.)
  network-manager-gnome,
- xcape,
  xfce4-power-manager-plugins,
  xfce4-whiskermenu-plugin,
- xfce4-statusnotifier-plugin,
 # Needed for thunar xdg directory bookmarks
  xdg-user-dirs-gtk,
 # Required for pkexec to work
