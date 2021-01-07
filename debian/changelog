@@ -1,3 +1,13 @@
+kali-meta (2021.1.1) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Remove qt5-gtk2-platformtheme
+
+  [ Raphaël Hertzog ]
+  * Add command-not-found to kali-linux-core
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 07 Jan 2021 18:09:30 +0100
+
 kali-meta (2021.1.0) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]
