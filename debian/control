@@ -444,7 +444,6 @@ Depends: ${misc:Depends},
  kali-wallpapers-2019.4,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
- qt5-gtk2-platformtheme,
  xfce4,
  xfce4-goodies,
  xfce4-places-plugin,
@@ -1775,7 +1774,6 @@ Depends: ${misc:Depends},
  suckless-tools,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
- qt5-gtk2-platformtheme,
 # Our recommended terminal
  qterminal,
 # To tweak default configuration with help of /usr/bin/eet
@@ -1799,7 +1797,6 @@ Depends: ${misc:Depends},
  xdg-user-dirs-gtk,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
- qt5-gtk2-platformtheme,
 # Image viewer:
  eog,
 # Video player:
@@ -1845,7 +1842,6 @@ Depends: ${misc:Depends},
  xorg,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
- qt5-gtk2-platformtheme,
 Description: I3 based Kali desktop
  This metapackage installs a
  minimalistic I3 desktop on your Kali system.
@@ -1864,7 +1860,6 @@ Depends: ${misc:Depends},
  xorg,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
- qt5-gtk2-platformtheme,
 Description: I3-gaps based Kali desktop
  This metapackage installs a
  minimalistic I3-gaps desktop on your Kali system.
@@ -1910,7 +1905,6 @@ Depends: ${misc:Depends},
  lxde,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
- qt5-gtk2-platformtheme,
 # Our recommended terminal
  qterminal,
 Recommends:
@@ -1931,7 +1925,6 @@ Depends: ${misc:Depends},
  network-manager-gnome,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
- qt5-gtk2-platformtheme,
 # Image viewer:
  eom,
 # Video player:
@@ -1980,7 +1973,6 @@ Depends: ${misc:Depends},
  lightdm,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
- qt5-gtk2-platformtheme,
 # Image viewer:
  ristretto,
 # Video player:
