@@ -98,7 +98,9 @@ Depends: ${misc:Depends},
  zsh-syntax-highlighting,
 Recommends:
 # Moved heavy deps to recommends to offer a slimmer alternative with --no-install-recommends
- git
+ git,
+# Nice for beginners, but not really required so in recommends so it can be removed
+ command-not-found,
 Description: Kali Linux base system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
