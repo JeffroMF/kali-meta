@@ -1,3 +1,9 @@
+kali-meta (2021.1.2) kali-dev; urgency=medium
+
+  * Add xcape to kali-desktop-xfce as Suggests
+
+ -- Daniel Ruiz de Alegría <daniel@drasite.com>  Mon, 11 Jan 2021 11:55:40 +0100
+
 kali-meta (2021.1.1) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]
