@@ -384,7 +384,9 @@ Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
  kali-linux-core,
- kali-linux-headless,
+# We don't want to pull in headless otherwise the cloud images
+# become extremely large from all the tools and also fail the unit tests.
+# kali-linux-headless,
 # Packages
  aircrack-ng,
  cewl,
