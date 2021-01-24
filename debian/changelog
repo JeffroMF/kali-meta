@@ -1,3 +1,9 @@
+kali-meta (2021.1.6) kali-dev; urgency=medium
+
+  * Drop rekall-core which is gone from Debian
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Sun, 24 Jan 2021 20:15:42 +0100
+
 kali-meta (2021.1.5) kali-dev; urgency=medium
 
   * Add traceroute & telnet
