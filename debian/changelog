@@ -1,3 +1,9 @@
+kali-meta (2021.1.7) kali-dev; urgency=medium
+
+  * Replace gir1.2-appindicator3-0.1 with gir1.2-ayatanaappindicator3-0.1
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Sun, 24 Jan 2021 20:37:08 +0100
+
 kali-meta (2021.1.6) kali-dev; urgency=medium
 
   * Drop rekall-core which is gone from Debian
