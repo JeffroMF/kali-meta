@@ -1821,7 +1821,7 @@ Depends: ${misc:Depends},
 # Screenshot tool:
  gnome-screenshot,
 # Video recorder:
- gir1.2-appindicator3-0.1,
+ gir1.2-ayatanaappindicator3-0.1,
  gnome-shell-extension-appindicator,
  kazam,
 Recommends:
