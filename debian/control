@@ -51,9 +51,6 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-tools-voip
 #  - kali-tools-windows-resources
 #
-# * Courses
-#   The metapackages for the courses are now in the source package "offsec-courses"
-#
 # * Desktop
 #  - kali-desktop-core
 #  - kali-desktop-e17
@@ -63,8 +60,11 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-desktop-kde
 #  - kali-desktop-lxde
 #  - kali-desktop-mate
-#  - kali-desktop-pantheon
 #  - kali-desktop-xfce
+#
+# * Courses
+#   - The metapackages for the courses are now in the source package "offsec-courses"
+#   - https://gitlab.com/kalilinux/packages/offsec-courses
 #
 
 
@@ -1167,7 +1167,7 @@ Description: Kali Linux password cracking tools menu
  provides.
 
 
-# Wireless Attacks (802.11 + Bluetooth + RRID + SDR)
+# Wireless Attacks (802.11 + Bluetooth + RFID + SDR)
 Package: kali-tools-wireless
 Architecture: any
 Depends: ${misc:Depends},
@@ -1699,7 +1699,7 @@ Description: Kali Linux VoIP tools
  This metapackage depends on all the VoIP tools that Kali Linux provides.
 
 
-# Windows resources
+# Windows Resources
 Package: kali-tools-windows-resources
 Architecture: any
 Depends: ${misc:Depends},
@@ -1825,7 +1825,7 @@ Depends: ${misc:Depends},
  gnome-shell-extension-appindicator,
  kazam,
 Recommends:
-# Installed by default but can be removed wihout adverse effect
+# Installed by default but can be removed without adverse effect
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
 Conflicts:
@@ -1913,7 +1913,7 @@ Depends: ${misc:Depends},
 # Our recommended terminal
  qterminal,
 Recommends:
-# Installed by default but can be removed wihout adverse effect
+# Installed by default but can be removed without adverse effect
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
 Description: LXDE based Kali desktop
@@ -1952,22 +1952,13 @@ Depends: ${misc:Depends},
 # Video recorder:
  kazam,
 Recommends:
-# Installed by default but can be removed wihout adverse effect
+# Installed by default but can be removed without adverse effect
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
  lightdm-gtk-greeter-settings,
  blueman,
 Description: MATE based Kali desktop
  This metapackage installs a minimalistic MATE desktop on your Kali system.
-
-
-#Package: kali-desktop-pantheon
-#Architecture: all
-#Depends: ${misc:Depends},
-# kali-desktop-core,
-# pantheon,
-#Description: Pantheon based Kali desktop
-# This metapackage installs a minimalistic Pantheon desktop on your Kali system.
 
 
 Package: kali-desktop-xfce
@@ -2009,22 +2000,22 @@ Depends: ${misc:Depends},
 # Required for pkexec to work
  policykit-1-gnome,
 Recommends:
-# Installed by default but can be removed wihout adverse effect
+# Installed by default but can be removed without adverse effect
+ blueman,
+ catfish,
  gvfs-backends,
  gvfs-fuse,
- kali-undercover,
  kali-hidpi-mode,
+ kali-undercover,
+ libcanberra-gtk-module,
+ libcanberra-gtk3-module,
+ lightdm-gtk-greeter-settings,
  network-manager-fortisslvpn-gnome,
  network-manager-l2tp-gnome,
  network-manager-openconnect-gnome,
  network-manager-openvpn-gnome,
  network-manager-pptp-gnome,
  network-manager-vpnc-gnome,
- libcanberra-gtk3-module,
- libcanberra-gtk-module,
- lightdm-gtk-greeter-settings,
- blueman,
- catfish,
 # Xfce4 plugins included in xfce4-goodies
  xfce4-battery-plugin,
  xfce4-clipman-plugin,
