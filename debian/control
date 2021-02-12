@@ -1993,6 +1993,7 @@ Depends: ${misc:Depends},
 # Integrated in the default configuration in some way (in the panel, in the
 # favorites, autostarted, etc.)
  network-manager-gnome,
+ xcape,
  xfce4-power-manager-plugins,
  xfce4-whiskermenu-plugin,
 # Needed for thunar xdg directory bookmarks
@@ -2033,6 +2034,5 @@ Recommends:
  xfce4-verve-plugin,
  xfce4-wavelan-plugin,
  xfce4-xkb-plugin,
-Suggests: xcape
 Description: Xfce based Kali desktop
  This metapackage installs a minimalistic Xfce desktop on your Kali system.
