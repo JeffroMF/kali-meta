@@ -1,3 +1,13 @@
+kali-meta (2021.1.8) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Clean up - Fix comments & formats
+
+  [ Daniel Ruiz de Alegría ]
+  * Add xcape back as a dependency for Xfce
+
+ -- Daniel Ruiz de Alegría <daniel@drasite.com>  Fri, 12 Feb 2021 12:37:09 +0100
+
 kali-meta (2021.1.7) kali-dev; urgency=medium
 
   * Replace gir1.2-appindicator3-0.1 with gir1.2-ayatanaappindicator3-0.1
