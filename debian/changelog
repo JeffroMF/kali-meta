@@ -1,3 +1,9 @@
+kali-meta (2021.1.9) kali-dev; urgency=medium
+
+  * Add chromium to kali-linux-large
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Mon, 15 Feb 2021 10:02:25 +0000
+
 kali-meta (2021.1.8) kali-dev; urgency=medium
 
   [ Ben Wilson ]

@@ -738,6 +738,9 @@ Depends: ${misc:Depends},
  tcpflow,
  vim-gtk,
  zerofree,
+Recommends:
+# Installed by default but can be removed without adverse effect
+ chromium,
 Description: Kali Linux large system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
