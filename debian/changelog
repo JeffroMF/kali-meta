@@ -6,7 +6,10 @@ kali-meta (2021.1.8) kali-dev; urgency=medium
   [ Daniel Ruiz de Alegría ]
   * Add xcape back as a dependency for Xfce
 
- -- Daniel Ruiz de Alegría <daniel@drasite.com>  Fri, 12 Feb 2021 12:37:09 +0100
+  [ Arnaud Rebillout ]
+  * debhelper-compat = 13
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Mon, 15 Feb 2021 10:33:48 +0700
 
 kali-meta (2021.1.7) kali-dev; urgency=medium
 
