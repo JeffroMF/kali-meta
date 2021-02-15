@@ -1,5 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kali-meta
+Source: https://gitlab.com/kalilinux/packages/kali-meta.git
 
 Files: *
 Copyright: 2013 Raphaël Hertzog <hertzog@debian.org>
