@@ -557,7 +557,7 @@ Description: Kali Linux top 10 tools
  provides.
 
 
-# More common programs (+ common + default)
+# More common programs (+ core + default)
 Package: kali-linux-large
 Architecture: any
 Depends: ${misc:Depends},
