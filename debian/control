@@ -311,6 +311,7 @@ Recommends:
  firmware-linux,
  firmware-misc-nonfree,
  firmware-realtek,
+ firmware-sof-signed [amd64],
  firmware-ti-connectivity,
  firmware-zd1211,
 # Some firmware packages are not installed on purpose
