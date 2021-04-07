@@ -1809,7 +1809,7 @@ Depends: ${misc:Depends},
  gnome-shell-extension-workspaces-to-dock,
  gnome-tweak-tool,
  xdg-user-dirs-gtk,
- # Needed for appindicator extension
+# Needed for appindicator extension
  gir1.2-ayatanaappindicator3-0.1,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
