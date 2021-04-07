@@ -1,6 +1,7 @@
 kali-meta (2021.2.1) kali-dev; urgency=medium
 
   * Remove duplicates packages
+  * Set vim packages to match
 
  -- Ben Wilson <g0tmi1k@kali.org>  Wed, 07 Apr 2021 15:21:42 +0100
 
