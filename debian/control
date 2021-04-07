@@ -1802,12 +1802,15 @@ Depends: ${misc:Depends},
  kali-desktop-core,
  gnome-core,
  gnome-shell-extensions,
+ gnome-shell-extension-appindicator,
  gnome-shell-extension-proxyswitcher,
  gnome-shell-extension-dashtodock,
  gnome-shell-extension-desktop-icons,
  gnome-shell-extension-workspaces-to-dock,
  gnome-tweak-tool,
  xdg-user-dirs-gtk,
+ # Needed for appindicator extension
+ gir1.2-ayatanaappindicator3-0.1,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
 # Image viewer:
@@ -1828,14 +1831,13 @@ Depends: ${misc:Depends},
  gnome-system-monitor,
 # Screenshot tool:
  gnome-screenshot,
-# Video recorder:
- gir1.2-ayatanaappindicator3-0.1,
- gnome-shell-extension-appindicator,
- kazam,
 Recommends:
 # Installed by default but can be removed without adverse effect
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
+Suggests:
+# Video recorder:
+ kazam
 Conflicts:
 # Drop synaptics driver so that touchpads are managed with libinput
  xserver-xorg-input-synaptics,
@@ -1904,8 +1906,9 @@ Depends: ${misc:Depends},
  ksysguard,
 # Screenshot tool:
  kde-spectacle,
+Suggests:
 # Video recorder:
- simplescreenrecorder,
+ simplescreenrecorder
 Description: KDE based Kali desktop
  This metapackage installs a minimalistic KDE desktop on your Kali system.
 
@@ -1957,14 +1960,15 @@ Depends: ${misc:Depends},
 # Screenshot tool:
 # mate-screenshot provided by mate-utils
  mate-utils,
-# Video recorder:
- kazam,
 Recommends:
 # Installed by default but can be removed without adverse effect
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
  lightdm-gtk-greeter-settings,
  blueman,
+Suggests:
+# Video recorder:
+ kazam
 Description: MATE based Kali desktop
  This metapackage installs a minimalistic MATE desktop on your Kali system.
 
@@ -1998,8 +2002,6 @@ Depends: ${misc:Depends},
  xfce4-taskmanager,
 # Screenshot tool:
  xfce4-screenshooter,
-# Video recorder:
- kazam,
 # Integrated in the default configuration in some way (in the panel, in the
 # favorites, autostarted, etc.)
  network-manager-gnome,
@@ -2044,5 +2046,8 @@ Recommends:
  xfce4-verve-plugin,
  xfce4-wavelan-plugin,
  xfce4-xkb-plugin,
+Suggests:
+# Video recorder:
+ kazam
 Description: Xfce based Kali desktop
  This metapackage installs a minimalistic Xfce desktop on your Kali system.
