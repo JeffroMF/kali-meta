@@ -2012,6 +2012,7 @@ Recommends:
 # Installed by default but can be removed without adverse effect
  blueman,
  catfish,
+ dbus-x11,
  gvfs-backends,
  gvfs-fuse,
  kali-hidpi-mode,
