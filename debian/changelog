@@ -1,3 +1,9 @@
+kali-meta (2021.2.2) kali-dev; urgency=medium
+
+  * Add FFUF, Powershell-Empire & Starkiller
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 14 Apr 2021 06:50:25 +0100
+
 kali-meta (2021.2.1) kali-dev; urgency=medium
 
   * Remove duplicates packages
