@@ -1,15 +1,21 @@
-kali-meta (2021.2.2) kali-dev; urgency=medium
+kali-meta (2021.2.0) kali-dev; urgency=medium
 
+  [ Daniel Ruiz de Alegría ]
+  * Add librsvg2-common as a dependency for xfce
+  * Move screen-recorders to suggests
+  * Remove space before comment
+  * Add dbus-x11 to xfce to allow running xfce's gui apps with sudo
+
+  [ Steev Klimaszewski ]
+  * kali-linux-headless: Recommend firmware-sof-signed
+
+  [ Ben Wilson ]
+  * Remove duplicates
+  * Removed duplicate wce
+  * Set vim packages to match
   * Add FFUF, Powershell-Empire & Starkiller
 
- -- Ben Wilson <g0tmi1k@kali.org>  Wed, 14 Apr 2021 06:50:25 +0100
-
-kali-meta (2021.2.1) kali-dev; urgency=medium
-
-  * Remove duplicates packages
-  * Set vim packages to match
-
- -- Ben Wilson <g0tmi1k@kali.org>  Wed, 07 Apr 2021 15:21:42 +0100
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 19 Apr 2021 12:39:43 +0200
 
 kali-meta (2021.1.10) kali-dev; urgency=medium
 
