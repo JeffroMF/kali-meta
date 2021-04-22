@@ -1,3 +1,9 @@
+kali-meta (2021.2.1) kali-dev; urgency=medium
+
+  * starkiller is only available for amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 22 Apr 2021 09:03:26 +0200
+
 kali-meta (2021.2.0) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]

@@ -366,7 +366,7 @@ Depends: ${misc:Depends},
  legion,
  ophcrack,
  ophcrack-cli,
- starkiller,
+ starkiller [amd64],
  zaproxy,
 # System Tools
  cherrytree,
