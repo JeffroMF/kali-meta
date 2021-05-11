@@ -115,6 +115,8 @@ Architecture: any
 Depends: ${misc:Depends},
 # Any other metapackages
  kali-linux-core,
+# Kali packages
+ kali-tweaks,
 # Packages
  aircrack-ng,
  amass,
@@ -393,6 +395,8 @@ Depends: ${misc:Depends},
 # We don't want to pull in headless otherwise the cloud images
 # become extremely large from all the tools and also fail the unit tests.
 # kali-linux-headless,
+# Kali packages
+ kali-tweaks,
 # Packages
  aircrack-ng,
  cewl,
