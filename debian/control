@@ -101,6 +101,8 @@ Recommends:
  git,
 # Nice for beginners, but not really required so in recommends so it can be removed
  command-not-found,
+# Useful for everyone, however it depends on Python3
+ kali-tweaks,
 Description: Kali Linux base system
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
