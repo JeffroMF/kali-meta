@@ -103,7 +103,7 @@ Recommends:
  command-not-found,
 # Useful for everyone, however it depends on Python3
  kali-tweaks,
-Description: Kali Linux base system
+Description: Kali Linux base system (core packages)
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -339,7 +339,7 @@ Recommends:
 #firmware-samsung, (very specific hardware)
 #firmware-siano, (digital tv receiver, irrelevant for Kali)
 #firmware-tomu, (very specific hardware, irrelevant for Kali)
-Description: Kali Linux default headless system
+Description: Kali Linux's default packages (headless)
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -378,7 +378,7 @@ Depends: ${misc:Depends},
  sqlitebrowser,
  tightvncserver,
  xtightvncviewer,
-Description: Kali Linux default system
+Description: Kali Linux's default packages (headless & GUI)
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -437,7 +437,7 @@ Recommends:
  firmware-realtek,
 # Some firmware packages are not installed on purpose
 #firmware-broadcom, (most ARM devices need custom broadcom firmware)
-Description: Kali Linux ARM system
+Description: Kali ARM devices default packages
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -525,7 +525,7 @@ Depends: ${misc:Depends},
  wireshark,
  wpasupplicant,
  zip,
-Description: Kali Linux NetHunter tools
+Description: Kali NetHunter devices default packages
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -555,7 +555,7 @@ Depends: ${misc:Depends},
  responder,
  sqlmap,
  wireshark,
-Description: Kali Linux top 10 tools
+Description: Kali Linux's top 10 tools
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -744,7 +744,7 @@ Depends: ${misc:Depends},
 Recommends:
 # Installed by default but can be removed without adverse effect
  chromium,
-Description: Kali Linux large system
+Description: Kali Linux extended default tool selection
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -838,7 +838,7 @@ Depends: ${misc:Depends},
  android-sdk,
  kali-community-wallpapers,
  kali-legacy-wallpapers,
-Description: Everything in Kali Linux
+Description: Every tool in Kali Linux
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
@@ -863,7 +863,7 @@ Depends: ${misc:Depends},
  zerofree,
 # Virtual Keyboard
  florence,
-Description: Meta-package for Kali live images
+Description: Kali's live images environment packages
  This metapackage depends on generic packages that should be installed on an
  official Kali live image.
  .
