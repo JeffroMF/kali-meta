@@ -1,3 +1,13 @@
+kali-meta (2021.2.4) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Update descrpition about metapackages
+
+  [ Arnaud Rebillout ]
+  * Add packages created during this release cycle
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 20 May 2021 11:19:31 +0700
+
 kali-meta (2021.2.3) kali-dev; urgency=medium
 
   * Revert "Install kali-tweaks"
