@@ -1,3 +1,9 @@
+kali-meta (2021.2.5) kali-dev; urgency=medium
+
+  * Restrict code-oss and ghidra to less arch and allow code install
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 21 May 2021 08:39:02 +0200
+
 kali-meta (2021.2.4) kali-dev; urgency=medium
 
   [ Ben Wilson ]
