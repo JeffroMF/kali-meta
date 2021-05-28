@@ -1,3 +1,10 @@
+kali-meta (2021.2.6) kali-dev; urgency=medium
+
+  * Revert "Set vim packages to match". We want a real vim a
+    kali-linux-headless.
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Fri, 28 May 2021 08:46:33 +0200
+
 kali-meta (2021.2.5) kali-dev; urgency=medium
 
   * Restrict code-oss and ghidra to less arch and allow code install
@@ -7,7 +14,7 @@ kali-meta (2021.2.5) kali-dev; urgency=medium
 kali-meta (2021.2.4) kali-dev; urgency=medium
 
   [ Ben Wilson ]
-  * Update descrpition about metapackages
+  * Update description about metapackages
 
   [ Arnaud Rebillout ]
   * Add packages created during this release cycle
