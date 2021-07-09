@@ -1,3 +1,17 @@
+kali-meta (2021.3.0) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add comment about VI/VIM confusion
+
+  [ Daniel Ruiz de Alegría ]
+  * Remove kali-linux-nethunter dependency from kali-linux-everything
+
+  [ Sophie Brun ]
+  * Restrict aeskeyfind to arch amd64 et i386: see
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=989179
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 09 Jul 2021 15:35:48 +0200
+
 kali-meta (2021.2.6) kali-dev; urgency=medium
 
   * Revert "Set vim packages to match". We want a real vim a
