@@ -1561,7 +1561,7 @@ Depends: ${misc:Depends},
 #N/A
 # Packages
  aesfix,
- aeskeyfind,
+ aeskeyfind [amd64 i386],
  ccrypt,
  outguess,
  steghide,
