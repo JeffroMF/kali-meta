@@ -1844,9 +1844,6 @@ Recommends:
 # Installed by default but can be removed without adverse effect
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
-Suggests:
-# Video recorder:
- kazam
 Conflicts:
 # Drop synaptics driver so that touchpads are managed with libinput
  xserver-xorg-input-synaptics,
