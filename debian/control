@@ -1912,9 +1912,6 @@ Depends: ${misc:Depends},
  ksysguard,
 # Screenshot tool:
  kde-spectacle,
-Suggests:
-# Video recorder:
- simplescreenrecorder
 Description: KDE based Kali desktop
  This metapackage installs a minimalistic KDE desktop on your Kali system.
 
@@ -1972,9 +1969,6 @@ Recommends:
  libcanberra-gtk-module,
  lightdm-gtk-greeter-settings,
  blueman,
-Suggests:
-# Video recorder:
- kazam
 Description: MATE based Kali desktop
  This metapackage installs a minimalistic MATE desktop on your Kali system.
 
@@ -2053,8 +2047,5 @@ Recommends:
  xfce4-verve-plugin,
  xfce4-wavelan-plugin,
  xfce4-xkb-plugin,
-Suggests:
-# Video recorder:
- kazam
 Description: Xfce based Kali desktop
  This metapackage installs a minimalistic Xfce desktop on your Kali system.
