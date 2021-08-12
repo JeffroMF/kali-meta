@@ -1,3 +1,18 @@
+kali-meta (2021.3.1) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Remove kazam from kali-desktop-xfce suggests
+  * Remove video recorders from kali-desktop-* suggests
+
+  [ Re4son ]
+  * Merge all packages from "pkg_full" in NetHunter build script into
+    "kali-linux-nethunter"
+
+  [ Sophie Brun ]
+  * Add caldera in kali-linux-large
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 12 Aug 2021 18:03:09 +0200
+
 kali-meta (2021.3.0) kali-dev; urgency=medium
 
   [ Ben Wilson ]
