@@ -1,3 +1,9 @@
+kali-meta (2021.3.2) kali-dev; urgency=medium
+
+  * Replace mlocate by plocate | mlocate: fixes 7264.
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 16 Aug 2021 09:35:24 +0200
+
 kali-meta (2021.3.1) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]
