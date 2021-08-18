@@ -1,3 +1,9 @@
+kali-meta (2021.3.3) kali-dev; urgency=medium
+
+  * Change libapache2-mod-php7.3 to a non-versioned dependency: libapache2-mod-php
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 18 Aug 2021 09:02:44 +0200
+
 kali-meta (2021.3.2) kali-dev; urgency=medium
 
   * Replace mlocate by plocate | mlocate: fixes 7264.
