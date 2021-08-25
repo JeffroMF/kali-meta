@@ -302,6 +302,8 @@ Depends: ${misc:Depends},
  vpnc,
  whois,
 Recommends:
+# A lot of exploits use it
+ python3-requests,
 # Python2 transition
  python2,
  python-is-python2,
