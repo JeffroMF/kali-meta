@@ -815,6 +815,7 @@ Depends: ${misc:Depends},
  kali-tools-voip,
  kali-tools-windows-resources,
 # Packages
+ airgeddon,
  bruteforce-salted-openssl,
  brutespray,
  capstone-tool,
@@ -1517,6 +1518,7 @@ Depends: ${misc:Depends},
 #N/A
 # Packages
  aircrack-ng,
+ airgeddon,
  asleap,
  bully,
  cowpatty,
