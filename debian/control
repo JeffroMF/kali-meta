@@ -860,6 +860,7 @@ Depends: ${misc:Depends},
  subfinder,
  teamsploit,
  testssl.sh,
+ unhide.rb,
  websploit,
  wig,
 # System Tools
