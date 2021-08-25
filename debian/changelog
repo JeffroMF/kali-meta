@@ -1,3 +1,9 @@
+kali-meta (2021.3.4) kali-dev; urgency=medium
+
+  * Add multiple tools to kali-tools-everything
+
+ -- Ben Wilson <g0tmi1k@kali.org>  Wed, 25 Aug 2021 10:53:11 +0100
+
 kali-meta (2021.3.3) kali-dev; urgency=medium
 
   * Change libapache2-mod-php7.3 to a non-versioned dependency: libapache2-mod-php
