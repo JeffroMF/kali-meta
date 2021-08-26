@@ -1,3 +1,10 @@
+kali-meta (2021.3.5) kali-dev; urgency=medium
+
+  * ibombshell is only installable on amd64 (it requires powershell which is
+    only available in kali on amd64)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 26 Aug 2021 11:30:10 +0200
+
 kali-meta (2021.3.4) kali-dev; urgency=medium
 
   * Add multiple tools to kali-tools-everything
