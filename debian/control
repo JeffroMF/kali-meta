@@ -1900,7 +1900,7 @@ Depends: ${misc:Depends},
  gnome-shell-extension-dashtodock,
  gnome-shell-extension-desktop-icons,
  gnome-shell-extension-workspaces-to-dock,
- gnome-tweak-tool,
+ gnome-tweaks,
  xdg-user-dirs-gtk,
 # Needed for appindicator extension
  gir1.2-ayatanaappindicator3-0.1,
