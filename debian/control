@@ -1893,7 +1893,11 @@ Package: kali-desktop-gnome
 Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-core,
- gnome-core,
+ gdm3,
+ gnome-control-center,
+ gnome-menus,
+ gnome-session,
+ gnome-shell,
  gnome-shell-extensions,
  gnome-shell-extension-appindicator,
  gnome-shell-extension-proxyswitcher,
@@ -1901,6 +1905,8 @@ Depends: ${misc:Depends},
  gnome-shell-extension-desktop-icons,
  gnome-shell-extension-workspaces-to-dock,
  gnome-tweaks,
+ nautilus,
+ network-manager-gnome,
  xdg-user-dirs-gtk,
 # Needed for appindicator extension
  gir1.2-ayatanaappindicator3-0.1,
@@ -1926,6 +1932,10 @@ Depends: ${misc:Depends},
  gnome-screenshot,
 Recommends:
 # Installed by default but can be removed without adverse effect
+ gnome-bluetooth,
+ gnome-disk-utility,
+ gnome-sushi,
+ gvfs-fuse,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
 Conflicts:
