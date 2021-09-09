@@ -2063,8 +2063,6 @@ Depends: ${misc:Depends},
  kali-desktop-core,
  xfce4,
  lightdm,
-# Needed for rendering SVG icons
- librsvg2-common,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
 # Image viewer:
