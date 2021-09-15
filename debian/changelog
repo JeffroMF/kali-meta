@@ -1,3 +1,10 @@
+kali-meta (2021.4.0) kali-dev; urgency=medium
+
+  * Move librsvg2-common dependency to kali-themes
+  * Reduce bloat coming from gnome-core package
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 15 Sep 2021 09:47:38 +0200
+
 kali-meta (2021.3.7) kali-dev; urgency=medium
 
   * hosthunter not installable on armel because it requires chromium-driver
