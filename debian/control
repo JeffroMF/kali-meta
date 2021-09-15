@@ -1938,6 +1938,8 @@ Recommends:
  gvfs-fuse,
  libcanberra-gtk3-module,
  libcanberra-gtk-module,
+ libproxy1-plugin-gsettings,
+ libproxy1-plugin-networkmanager,
 Conflicts:
 # Drop synaptics driver so that touchpads are managed with libinput
  xserver-xorg-input-synaptics,
