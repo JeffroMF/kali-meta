@@ -1,9 +1,14 @@
 kali-meta (2021.4.0) kali-dev; urgency=medium
 
+  [ Daniel Ruiz de Alegría ]
   * Move librsvg2-common dependency to kali-themes
   * Reduce bloat coming from gnome-core package
+  * Add libproxy1 to kali-desktop-gnome
 
- -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 15 Sep 2021 09:47:38 +0200
+  [ Sophie Brun ]
+  * Replace g++-9 and gcc-9 by g++ and gcc in kali-linux-nethunter
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 15 Sep 2021 18:27:17 +0200
 
 kali-meta (2021.3.7) kali-dev; urgency=medium
 
