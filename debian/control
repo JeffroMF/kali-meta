@@ -1940,6 +1940,7 @@ Recommends:
  libcanberra-gtk-module,
  libproxy1-plugin-gsettings,
  libproxy1-plugin-networkmanager,
+ libproxy1-plugin-webkit,
 Conflicts:
 # Drop synaptics driver so that touchpads are managed with libinput
  xserver-xorg-input-synaptics,
