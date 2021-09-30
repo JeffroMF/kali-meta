@@ -2000,6 +2000,7 @@ Depends: ${misc:Depends},
 # Terminal:
  konsole,
 # Editor:
+ kwrite,
  kate,
 # Calculator:
  kcalc,
