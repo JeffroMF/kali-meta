@@ -2000,7 +2000,6 @@ Depends: ${misc:Depends},
 # Terminal:
  konsole,
 # Editor:
- kwrite,
  kate,
 # Calculator:
  kcalc,
@@ -2010,6 +2009,9 @@ Depends: ${misc:Depends},
  ksysguard,
 # Screenshot tool:
  kde-spectacle,
+Suggests:
+# Avoid its removal when it was auto-installed in the past
+ kwrite
 Description: KDE based Kali desktop
  This metapackage installs a minimalistic KDE desktop on your Kali system.
 
