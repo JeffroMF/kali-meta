@@ -1,3 +1,12 @@
+kali-meta (2021.4.1) kali-dev; urgency=medium
+
+  * Add libproxy1-plugin-webkit to kali-desktop-gnome
+  * Replace kwrite with kate for kali-desktop-kde
+  * Don't remove kwrite until kate shortcut is replaced in kali-theme
+  * Move kwrite to Suggests for kali-desktop-kde
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Thu, 07 Oct 2021 13:45:46 +0200
+
 kali-meta (2021.4.0) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]
