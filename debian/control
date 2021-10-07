@@ -17,6 +17,7 @@ Vcs-Browser: https://gitlab.com/kalilinux/packages/kali-meta
 #  - kali-linux-default
 #  - kali-linux-arm
 #  - kali-linux-nethunter
+#  - kali-linux-firmware
 #
 # * Misc
 #  - kali-tools-top10
@@ -302,54 +303,20 @@ Depends: ${misc:Depends},
  vpnc,
  whois,
 Recommends:
+# Firmwares by default
+ kali-linux-firmware,
 # A lot of exploits use it
  python3-requests,
 # Python2 transition
  python2,
  python-is-python2,
  offsec-awae-python2,
-# Firmwares for good hardware support by default
- bluez-firmware,
- firmware-amd-graphics,
- firmware-atheros,
- firmware-brcm80211 [amd64 i386],
- firmware-intel-sound,
- firmware-iwlwifi,
- firmware-libertas,
- firmware-linux,
- firmware-misc-nonfree,
- firmware-realtek,
- firmware-sof-signed [amd64],
- firmware-ti-connectivity,
- firmware-zd1211,
-# Some firmware packages are not installed on purpose
-#firmware-adi, (replaced by firmware-misc-nonfree)
-#firmware-ath9k-htc, (alternative to a specific firmware in firmware-atheros)
-#firmware-b43-installer [amd64 i386], (requires network to install)
-#firmware-b43legacy-installer [amd64 i386], (requires network to install)
-#firmware-bnx2, (uncommon)
-#firmware-bnx2x, (too big for uncommon network hardware)
-#firmware-cavium, (too big/uncommon)
-#firmware-intelwimax, (too big/uncommon)
-#firmware-ipw2x00, (requires to accept a license, fails non-interactively)
-#firmware-ivtv, (for tv cards, irrelevant for Kali)
-#firmware-microbit-*, (very specific hardware, irrelevant for Kali)
-#firmware-myricom, (too big/uncommon)
-#firmware-netronome, (too big/uncommon)
-#firmware-netxen, (uncommon)
-#firmware-qlogic, (too big/uncommon)
-#firmware-qcom-media, (too big/uncommon)
-#firmware-ralink, (replaced by firmware-misc-nonfree)
-#firmware-samsung, (very specific hardware)
-#firmware-siano, (digital tv receiver, irrelevant for Kali)
-#firmware-tomu, (very specific hardware, irrelevant for Kali)
 Description: Kali Linux's default packages (headless)
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
  This metapackage depends on all the applications that are included in
  official Kali Linux images and that don't require X11/GUI.
-
 
 # Default for (base) images with a graphical desktop
 Package: kali-linux-default
@@ -546,6 +513,54 @@ Description: Kali NetHunter devices default packages
  .
  This metapackage depends on all the applications that a Kali Linux
  NetHunter system should have installed.
+
+
+# Firmwares for good hardware support by default
+Package: kali-linux-firmware
+Architecture: any
+Depends: ${misc:Depends},
+ bluez-firmware,
+ firmware-amd-graphics,
+ firmware-atheros,
+ firmware-brcm80211 [amd64 i386],
+ firmware-intel-sound,
+ firmware-iwlwifi,
+ firmware-libertas,
+ firmware-linux,
+ firmware-misc-nonfree,
+ firmware-realtek,
+ firmware-sof-signed,
+ firmware-ti-connectivity,
+ firmware-zd1211,
+# Some firmware packages are not included on purpose
+#firmware-adi, (replaced by firmware-misc-nonfree)
+#firmware-ath9k-htc, (alternative to a specific firmware in firmware-atheros)
+#firmware-b43-installer [amd64 i386], (requires network to install)
+#firmware-b43legacy-installer [amd64 i386], (requires network to install)
+#firmware-bnx2, (uncommon)
+#firmware-bnx2x, (too big for uncommon network hardware)
+#firmware-cavium, (too big/uncommon)
+#firmware-intelwimax, (too big/uncommon)
+#firmware-ipw2x00, (requires to accept a license, fails non-interactively)
+#firmware-ivtv, (for tv cards, irrelevant for Kali)
+#firmware-microbit-*, (very specific hardware, irrelevant for Kali)
+#firmware-myricom, (too big/uncommon)
+#firmware-netronome, (too big/uncommon)
+#firmware-netxen, (uncommon)
+#firmware-qlogic, (too big/uncommon)
+#firmware-qcom-media, (too big/uncommon)
+#firmware-ralink, (replaced by firmware-misc-nonfree)
+#firmware-samsung, (very specific hardware)
+#firmware-siano, (digital tv receiver, irrelevant for Kali)
+#firmware-tomu, (very specific hardware, irrelevant for Kali)
+Description: Default firmware files for Kali Linux systems
+ This metapackage depends on a curated list of firmware packages that
+ should be installed by default for better hardware support in Kali Linux.
+ .
+ Some firmware packages are excluded. Many reasons can explain those
+ exclusions: they are too big, they are only useful for uncommon hardware, they
+ require click-through licenses, they are for hardware that is not really
+ relevant in the context of Kali, etc.
 
 
 #
