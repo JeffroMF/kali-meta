@@ -1,2 +1,0 @@
-# Yeah we do this and we believe it's OK
-package-contains-file-in-etc-skel etc/skel/.zshrc
