@@ -1,3 +1,9 @@
+kali-meta (2021.4.3) kali-dev; urgency=medium
+
+  * Depend on cryptsetup-initramfs rather than cryptsetup
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Tue, 19 Oct 2021 22:20:15 +0700
+
 kali-meta (2021.4.2) kali-dev; urgency=medium
 
   * Update kali-desktop-gnome package for gnome-shell 40:
