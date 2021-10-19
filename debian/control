@@ -251,6 +251,7 @@ Depends: ${misc:Depends},
  cifs-utils,
  clang,
  cryptsetup,
+ cryptsetup-initramfs,
  cryptsetup-nuke-password,
  curlftpfs,
  default-mysql-server,
@@ -961,7 +962,7 @@ Depends: ${misc:Depends},
 # Easy reconfiguration of keyboard layout in console
  console-setup,
 # Access to encrypted devices
- cryptsetup,
+ cryptsetup-initramfs,
  lvm2,
 # l10n for everybody
  locales-all,
