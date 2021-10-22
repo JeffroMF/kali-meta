@@ -2116,6 +2116,7 @@ Depends: ${misc:Depends},
 # favorites, autostarted, etc.)
  network-manager-gnome,
  xcape,
+ xfce4-genmon-plugin,
  xfce4-power-manager-plugins,
  xfce4-whiskermenu-plugin,
 # Needed for thunar xdg directory bookmarks
@@ -2148,7 +2149,6 @@ Recommends:
  xfce4-datetime-plugin,
  xfce4-diskperf-plugin,
  xfce4-fsguard-plugin,
- xfce4-genmon-plugin,
  xfce4-netload-plugin,
  xfce4-places-plugin,
  xfce4-sensors-plugin,
