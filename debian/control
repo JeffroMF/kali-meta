@@ -775,6 +775,9 @@ Depends: ${misc:Depends},
  tcpflow,
  vim-gtk,
  zerofree,
+# PowerShell Support
+ gss-ntlmssp,
+ netbase,
 Recommends:
 # Installed by default but can be removed without adverse effect
  chromium,
