@@ -2023,7 +2023,7 @@ Depends: ${misc:Depends},
 # PDF viewer:
  okular,
 # Task manager:
- ksysguard,
+ plasma-systemmonitor,
 # Screenshot tool:
  kde-spectacle,
 Description: KDE based Kali desktop
