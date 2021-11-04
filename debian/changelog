@@ -1,11 +1,12 @@
-kali-meta (2021.4.4) UNRELEASED; urgency=medium
+kali-meta (2021.4.4) kali-dev; urgency=medium
 
+  [ Daniel Ruiz de Alegría ]
   * Remove kwrite from Suggests as it is a dependency of kde-plasma-desktop
   * Set xfce4-genmon-plugin as a dependency for kali-desktop-xfce
   * Set xfce4-cpugraph-plugin as a dependency for kali-desktop-xfce
   * Add xterm to kali-desktop-core as a fallback terminal-emulator
 
- -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Thu, 04 Nov 2021 07:55:25 +0100
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 04 Nov 2021 15:00:58 +0700
 
 kali-meta (2021.4.3) kali-dev; urgency=medium
 
