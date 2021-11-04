@@ -775,12 +775,12 @@ Depends: ${misc:Depends},
  tcpflow,
  vim-gtk,
  zerofree,
-# PowerShell Support
- gss-ntlmssp,
- netbase,
 Recommends:
 # Installed by default but can be removed without adverse effect
  chromium,
+# PowerShell Support
+ gss-ntlmssp,
+ netbase,
 Description: Kali Linux extended default tool selection
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
