@@ -2010,6 +2010,7 @@ Architecture: all
 Depends: ${misc:Depends},
  kali-desktop-core,
  kde-plasma-desktop,
+ kwin-style-kali,
  plasma-nm,
  sddm-theme-breeze,
  sddm,
