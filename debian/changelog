@@ -1,3 +1,17 @@
+kali-meta (2021.4.6) UNRELEASED; urgency=medium
+
+  [ Ben Wilson ]
+  * maltego is a graphic tool
+  * Add spraykatz and wotmate
+  * Add netbase & gss-ntlmssp
+  * Switch to recommends for powershell support
+
+  [ Daniel Ruiz de Alegría ]
+  * Add kwin-style-kali to kali-desktop-kde
+  * Add onboard virtual-keyboard for Xfce's login
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Fri, 05 Nov 2021 12:35:29 +0100
+
 kali-meta (2021.4.5) kali-dev; urgency=medium
 
   * Replace obsolete ksysguard with plasma-systemmonitor
