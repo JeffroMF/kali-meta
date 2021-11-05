@@ -2150,6 +2150,8 @@ Recommends:
  network-manager-openvpn-gnome,
  network-manager-pptp-gnome,
  network-manager-vpnc-gnome,
+# Virtual Keyboard for lightdm
+ onboard,
 # Xfce4 plugins included in xfce4-goodies
  xfce4-battery-plugin,
  xfce4-clipman-plugin,
