@@ -1,4 +1,4 @@
-kali-meta (2021.4.6) UNRELEASED; urgency=medium
+kali-meta (2021.4.6) kali-dev; urgency=medium
 
   [ Ben Wilson ]
   * maltego is a graphic tool
@@ -10,7 +10,7 @@ kali-meta (2021.4.6) UNRELEASED; urgency=medium
   * Add kwin-style-kali to kali-desktop-kde
   * Add onboard virtual-keyboard for Xfce's login
 
- -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Fri, 05 Nov 2021 12:35:29 +0100
+ -- Arnaud Rebillout <arnaudr@kali.org>  Mon, 08 Nov 2021 15:56:56 +0700
 
 kali-meta (2021.4.5) kali-dev; urgency=medium
 
