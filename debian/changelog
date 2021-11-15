@@ -656,7 +656,7 @@ kali-meta (2020.1.7) kali-dev; urgency=medium
   * Add kali-grant-root to kali-desktop-core
   * Replace "ace" with "ace-voip"
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 27 Dec 2019 17:32:29 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 27 Dec 2019 17:32:29 +0100
 
 kali-meta (2020.1.6) kali-dev; urgency=medium
 
@@ -715,13 +715,13 @@ kali-meta (2019.4.20) kali-dev; urgency=medium
 
   * Add xfce4-screenshooter to the Depends
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 14 Nov 2019 10:41:52 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 14 Nov 2019 10:41:52 +0100
 
 kali-meta (2019.4.19) kali-dev; urgency=medium
 
   * Add parole and ristretto to kali-desktop-xfce
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 14 Nov 2019 10:13:45 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 14 Nov 2019 10:13:45 +0100
 
 kali-meta (2019.4.18) kali-dev; urgency=medium
 
@@ -731,7 +731,7 @@ kali-meta (2019.4.18) kali-dev; urgency=medium
   [ Raphaël Hertzog ]
   * Move xfce4-goodies and kazam to Recommends instead of Depends
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 11 Nov 2019 16:12:21 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 11 Nov 2019 16:12:21 +0100
 
 kali-meta (2019.4.17) kali-dev; urgency=medium
 
@@ -801,7 +801,7 @@ kali-meta (2019.4.9) kali-dev; urgency=medium
 
   * Move lvm2 from kali-linux-core to kali-desktop-live.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 30 Sep 2019 16:31:25 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 30 Sep 2019 16:31:25 +0200
 
 kali-meta (2019.4.8) kali-dev; urgency=medium
 
@@ -898,7 +898,7 @@ kali-meta (2019.3.9) kali-dev; urgency=medium
   * Remove pdfbook: obsolete package and it conflicts with new
     textlive-extra-utils
 
- -- Raphaël Hertzog <hertzog@debian.org>  Tue, 09 Jul 2019 14:04:08 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 09 Jul 2019 14:04:08 +0200
 
 kali-meta (2019.3.8) kali-dev; urgency=medium
 
@@ -919,7 +919,7 @@ kali-meta (2019.3.6) kali-dev; urgency=medium
   * Don't request co-installation of conflicting packages (ettercap-graphical
     vs ettercap-text-only, and arping vs iputils-arping).
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 08 Jul 2019 22:02:28 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 08 Jul 2019 22:02:28 +0200
 
 kali-meta (2019.3.5) kali-dev; urgency=medium
 
@@ -993,7 +993,7 @@ kali-meta (2019.1.1) kali-dev; urgency=medium
   * Add haveged on kali-linux and kali-desktop-common to avoid problems due to
     lack of entropy (see https://bugs.kali.org/view.php?id=4994).
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 23 Nov 2018 11:10:48 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 23 Nov 2018 11:10:48 +0100
 
 kali-meta (2019.1.0) kali-dev; urgency=medium
 
@@ -1012,7 +1012,7 @@ kali-meta (2018.4.0) kali-dev; urgency=medium
 
   * Remove magictree.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 21 Sep 2018 15:31:15 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 21 Sep 2018 15:31:15 +0200
 
 kali-meta (2018.3.2) kali-dev; urgency=medium
 
@@ -1056,7 +1056,7 @@ kali-meta (2018.2.0) kali-dev; urgency=medium
   * Add xserver-xorg-input-synaptics as Depends on kali-desktop-xfce.
     See https://bugs.kali.org/view.php?id=4553
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 23 Feb 2018 08:54:47 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 23 Feb 2018 08:54:47 +0100
 
 kali-meta (2018.1.0) kali-dev; urgency=medium
 
@@ -1112,7 +1112,7 @@ kali-meta (2017.2.1) kali-dev; urgency=medium
   * Work-around a bad dependency in pcmanfm that broke the LXDE image
     (FS #4221).
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 08 Sep 2017 15:57:00 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 08 Sep 2017 15:57:00 +0200
 
 kali-meta (2017.2.0) kali-dev; urgency=medium
 
@@ -1133,7 +1133,7 @@ kali-meta (2017.1.4) kali-dev; urgency=medium
 
   * Add apt-transport-https and mlocate to the default installation.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Mar 2017 15:09:23 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 24 Mar 2017 15:09:23 +0100
 
 kali-meta (2017.1.3) kali-dev; urgency=medium
 
@@ -1148,7 +1148,7 @@ kali-meta (2017.1.2) kali-dev; urgency=medium
 
   * Replace gqrx with gqrx-sdr. And provide a transitional gqrx package.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 03 Feb 2017 14:48:51 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 03 Feb 2017 14:48:51 +0100
 
 kali-meta (2017.1.1) kali-dev; urgency=medium
 
@@ -1179,7 +1179,7 @@ kali-meta (2016.2.12) kali-dev; urgency=medium
   * Drop rcconf and sysv-rc-conf from kali-linux. Those tools are System V
     specific and we use systemd nowadays.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Tue, 30 Aug 2016 09:43:01 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 30 Aug 2016 09:43:01 +0200
 
 kali-meta (2016.2.11) kali-dev; urgency=medium
 
@@ -1187,7 +1187,7 @@ kali-meta (2016.2.11) kali-dev; urgency=medium
     is not usable until firefox-esr has been marked Multi-Arch: allowed.
     Let's put firefox-esr:armhf as a real alternative.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Tue, 26 Jul 2016 10:31:47 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 26 Jul 2016 10:31:47 +0200
 
 kali-meta (2016.2.10) kali-dev; urgency=medium
 
@@ -1195,14 +1195,14 @@ kali-meta (2016.2.10) kali-dev; urgency=medium
     architecture (like armhf on arm64). And use www-browser
     instead of x-www-browser.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 22 Jul 2016 20:34:18 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 22 Jul 2016 20:34:18 +0200
 
 kali-meta (2016.2.9) kali-dev; urgency=medium
 
   * Add firefox-esr to kali-desktop-common to ensure we always
     have a web browser installed.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 22 Jul 2016 13:03:36 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 22 Jul 2016 13:03:36 +0200
 
 kali-meta (2016.2.8) kali-dev; urgency=medium
 
@@ -1216,13 +1216,13 @@ kali-meta (2016.2.7) kali-dev; urgency=medium
     we fix GNOME 3.20 touchpad settings. See
     https://bugs.kali.org/view.php?id=3332 for details.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 11 Jul 2016 16:41:00 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 11 Jul 2016 16:41:00 +0200
 
 kali-meta (2016.2.6) kali-dev; urgency=medium
 
   * Replace php5 by php and php5-mysql by php-mysql.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Sat, 02 Jul 2016 21:50:11 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Sat, 02 Jul 2016 21:50:11 +0200
 
 kali-meta (2016.2.5) kali-dev; urgency=medium
 
@@ -1241,7 +1241,7 @@ kali-meta (2016.2.3) kali-dev; urgency=medium
   * Add alternative "unar" to "unrar" for people who don't have non-free
     enabled.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 25 Mar 2016 09:21:27 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 25 Mar 2016 09:21:27 +0100
 
 kali-meta (2016.2.2) kali-dev; urgency=medium
 
@@ -1265,7 +1265,7 @@ kali-meta (2016.1.0) kali-dev; urgency=medium
 
   * Add king-phisher to kali-linux-full.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Tue, 19 Jan 2016 13:22:59 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 19 Jan 2016 13:22:59 +0100
 
 kali-meta (2015.3.11) kali-dev; urgency=medium
 
@@ -1295,7 +1295,7 @@ kali-meta (2015.3.7) kali-dev; urgency=medium
 
   * Restrict python-faraday to amd64/i386.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Tue, 24 Nov 2015 17:51:53 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 24 Nov 2015 17:51:53 +0100
 
 kali-meta (2015.3.6) kali-dev; urgency=medium
 
@@ -1307,7 +1307,7 @@ kali-meta (2015.3.5) kali-dev; urgency=medium
 
   * Add dbus-user-session to kali-desktop-common.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 13 Nov 2015 09:56:19 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 13 Nov 2015 09:56:19 +0100
 
 kali-meta (2015.3.4) kali-dev; urgency=medium
 
@@ -1319,7 +1319,7 @@ kali-meta (2015.3.3) kali-dev; urgency=medium
 
   * Add mfoc to kali-linux-nethunter.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 09 Nov 2015 16:13:13 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 09 Nov 2015 16:13:13 +0100
 
 kali-meta (2015.3.2) kali-dev; urgency=medium
 
@@ -1327,32 +1327,32 @@ kali-meta (2015.3.2) kali-dev; urgency=medium
     Xorg works in VM where KMS does not work. We run as root by default,
     the safety brought by root-less Xserver is not needed on Kali.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 06 Nov 2015 22:24:13 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 06 Nov 2015 22:24:13 +0100
 
 kali-meta (2015.3.1) kali-dev; urgency=medium
 
   * Update kali-desktop-kde to install sddm instead of kdm (which is gone from
     Debian).
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 06 Nov 2015 16:25:01 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 06 Nov 2015 16:25:01 +0100
 
 kali-meta (2015.3.0) kali-dev; urgency=medium
 
   * Replace "rdd" with "safecopy" since rdd got dropped from Debian.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 03 Sep 2015 12:19:03 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 03 Sep 2015 12:19:03 +0200
 
 kali-meta (3.1) kali-dev; urgency=medium
 
   * Drop debian-installer-launcher from the live images.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Wed, 12 Aug 2015 14:47:59 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 12 Aug 2015 14:47:59 +0200
 
 kali-meta (3.0) kali-dev; urgency=medium
 
   * Replace md5deep with hashdeep.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Wed, 12 Aug 2015 14:32:03 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 12 Aug 2015 14:32:03 +0200
 
 kali-meta (2.41) kali-dev; urgency=low
 
@@ -1364,13 +1364,13 @@ kali-meta (2.40) kali-dev; urgency=medium
 
   * Add sparta to kali-linux-full.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Sun, 09 Aug 2015 20:34:28 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Sun, 09 Aug 2015 20:34:28 +0200
 
 kali-meta (2.39) kali-dev; urgency=medium
 
   * Add kali-linux-nethunter metapackage.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Sun, 09 Aug 2015 14:39:12 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Sun, 09 Aug 2015 14:39:12 +0200
 
 kali-meta (2.38) kali-dev; urgency=medium
 
@@ -1378,19 +1378,19 @@ kali-meta (2.38) kali-dev; urgency=medium
     annoying warnings in terminals.
   * Conflicts with nautilus-open-terminal to get it removed on upgrade.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Jul 2015 15:19:34 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 24 Jul 2015 15:19:34 +0200
 
 kali-meta (2.37) kali-dev; urgency=medium
 
   * Drop bluepot which is not working with the current Bluetooth stack.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Jul 2015 09:29:44 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 24 Jul 2015 09:29:44 +0200
 
 kali-meta (2.36) kali-dev; urgency=medium
 
   * Mark python-faraday as available only on amd64/i386.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 23 Jul 2015 20:29:23 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 23 Jul 2015 20:29:23 +0200
 
 kali-meta (2.35) kali-dev; urgency=low
 
@@ -1402,13 +1402,13 @@ kali-meta (2.34) kali-dev; urgency=medium
 
   * Mark shellter as only available on i386/amd64.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 23 Jul 2015 10:02:37 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 23 Jul 2015 10:02:37 +0200
 
 kali-meta (2.33) kali-dev; urgency=medium
 
   * Drop ikat from everywhere.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 23 Jul 2015 08:29:48 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 23 Jul 2015 08:29:48 +0200
 
 kali-meta (2.32) kali-dev; urgency=low
 
@@ -1427,32 +1427,32 @@ kali-meta (2.3) kali-dev; urgency=medium
   * Drop metasploit from kali-linux-full and kali-linux-top10, keeping only
     metasploit-framework.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Tue, 21 Jul 2015 13:54:01 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 21 Jul 2015 13:54:01 +0200
 
 kali-meta (2.2) kali-dev; urgency=medium
 
   * Replace xfce4-battery-plugin with xfce4-power-manager-plugins.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Wed, 15 Jul 2015 10:59:32 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 15 Jul 2015 10:59:32 +0200
 
 kali-meta (2.1) kali-dev; urgency=medium
 
   * Update kali-desktop-xfce to include gnome-theme-kali & xfce4-
     terminal.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Wed, 08 Jul 2015 16:53:16 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 08 Jul 2015 16:53:16 +0200
 
 kali-meta (2.0) kali-dev; urgency=medium
 
   * Drop obsolete nautilus-open-terminal from kali-desktop-gnome.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 06 Jul 2015 20:53:56 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 06 Jul 2015 20:53:56 +0200
 
 kali-meta (1.68) kali-dev; urgency=medium
 
   * Add xfce4-battery-plugin to kali-desktop-xfce.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 06 Jul 2015 11:11:08 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 06 Jul 2015 11:11:08 +0200
 
 kali-meta (1.67) kali-dev; urgency=medium
 
@@ -1464,7 +1464,7 @@ kali-meta (1.66) kali-dev; urgency=medium
 
   * Add lightdm to kali-desktop-xfce.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 12 Jun 2015 15:29:29 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 12 Jun 2015 15:29:29 +0200
 
 kali-meta (1.65) kali-dev; urgency=medium
 
@@ -1476,14 +1476,14 @@ kali-meta (1.65) kali-dev; urgency=medium
   * Drop gnome-theme-eleganze from kali-desktop-gnome and replace it by new
     package gnome-theme-kali.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Wed, 20 May 2015 10:04:09 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 20 May 2015 10:04:09 +0200
 
 kali-meta (1.64) kali-dev; urgency=medium
 
   * Modify kali-desktop-gnome to depend on new theme and GNOME Shell
     extensions that are enabled by kali-defaults.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Tue, 19 May 2015 18:07:03 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 19 May 2015 18:07:03 +0200
 
 kali-meta (1.63) kali-dev; urgency=medium
 
@@ -1512,14 +1512,14 @@ kali-meta (1.60) kali-dev; urgency=medium
 
   * Drop unetbootin as it got removed from Debian Jessie (see #775689).
 
- -- Raphaël Hertzog <hertzog@debian.org>  Tue, 10 Mar 2015 17:13:21 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Tue, 10 Mar 2015 17:13:21 +0100
 
 kali-meta (1.59) kali-dev; urgency=medium
 
   * Add meta-packages for kali-desktop-*. Update kali-desktop-gnome to
     include gnome-session-flashback.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 20 Feb 2015 17:15:57 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Fri, 20 Feb 2015 17:15:57 +0100
 
 kali-meta (1.58) kali-dev; urgency=medium
 
@@ -1538,7 +1538,7 @@ kali-meta (1.56) kali-dev; urgency=medium
   * Re-apply all changes required for kali-rolling (basically import
     debian/control from version 1.51 + changes from 1.52).
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 21 Aug 2014 01:33:09 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 21 Aug 2014 01:33:09 +0200
 
 kali-meta (1.55.22) kali; urgency=medium
 
@@ -1592,7 +1592,7 @@ kali-meta (1.51) kali-dev; urgency=medium
 
   * Restrict sqldict to amd64/i386 in kali-linux-pwtools too.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Sat, 09 Aug 2014 09:07:36 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Sat, 09 Aug 2014 09:07:36 +0200
 
 kali-meta (1.50) kali-dev; urgency=medium
 
@@ -1744,7 +1744,7 @@ kali-meta (1.28) kali; urgency=low
     dependencies of kali-linux already (and the dep was broken on armel/armhf
     on kali-linux-full).
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 18 Apr 2013 11:06:08 +0200
+ -- Raphaël Hertzog <buxy@kali.org>  Thu, 18 Apr 2013 11:06:08 +0200
 
 kali-meta (1.27) kali; urgency=low
 
@@ -1792,23 +1792,23 @@ kali-meta (1.2) kali; urgency=low
 
   * Add framework2 to kali-linux.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Wed, 27 Feb 2013 17:19:45 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Wed, 27 Feb 2013 17:19:45 +0100
 
 kali-meta (1.1) kali; urgency=low
 
   * Add hashcat, hashcat-utils, maskprocessor and statsprocessor to
     kali-linux.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 25 Feb 2013 20:36:00 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 25 Feb 2013 20:36:00 +0100
 
 kali-meta (1.0) kali; urgency=low
 
   * Add metasploit and python-rfidiot to kali-linux.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 25 Feb 2013 17:55:32 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 25 Feb 2013 17:55:32 +0100
 
 kali-meta (0.1) kali; urgency=low
 
   * Initial Release.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 18 Feb 2013 17:13:14 +0100
+ -- Raphaël Hertzog <buxy@kali.org>  Mon, 18 Feb 2013 17:13:14 +0100
