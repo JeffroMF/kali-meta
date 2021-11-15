@@ -256,7 +256,7 @@ kali-meta (2021.1.2) kali-dev; urgency=medium
 
   * Add xcape to kali-desktop-xfce as Suggests
 
- -- Daniel Ruiz de Alegría <daniel@drasite.com>  Mon, 11 Jan 2021 11:55:40 +0100
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 11 Jan 2021 11:55:40 +0100
 
 kali-meta (2021.1.1) kali-dev; urgency=medium
 
@@ -278,7 +278,7 @@ kali-meta (2021.1.0) kali-dev; urgency=medium
   * Add xdg-utils to kali-desktop-core because we use it in many places
   * Bump Standards-Version to 4.5.1
 
- -- Daniel Ruiz de Alegría <daniel@drasite.com>  Tue, 05 Jan 2021 13:32:08 +0100
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Tue, 05 Jan 2021 13:32:08 +0100
 
 kali-meta (2020.4.8) kali-dev; urgency=medium
 
@@ -457,7 +457,7 @@ kali-meta (2020.2.20) kali-dev; urgency=medium
   * Remove desktop-base dependency from kali-desktop-kde
   * Remove kali-desktop-base dependency from kali-desktop-kde
 
- -- Daniel Ruiz de Alegría <daniel@drasite.com>  Sat, 02 May 2020 18:09:26 +0200
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Sat, 02 May 2020 18:09:26 +0200
 
 kali-meta (2020.2.19) kali-dev; urgency=medium
 
@@ -471,7 +471,7 @@ kali-meta (2020.2.18) kali-dev; urgency=medium
   * Add xkb and status-notifier plugins to kali-desktop-xfce
   * Add xdg-user-dirs-gtk to kali-desktop-xfce
 
- -- Daniel Ruiz de Alegría <daniel@drasite.com>  Wed, 22 Apr 2020 04:33:35 +0200
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 22 Apr 2020 04:33:35 +0200
 
 kali-meta (2020.2.17) kali-dev; urgency=medium
 
