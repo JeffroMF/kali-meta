@@ -868,7 +868,7 @@ kali-meta (2019.3.12) kali-dev; urgency=medium
     it doesn't uninstall ettercap-graphical if it's installed, in favor
     of ettercap-text-only
 
- --  Steev Klimaszewski <steev@kali.org>  Sat, 27 Jul 2019 08:50:22 -0500
+ -- Steev Klimaszewski <steev@kali.org>  Sat, 27 Jul 2019 08:50:22 -0500
 
 kali-meta (2019.3.11) kali-dev; urgency=medium
 
