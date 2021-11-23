@@ -309,7 +309,6 @@ Recommends:
  python3-requests,
 # Python2 transition
  python2,
- python-is-python2,
  offsec-awae-python2,
 Description: Kali Linux's default packages (headless)
  This is Kali Linux, the most advanced penetration testing and security
