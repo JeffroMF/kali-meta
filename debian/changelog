@@ -1,3 +1,19 @@
+kali-meta (2021.4.7) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add maltego-teeth to kali-linux-everything
+  * Add merlin
+  * Add bruteforce-wallet
+
+  [ Sophie Brun ]
+  * Remove python-is-python2 from Recommends
+
+  [ Arnaud Rebillout ]
+  * Move zaproxy, maltego and wordlists into kali-linux-large to reduce
+    images size
+
+ -- Raphaël Hertzog <raphael@offensive-security.com>  Wed, 01 Dec 2021 08:28:21 +0100
+
 kali-meta (2021.4.6) kali-dev; urgency=medium
 
   [ Ben Wilson ]
