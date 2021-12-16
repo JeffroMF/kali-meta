@@ -1,3 +1,9 @@
+kali-meta (2022.1.0) kali-experimental; urgency=medium
+
+  * Add Conflicts: wireplumber, Recommends: pipewire-media-session
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Thu, 16 Dec 2021 21:11:31 +0700
+
 kali-meta (2021.4.8) kali-dev; urgency=medium
 
   * Move starkiller to -large and put back wordlists into -headless

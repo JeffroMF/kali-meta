@@ -1887,9 +1887,14 @@ Depends: ${misc:Depends},
 Recommends:
 # Accessibility support
  orca,
+# Fix sounds for Kali >= 2021.4. Drop after 2022.1 is released.
+ pipewire-media-session,
 Suggests:
 # Avoid its removal when it was auto-installed in the past
  kali-root-login,
+Conflicts:
+# Fix sounds for Kali >= 2021.4. Drop after 2022.1 is released.
+ wireplumber,
 Description: Meta-package with dependencies common to all desktops provided by Kali
  This metapackage depends on Kali packages that should be installed on all
  desktop installations of Kali Linux.
