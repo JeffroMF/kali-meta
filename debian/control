@@ -1754,6 +1754,7 @@ Depends: ${misc:Depends},
  mfcuk,
  mfoc,
  mfterm,
+ proxmark3,
  rfdump,
 Description: Kali Linux RFID tools
  This is Kali Linux, the most advanced penetration testing and security
