@@ -1874,10 +1874,10 @@ Depends: ${misc:Depends},
 # We always want a web browser
 # We allow firefox-esr:armhf for usage on arm64 where the native one is broken
  firefox-esr [!armel] | midori [armel] | firefox-esr:armhf [arm64] | firefox | www-browser,
-# We want a crossdesktop way to open the browser (xdg-open)
- xdg-utils,
 # Use xterm as a fallback terminal-emulator
  xterm,
+# We want a crossdesktop way to open the browser (xdg-open)
+ xdg-utils,
 # To ensure pulseaudio started by systemd --user has DBUS_SESSION_ADDRESS
 # Related to kde-config-sddm
  dbus-user-session,
