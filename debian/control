@@ -1874,8 +1874,6 @@ Depends: ${misc:Depends},
 # We always want a web browser
 # We allow firefox-esr:armhf for usage on arm64 where the native one is broken
  firefox-esr [!armel] | midori [armel] | firefox-esr:armhf [arm64] | firefox | www-browser,
-# Use xterm as a fallback terminal-emulator
- xterm,
 # We want a crossdesktop way to open the browser (xdg-open)
  xdg-utils,
 # To ensure pulseaudio started by systemd --user has DBUS_SESSION_ADDRESS
@@ -1906,6 +1904,8 @@ Description: Meta-package with dependencies common to all desktops provided by K
 Package: kali-desktop-e17
 Architecture: all
 Depends: ${misc:Depends},
+# Install terminal before kali-desktop-core to provide x-terminal-emulator
+ terminology,
  kali-desktop-core,
  kali-desktop-base,
  enlightenment,
@@ -1913,8 +1913,6 @@ Depends: ${misc:Depends},
  suckless-tools,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
-# Our recommended terminal
- qterminal,
 # To tweak default configuration with help of /usr/bin/eet
  libeet-bin,
 Description: E17 based Kali desktop
@@ -1925,6 +1923,8 @@ Description: E17 based Kali desktop
 Package: kali-desktop-gnome
 Architecture: all
 Depends: ${misc:Depends},
+# Install terminal before kali-desktop-core to provide x-terminal-emulator
+ gnome-terminal,
  kali-desktop-core,
  gdm3,
  gnome-control-center,
@@ -1950,8 +1950,6 @@ Depends: ${misc:Depends},
  totem,
 # Archiver:
  file-roller,
-# Terminal:
- gnome-terminal,
 # Editor:
  gedit,
 # Calculator:
@@ -2018,6 +2016,8 @@ Description: I3-gaps based Kali desktop
 Package: kali-desktop-kde
 Architecture: all
 Depends: ${misc:Depends},
+# Install terminal before kali-desktop-core to provide x-terminal-emulator
+ konsole,
  kali-desktop-core,
  kde-plasma-desktop,
  kwin-style-kali,
@@ -2030,8 +2030,6 @@ Depends: ${misc:Depends},
  vlc,
 # Archiver:
  ark,
-# Terminal:
- konsole,
 # Editor:
  kate,
 # Calculator:
@@ -2049,13 +2047,13 @@ Description: KDE based Kali desktop
 Package: kali-desktop-lxde
 Architecture: all
 Depends: ${misc:Depends},
+# Install terminal before kali-desktop-core to provide x-terminal-emulator
+ lxterminal,
  kali-desktop-core,
  kali-desktop-base,
  lxde,
 # Needed for QT_QPA_PLATFORMTHEME=qt5ct to have an effect
  qt5ct,
-# Our recommended terminal
- qterminal,
 Recommends:
 # Installed by default but can be removed without adverse effect
  libcanberra-gtk3-module,
@@ -2067,6 +2065,8 @@ Description: LXDE based Kali desktop
 Package: kali-desktop-mate
 Architecture: all
 Depends: ${misc:Depends},
+# Install terminal before kali-desktop-core to provide x-terminal-emulator
+ mate-terminal,
  kali-desktop-core,
  kali-desktop-base,
  mate-desktop-environment,
@@ -2080,8 +2080,6 @@ Depends: ${misc:Depends},
  parole,
 # Archiver:
  engrampa,
-# Terminal:
- mate-terminal,
 # Editor:
  pluma,
 # Calculator:
@@ -2106,6 +2104,8 @@ Description: MATE based Kali desktop
 Package: kali-desktop-xfce
 Architecture: all
 Depends: ${misc:Depends},
+# Install terminal before kali-desktop-core to provide x-terminal-emulator
+ qterminal,
  kali-desktop-core,
  xfce4,
  lightdm,
@@ -2118,8 +2118,6 @@ Depends: ${misc:Depends},
 # Archiver:
  engrampa,
  thunar-archive-plugin,
-# Terminal:
- qterminal,
 # Editor:
  mousepad,
 # Calculator:
