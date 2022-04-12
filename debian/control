@@ -1962,7 +1962,8 @@ Depends: ${misc:Depends},
 # Task manager:
  gnome-system-monitor,
 # Screenshot tool:
- gnome-screenshot,
+# No longer required since GNOME 42 as it's integrated in gnome-shell
+# gnome-screenshot,
 Recommends:
 # Installed by default but can be removed without adverse effect
  gnome-bluetooth,
