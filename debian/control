@@ -244,6 +244,9 @@ Depends: ${misc:Depends},
  winexe,
  wordlists,
  wpscan,
+# Deployment & Coding
+ python3-pip,
+ python3-virtualenv,
 # System Tools
  apache2,
  atftpd,
