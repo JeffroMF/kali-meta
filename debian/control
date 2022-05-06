@@ -566,13 +566,15 @@ Description: Default firmware files for Kali Linux systems
  relevant in the context of Kali, etc.
 
 
-# Labs - vulnerable/insecure applications
+# Labs - insecure/vulnerable applications
 Package: kali-linux-labs
 Architecture: any
 Depends: ${misc:Depends},
  dvwa,
  juice-shop,
-Description: Environments for testing Kali Linux tools
+Description: Environments for learning and practising on.
+ These applications are meant to be insecure & vulnerable to help users
+ experiment in a controlled manner.
  This is Kali Linux, the most advanced penetration testing and security
  auditing distribution.
  .
