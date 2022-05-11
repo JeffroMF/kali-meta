@@ -1,3 +1,15 @@
+kali-meta (2022.3.0) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add missing tools to kali-everything
+  * Remove wmis as it breaks during installation
+  * Add bettercap-ui to kali-linux-everything
+
+  [ Ben Wilson ]
+  * Update wording for kali-linux-labs
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 11 May 2022 13:51:04 +0200
+
 kali-meta (2022.1.2) kali-dev; urgency=medium
 
   * Add python3-pip & python3-virtualenv
