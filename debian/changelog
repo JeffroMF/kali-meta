@@ -1,3 +1,9 @@
+kali-meta (2022.3.1) kali-dev; urgency=medium
+
+  * Add architecture to some packages
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Fri, 13 May 2022 09:05:43 +0200
+
 kali-meta (2022.3.0) kali-dev; urgency=medium
 
   [ Daniel Ruiz de Alegría ]
