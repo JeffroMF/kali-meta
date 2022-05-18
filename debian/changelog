@@ -1,3 +1,10 @@
+kali-meta (2022.3.2) kali-dev; urgency=medium
+
+  * bulk-extractor is only available on amd64 and arm64
+  * joplin is only available on arm64 and amd64
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 18 May 2022 11:35:48 +0200
+
 kali-meta (2022.3.1) kali-dev; urgency=medium
 
   * Add architecture to some packages
