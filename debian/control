@@ -794,7 +794,7 @@ Depends: ${misc:Depends},
  mc,
  powershell [amd64],
  tcpflow,
- vim-gtk,
+ vim-gtk3,
  zerofree,
 Recommends:
 # Installed by default but can be removed without adverse effect
