@@ -1,3 +1,14 @@
+kali-meta (2022.3.4) kali-dev; urgency=medium
+
+  [ Daniel Ruiz de Alegría ]
+  * Add pocsuite3 to kali-linux-everything
+
+  [ Sophie Brun ]
+  * Replace empty and obsolete pkg qemu in kali-tools-hardware by
+    qemu-system-x86 and qemu-user
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 02 Jun 2022 11:07:08 +0200
+
 kali-meta (2022.3.3) kali-dev; urgency=medium
 
   * Replace obsolete package vim-gtk by vim-gtk3
