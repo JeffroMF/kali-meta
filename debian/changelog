@@ -1,8 +1,13 @@
-kali-meta (2022.3.5) UNRELEASED; urgency=medium
+kali-meta (2022.3.5) kali-dev; urgency=medium
 
+  [ Sophie Brun ]
   * Add new package shellfire to kali-linux-everything
 
- -- Sophie Brun <sophie@offensive-security.com>  Fri, 03 Jun 2022 10:37:08 +0200
+  [ Daniel Ruiz de Alegría ]
+  * Add ruby-pedump to kali-linux-everything
+  * Restrict sliver for amd64 and arm64
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Wed, 08 Jun 2022 21:00:37 +0200
 
 kali-meta (2022.3.4) kali-dev; urgency=medium
 
