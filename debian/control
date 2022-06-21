@@ -1042,6 +1042,8 @@ Depends: ${misc:Depends},
  locales-all,
 # Wipe HDD
  zerofree,
+# Virtual Keyboard
+ onboard,
 Description: Kali's live images environment packages
  This metapackage depends on generic packages that should be installed on an
  official Kali live image.
