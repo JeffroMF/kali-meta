@@ -1,3 +1,14 @@
+kali-meta (2022.3.8) kali-dev; urgency=medium
+
+  [ NIBOUCHA Redouane ]
+  * Add proxmark3 (the RFID swiss-army tool) to kali-tools-rfid
+
+  [ Daniel Ruiz de Alegría ]
+  * Move powershell and recommended dependencies to kali-linux-headless
+  * Add exiftool to kali-linux-headless
+
+ -- Daniel Ruiz de Alegría <daniruiz@kali.org>  Mon, 11 Jul 2022 17:27:20 +0200
+
 kali-meta (2022.3.7) kali-dev; urgency=medium
 
   * Remove conflicts from kali-desktop-xfce
