@@ -311,6 +311,8 @@ Depends: ${misc:Depends},
  vpnc,
  whois,
 Recommends:
+# Make sure fuse3 wins over fuse, cf. kali-meta#15
+ fuse3,
 # Firmwares by default
  kali-linux-firmware,
 # A lot of exploits use it
@@ -1954,6 +1956,8 @@ Depends: ${misc:Depends},
 # video cards (QXL/VBOX/VMWARE at least)
  xserver-xorg-legacy,
 Recommends:
+# Make sure fuse3 wins over fuse, cf. kali-meta#15
+ fuse3,
 # Accessibility support
  orca,
 # Fix sounds for Kali >= 2021.4. Drop after 2022.1 is released.
