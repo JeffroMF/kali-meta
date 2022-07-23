@@ -1,3 +1,13 @@
+kali-meta (2022.3.9) kali-dev; urgency=medium
+
+  [ Sophie Brun ]
+  * Add new package defectdojo to kali-linux-everything
+
+  [ Arnaud Rebillout ]
+  * Recommend fuse3 in kali-linux-core & kali-linux-headless
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Sat, 23 Jul 2022 16:47:50 +0200
+
 kali-meta (2022.3.8) kali-dev; urgency=medium
 
   [ NIBOUCHA Redouane ]
