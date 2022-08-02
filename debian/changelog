@@ -1,3 +1,9 @@
+kali-meta (2022.3.11) kali-dev; urgency=medium
+
+  * Replace depecrated faraday-client with faraday-cli
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 02 Aug 2022 11:30:43 +0200
+
 kali-meta (2022.3.10) kali-dev; urgency=medium
 
   * defectdojo is only available on 3 arch
